@@ -2,6 +2,8 @@
 
 set -e
 
+source `dirname $0`/config.sh
+
 action="$1"
 
 if [[ -z "${action}" ]]; then
@@ -10,7 +12,7 @@ if [[ -z "${action}" ]]; then
 fi
 
 `dirname $0`/mcrcon/mcrcon \
-    -H 94.250.254.176 \
+    -H ${SERVER_IP} \
     -P 25575 \
     -p mine230886 \
     "${action}" || :

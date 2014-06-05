@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -e
+
+SERVER_IP="94.250.254.176"
+MEMORY_MAX="12G"
+MEMORY_START="1G"

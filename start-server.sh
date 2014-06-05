@@ -2,6 +2,8 @@
 
 set -e
 
+source `dirname $0`/config.sh
+
 echo "Starting bukkit minecraft server..."
 
 cd $(dirname $(dirname $(realpath $0)))
@@ -9,8 +11,8 @@ cd $(dirname $(dirname $(realpath $0)))
 java -server \
     -d64 \
     -XX:MaxPermSize=128m \
-    -Xmx12G \
-    -Xms1G \
+    -Xmx${MEMORY_MAX} \
+    -Xms${MEMORY_START} \
     -Djline.terminal=jline.UnsupportedTerminal \
     -XX:+UseG1GC \
     -XX:MaxGCPauseMillis=100 \
