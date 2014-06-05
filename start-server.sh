@@ -9,8 +9,8 @@ cd $(dirname $(dirname $(realpath $0)))
 java -server \
     -d64 \
     -XX:MaxPermSize=128m \
-    -Xmx700M \
-    -Xms300M \
+    -Xmx12G \
+    -Xms1G \
     -Djline.terminal=jline.UnsupportedTerminal \
     -XX:+UseG1GC \
     -XX:MaxGCPauseMillis=100 \
