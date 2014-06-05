@@ -1,0 +1,1 @@
+10 2,12 * * * /root/m1/ctrl-linux/backup.sh >> /tmp/cron.log 2>&1
