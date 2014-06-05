@@ -29,11 +29,13 @@ cmp spigot.yml
 cmp plugins/AuthMe/config.yml
 cmp plugins/CraftBook/config.yml
 cmp plugins/CustomNukes/config.yml
+cmp plugins/EnjinMinecraftPlugin/config.yml
 cmp plugins/HealthBar/config.yml
 cmp plugins/PermissionsEx/permissions.yml
 cmp plugins/TerrainControl/TerrainControl.ini
 cmp plugins/TerrainControl/worlds/world/WorldConfig.ini
 cmp plugins/TerrainControl/worlds/world/WorldBiomes
+cmp plugins/Vault/config.yml
 cmp plugins/WorldBorder/config.yml
 cmp plugins/WorldEdit/config.yml
 cmp plugins/WorldGuard/config.yml
