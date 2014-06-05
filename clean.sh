@@ -4,6 +4,9 @@ set -e
 
 cd $(dirname $(dirname $(realpath $0)))
 
+rm -rf world
+rm -rf world_nether
+rm -rf world_the_end
 rm -f logs/*
 rm -f timings/*
 rm -f plugins/CustomNukes/block-meta.txt
