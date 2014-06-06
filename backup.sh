@@ -5,7 +5,7 @@ set -e
 `dirname $0`/save-server.sh
 
 cd $(dirname $(dirname $(realpath $0)))
-FILENAME="m0-`date +'%Y-%m-%d %H.%M.%S'`.tar.gz"
+FILENAME="${SERVER_NAME}-`date +'%Y-%m-%d_%H.%M.%S'`.tar.gz"
 
 tar -zcf "${FILENAME}" \
     --exclude="crash-reports/*" \
