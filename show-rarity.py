@@ -20,45 +20,62 @@ def get_data():
         line = re.sub('^' + re.escape(biomes_dir) + '\/', '', lines[i])
         params = re.match('^(.+)\:BiomeRarity\:\s(\d+)$', line)
         if params:
-            biome = params.group(1)
+            biome = re.sub('\.bc$', '', params.group(1))
             rarity = int(params.group(2))
             if rarity in data:
                 data[rarity].append(biome)
             else:
                 data[rarity] = [biome]
+
     return data
 
-def get_used_biomes():
+def get_types_biomes():
     config_filename = os.path.join(get_plugin_dir(), "worlds/world/WorldConfig.ini")
-    used_biomes = {}
-    border_biomes = {}
+    typesBiomes = {}
+    typesBiomes['all'] = {}
     for biomeType in ['NormalBiomes', 'IceBiomes', 'IsleBiomes', 'BorderBiomes']:
         string = run("grep '" + biomeType + ":' " + config_filename)
         string = re.sub('^' + re.escape(biomeType) + '\:\s*', '', string)
         biomes = string.split(",")
         for biome in biomes:
             biome = re.sub("\n$", '', biome)
-            used_biomes[biome] = True
-            if biomeType == 'BorderBiomes':
-                border_biomes[biome] = True
+            if biomeType == 'IceBiomes':
+                tmpBiomeType = 'NormalBiomes'
+            else:
+                tmpBiomeType = biomeType
 
-    return used_biomes, border_biomes
+            if not tmpBiomeType in typesBiomes:
+                typesBiomes[tmpBiomeType] = {}
+
+            typesBiomes[tmpBiomeType][biome] = True
+            typesBiomes['all'][biome] = True
+
+    return typesBiomes
 
 def main():
-    used_biomes, border_biomes = get_used_biomes()
-    unused_biomes = {}
+    typesBiomes = get_types_biomes()
     data = get_data()
+    unused_biomes = {}
     rarities = list(reversed(sorted(data.keys())))
-    for rarity in rarities:
-        for biome in sorted(data[rarity]):
-            shortBiome = re.sub('\.bc$', '', biome)
-            if shortBiome in used_biomes:
-                if shortBiome in border_biomes:
-                    print biome + ": " + str(rarity) + " *"
-                else:
-                    print biome + ": " + str(rarity) + ""
-            else:
-                unused_biomes[biome] = True
+    for biomeType in typesBiomes:
+        typeBiomes = typesBiomes[biomeType]
+        if biomeType != 'all':
+            print '==== ' + biomeType + ' ===='
+            totalRarity = 0
+            for rarity in rarities:
+                for biome in data[rarity]:
+                    if biome in typeBiomes:
+                        totalRarity += rarity
+
+            for rarity in rarities:
+                for biome in sorted(data[rarity]):
+                    if biome in typeBiomes:
+                        print "%s: %d (%.1f%%)" % (biome, rarity, 100.0 * rarity / totalRarity)
+        else:
+            for rarity in rarities:
+                for biome in data[rarity]:
+                    if not (biome in typeBiomes):
+                        unused_biomes[biome] = True
 
     if any(unused_biomes):
         print 'WARNING: unused biomes: ' + ", ".join(unused_biomes.keys())
