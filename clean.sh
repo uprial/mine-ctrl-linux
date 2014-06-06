@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "ACCESS DENIED"
+exit 1
+
 set -e
 
 cd $(dirname $(dirname $(realpath $0)))
