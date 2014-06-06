@@ -19,4 +19,4 @@ check_var() {
 check_var "SERVER_IP"
 check_var "MEMORY_MAX"
 check_var "MEMORY_START"
-
+check_var "SERVER_NAME"
