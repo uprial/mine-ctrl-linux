@@ -5,6 +5,7 @@ set -e
 unset $SERVER_IP
 unset $MEMORY_MAX
 unset $MEMORY_START
+unset $SERVER_ID
 
 source `dirname $0`/config.local.sh
 
@@ -19,4 +20,4 @@ check_var() {
 check_var "SERVER_IP"
 check_var "MEMORY_MAX"
 check_var "MEMORY_START"
-check_var "SERVER_NAME"
+check_var "SERVER_ID"
