@@ -7,6 +7,7 @@ sleep 5
 
 source `dirname $0`/config.sh
 
+set -x
 cd $(dirname $(dirname $(realpath $0)))
 FILENAME="${SERVER_ID}-`date +'%Y-%m-%d_%H.%M.%S'`.tar.gz"
 
