@@ -19,5 +19,5 @@ java -server \
     -Djava.awt.headless=true \
     -XX:ParallelGCThreads=2 \
     -XX:+AggressiveOpts \
-    -jar "spigot-1.7.9-R0.2.jar" \
+    -jar "spigot-1.7.9-R0.3.jar" \
     nogui
