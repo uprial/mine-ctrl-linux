@@ -4,6 +4,7 @@ set -e
 
 source `dirname $0`/config.sh
 
+VERSION="spigot-1.7.10-R0.1.jar"
 echo "Starting bukkit minecraft server..."
 
 cd $(dirname $(dirname $(realpath $0)))
@@ -19,5 +20,5 @@ java -server \
     -Djava.awt.headless=true \
     -XX:ParallelGCThreads=2 \
     -XX:+AggressiveOpts \
-    -jar "spigot-1.7.9-R0.2.jar" \
+    -jar "${VERSION}" \
     nogui
