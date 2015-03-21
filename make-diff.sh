@@ -29,7 +29,6 @@ cmp spigot.yml
 cmp plugins/AuthMe/config.yml
 cmp plugins/CraftBook/config.yml
 cmp plugins/CustomNukes/config.yml
-cmp plugins/EnjinMinecraftPlugin/config.yml
 cmp plugins/HealthBar/config.yml
 cmp plugins/PermissionsEx/permissions.yml
 cmp plugins/TerrainControl/TerrainControl.ini
