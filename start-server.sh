@@ -4,7 +4,7 @@ set -e
 
 source `dirname $0`/config.sh
 
-VERSION="spigot-1.7.10-R0.1.jar"
+VERSION="spigot-1.8.3.jar"
 echo "Starting bukkit minecraft server..."
 
 cd $(dirname $(dirname $(realpath $0)))
