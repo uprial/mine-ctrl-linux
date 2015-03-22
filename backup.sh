@@ -20,4 +20,5 @@ tar -zcf "${FILENAME}" \
     *
 
 mv "${FILENAME}" /root/Yandex.Disk/Minecraft/
+sleep 5
 yandex-disk sync
