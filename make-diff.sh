@@ -26,7 +26,7 @@ mkdir diffs
 cmp bukkit.yml
 cmp server.properties
 cmp spigot.yml
-cmp plugins/AuthMe/config.yml
+cmp plugins/xAuth/config.yml
 cmp plugins/CraftBook/config.yml
 cmp plugins/CustomNukes/config.yml
 cmp plugins/HealthBar/config.yml
