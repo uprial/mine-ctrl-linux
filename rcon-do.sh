@@ -4,7 +4,7 @@ set -e
 
 source `dirname $0`/config.sh
 
-action="$1"
+action="$@"
 
 if [[ -z "${action}" ]]; then
     echo "ERROR: Empty action."
