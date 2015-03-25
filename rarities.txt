@@ -1,5 +1,5 @@
-Extreme Hills: 400
-Plains: 200
+Extreme Hills: 200
+Plains: 250
 Roofed Forest: 200
 Swampland: 200
 Jungle: 150
@@ -27,14 +27,14 @@ Cold Taiga: 50
 Mesa: 50
 Savanna: 50
 Sunflower Plains: 50
-Birch Forest Hills M: 10
+Birch Forest Hills M: 20
 Birch Forest M: 10
 Cold Taiga M: 10
 Desert M: 10
 Extreme Hills M: 10
 Extreme Hills+ M: 10
 Extreme Hills+: 10
-FrozenRiver: 10
+FrozenRiver: 20
 Ice Plains Spikes: 10
 Jungle M: 10
 JungleEdge M: 10 *
@@ -51,5 +51,5 @@ Savanna Plateau M: 10
 Savanna Plateau: 10
 Swampland M: 10
 Taiga M: 10
-MushroomIsland: 5
-MushroomIslandShore: 5 *
+MushroomIsland: 20
+MushroomIslandShore: 20 *
