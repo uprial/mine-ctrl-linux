@@ -4,7 +4,7 @@ set -e
 
 radius=20
 tiles=125
-tmpdir=$(dirname $0)/tmpimgs
+tmpdir=$(dirname $0)/tmpimgs/${tiles}
 
 for x in $(seq -${radius} ${radius}); do
     for z in $(seq -${radius} ${radius}); do
@@ -31,7 +31,6 @@ done
 
 sleep 60
 
-#rm -rf ${tmpdir}
 mkdir -p ${tmpdir}
 
 cmd1="montage"
@@ -47,7 +46,7 @@ for z in $(seq -${radius} ${radius}); do
 done
 
 echo "Moving images..."
-mv $(dirname $(dirname $0))/*png ${tmpdir}/
+mv $(dirname $(dirname $0))/*png ${tmpdir}/ || :
 
 size=$(( ${radius} * 2 + 1 ))
 echo "Creating world_biome.png..."
