@@ -4,6 +4,7 @@ set -e
 
 radius=20
 tiles=125
+tmpdir=$(dirname $0)/tmpimgs
 
 for x in $(seq -${radius} ${radius}); do
     for z in $(seq -${radius} ${radius}); do
@@ -30,8 +31,7 @@ done
 
 sleep 60
 
-tmpdir=$(dirname $0)/tmpimgs
-rm -rf ${tmpdir}
+#rm -rf ${tmpdir}
 mkdir -p ${tmpdir}
 
 cmd1="montage"
