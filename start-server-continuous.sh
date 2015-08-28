@@ -5,5 +5,7 @@ set -e
 while true; do
     `dirname $0`/start-server.sh || :
     echo "`date`" >> /var/log/crashes
-    sleep 5
+    echo ""
+    echo ""
+    sleep 30
 done
