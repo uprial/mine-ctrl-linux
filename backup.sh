@@ -27,6 +27,7 @@ set -x
 
 cd ${FILEPATH}
 tar -zcf "${FILENAME}" \
+    --exclude="plugins/dynmap/web" \
     --exclude="crash-reports/*" \
     --exclude="logs/*" \
     --exclude="diffs/*" \
