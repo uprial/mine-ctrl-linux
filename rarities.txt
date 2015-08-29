@@ -45,6 +45,7 @@ Mesa Plateau F M: 10
 Mesa Plateau F: 10
 Mesa Plateau M: 10
 Mesa Plateau: 10
+Mega Spruce Taiga Hills: 10
 Roofed Forest M: 10
 Savanna M: 10
 Savanna Plateau M: 10
