@@ -30,6 +30,7 @@ cmp commands.yml
 cmp spigot.yml
 cmp server.properties
 cmp plugins/CraftBook/config.yml
+cmp plugins/CraftBook/mechanisms.yml
 cmp plugins/CustomNukes/config.yml
 cmp plugins/dynmap/configuration.txt
 cmp plugins/dynmap-mobs/config.yml
