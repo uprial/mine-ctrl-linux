@@ -22,8 +22,8 @@ cmp() {
     fi
 }
 
-rm -rf diffs
-mkdir diffs
+mkdir -p diffs
+rm -f diffs/*.diff
 
 cmp bukkit.yml
 cmp commands.yml
