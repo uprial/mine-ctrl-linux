@@ -9,8 +9,11 @@ echo "Starting bukkit minecraft server..."
 
 cd $(dirname $(dirname $(realpath $0)))
 
-# Work only in Java7:
-# -XX:MaxPermSize=128m
+OPTS=""
+if ! java -version 2>&1 | grep 1.8; then
+  OPTS="${OPTS} -XX:MaxPermSize=128m"
+fi
+
 java -server \
     -d64 \
     -Xmx${MEMORY_MAX} \
@@ -21,5 +24,6 @@ java -server \
     -Djava.awt.headless=true \
     -XX:ParallelGCThreads=2 \
     -XX:+AggressiveOpts \
+    ${OPTS} \
     -jar "${VERSION}" \
     nogui
