@@ -2,9 +2,11 @@
 
 cd $(dirname $(dirname $(realpath $0)))
 
+ORIG_PATH="minecraft-clear"
+
 cmp() {
     filename="$1"
-    filename_orig="../minecraft-clear/${filename}"
+    filename_orig="../${ORIG_PATH}/${filename}"
     diffname=`echo ${filename} | sed -e 's/\//-/g'`
     diffname="diffs/${diffname,,}.diff"
     if [[ ! -z `diff  "${filename_orig}" "${filename}"` ]]; then
