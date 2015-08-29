@@ -26,7 +26,6 @@ mkdir diffs
 cmp bukkit.yml
 cmp commands.yml
 cmp spigot.yml
-cmp wepif.yml
 cmp server.properties
 cmp plugins/CraftBook/config.yml
 cmp plugins/CustomNukes/config.yml
