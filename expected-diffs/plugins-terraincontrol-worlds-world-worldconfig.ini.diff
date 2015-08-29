@@ -1,0 +1,100 @@
+72c72
+< GenerationDepth: 10
+---
+> GenerationDepth: 9
+76c76
+< BiomeRarityScale: 100
+---
+> BiomeRarityScale: 400
+96,102c96,102
+< BiomeGroup(NormalBiomes, 0, 97, Forest, Roofed Forest, Extreme Hills, Plains, Birch Forest, Swampland, Flower Forest, Roofed Forest M, Extreme Hills+, Sunflower Plains, Birch Forest M, Swampland M)
+< BiomeGroup(IceBiomes, 3, 90, Ice Plains, Cold Taiga, Ice Plains Spikes, Cold Taiga M)
+< BiomeGroup(HotBiomes, 0, 97, Desert, Savanna, Plains, Desert M, Savanna M, Sunflower Plains)
+< BiomeGroup(ColdBiomes, 0, 97, Forest, Extreme Hills, Taiga, Plains, Flower Forest, Extreme Hills+, Taiga M, Sunflower Plains)
+< BiomeGroup(MesaBiomes, 1, 40, Mesa)
+< BiomeGroup(JungleBiomes, 1, 40, Jungle, Jungle M)
+< BiomeGroup(Mega TaigaBiomes, 1, 40, Mega Taiga, Mega Spruce Taiga)
+---
+> BiomeGroup(NormalBiomes, 0, 97, Forest, Roofed Forest, Extreme Hills, Plains, Birch Forest, Swampland, Flower Forest, Roofed Forest M, Extreme Hills+, Sunflower Plains, Birch Forest M, Swampland M, Extreme Hills M, Extreme Hills+ M, Extreme Hills Edge, Birch Forest Hills, ForestHills, Birch Forest Hills M, Ice Plains, Ice Plains Spikes)
+> BiomeGroup(IceBiomes, 3, 90, Ice Plains, Cold Taiga, Ice Plains Spikes, Cold Taiga M, Cold Taiga Hills)
+> BiomeGroup(HotBiomes, 0, 97, Desert, Savanna, Plains, Desert M, Savanna M, Sunflower Plains, Savanna Plateau M, Savanna Plateau, DesertHills, Ice Plains, Ice Plains Spikes)
+> BiomeGroup(ColdBiomes, 0, 97, Forest, Extreme Hills, Taiga, Plains, Flower Forest, Extreme Hills+, Taiga M, Sunflower Plains, Extreme Hills M, Extreme Hills+ M, Extreme Hills Edge, TaigaHills, ForestHills, Mega Spruce Taiga, Mega Spruce Taiga Hills, Cold Taiga M, Cold Taiga, Cold Taiga Hills, Mega Taiga, Roofed Forest, Roofed Forest M, Ice Plains, Ice Plains Spikes, Birch Forest, Birch Forest M, Birch Forest Hills, Mega Taiga Hills, Birch Forest Hills M)
+> BiomeGroup(MesaBiomes, 1, 40, Mesa, Mesa (Bryce), Mesa Plateau, Mesa Plateau F M, Mesa Plateau F, Mesa Plateau M)
+> BiomeGroup(JungleBiomes, 1, 40, Jungle, Jungle M, JungleEdge M, JungleHills, JungleEdge)
+> BiomeGroup(Mega TaigaBiomes, 1, 40, Mega Taiga, Mega Spruce Taiga, Mega Spruce Taiga Hills, Mega Taiga Hills)
+111c111
+< IsleBiomes: Deep Ocean, MushroomIsland, Ice Mountains, DesertHills, ForestHills, Forest, TaigaHills, JungleHills, Cold Taiga Hills, Birch Forest Hills, Extreme Hills+, Mesa Plateau, Mesa Plateau F, Mesa Plateau M, Mesa Plateau F M, Mesa (Bryce), Mega Taiga Hills, Mega Spruce Taiga Hills
+---
+> IsleBiomes: Deep Ocean, MushroomIsland, Ice Mountains, DesertHills, ForestHills, Forest, TaigaHills, JungleHills, Cold Taiga Hills, Birch Forest Hills, Extreme Hills+, Mesa Plateau, Mesa Plateau F, Mesa Plateau M, Mesa Plateau F M, Mesa (Bryce), Mega Taiga Hills, Mega Spruce Taiga Hills, Extreme Hills+ M, Birch Forest Hills M, Flower Forest, Roofed Forest, Roofed Forest M, Birch Forest M, Birch Forest
+114c114
+< BorderBiomes: MushroomIslandShore, Beach, Extreme Hills Edge, Desert, Taiga
+---
+> BorderBiomes: MushroomIslandShore, Beach, Extreme Hills Edge, Desert, Taiga, Taiga M, Desert M, Mega Spruce Taiga, Cold Taiga M, Cold Taiga, Mega Taiga, Stone Beach, Cold Beach
+121c121
+< LandRarity: 97
+---
+> LandRarity: 99
+127c127
+< LandFuzzy: 6
+---
+> LandFuzzy: 7
+152c152
+< RiverRarity: 4
+---
+> RiverRarity: 5
+155c155
+< RiverSize: 0
+---
+> RiverSize: 1
+222c222
+< FractureHorizontal: 0.0
+---
+> FractureHorizontal: 0.4
+226c226
+< FractureVertical: 0.0
+---
+> FractureVertical: 2.0
+236c236
+< RemoveSurfaceStone: false
+---
+> RemoveSurfaceStone: true
+290c290
+< StrongholdCount: 3
+---
+> StrongholdCount: 6
+306c306
+< VillageSize: 0
+---
+> VillageSize: 2
+320c320
+< MinimumDistanceBetweenRareBuildings: 9
+---
+> MinimumDistanceBetweenRareBuildings: 6
+323c323
+< MaximumDistanceBetweenRareBuildings: 32
+---
+> MaximumDistanceBetweenRareBuildings: 24
+379c379
+< CaveRarity: 7
+---
+> CaveRarity: 8
+395c395
+< CaveMaxAltitude: 128
+---
+> CaveMaxAltitude: 192
+406c406
+< CaveSystemFrequency: 1
+---
+> CaveSystemFrequency: 2
+434c434
+< CanyonMinAltitude: 20
+---
+> CanyonMinAltitude: 8
+440c440
+< CanyonMaxLength: 112
+---
+> CanyonMaxLength: 500
+442c442
+< CanyonDepth: 3.0
+---
+> CanyonDepth: 4.0

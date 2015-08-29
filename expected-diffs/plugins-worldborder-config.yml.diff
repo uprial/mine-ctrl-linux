@@ -1,0 +1,22 @@
+3c3
+< round-border: true
+---
+> round-border: false
+5c5
+< whoosh-effect: true
+---
+> whoosh-effect: false
+18a19,31
+> worlds:
+>   world:
+>     x: 0.0
+>     z: 0.0
+>     radiusX: 5050
+>     radiusZ: 5050
+>     wrapping: false
+>   world_nether:
+>     x: 0.0
+>     z: 0.0
+>     radiusX: 5050
+>     radiusZ: 5050
+>     wrapping: false

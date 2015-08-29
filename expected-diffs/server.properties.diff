@@ -1,0 +1,39 @@
+2,3c2,4
+< #Sat Aug 29 10:03:23 MSK 2015
+< server-name=Unknown Server
+---
+> #Sat Aug 29 03:26:47 MSK 2015
+> spawn-protection=0
+> server-name=Rial MC
+9,10c10,11
+< player-idle-timeout=0
+< difficulty=1
+---
+> player-idle-timeout=30
+> difficulty=3
+11a13
+> broadcast-rcon-to-ops=true
+16c18
+< snooper-enabled=true
+---
+> snooper-enabled=false
+19,20c21,22
+< enable-command-block=false
+< max-players=20
+---
+> enable-command-block=true
+> max-players=32
+22a25
+> rcon.port=25575
+32a36
+> rcon.password=mine230886
+36c40
+< level-seed=
+---
+> level-seed=1001
+38,39c42,43
+< enable-rcon=false
+< motd=A Minecraft Server
+---
+> motd=Rial MC
+> enable-rcon=true

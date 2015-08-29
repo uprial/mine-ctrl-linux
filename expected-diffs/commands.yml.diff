@@ -1,0 +1,13 @@
+16a17,28
+>   morning:
+>   - minecraft:time set 0
+>   gc:
+>   - gamemode c $1
+>   gs:
+>   - gamemode s $1
+>   summoner:
+>   - setblock $$1 $$2 $$3 mob_spawner 0 replace {EntityId:$$4}
+>   hm:
+>   - tp -416 46 2831
+>   hd:
+>   - tp -320 68 -383
