@@ -170,7 +170,8 @@ def check_rarities(rarities_data):
     for rarity, rarity_biomes in rarities_data.iteritems():
         for biome in rarity_biomes:
             if not biome in saved_rarities:
-                print "WARNING: rarity of '%s' wasn't saved" % biome
+                print "WARNING: rarity of '%s' wasn't saved (%d)" \
+                    % (biome, rarity)
                 continue
 
             saved_rarity = saved_rarities[biome]
