@@ -2,11 +2,13 @@
 
 set -e
 
-radius=20
+radius=2
 tiles=125
 tmpdir=$(dirname $0)/tmpimgs/${tiles}
+workdir=$(dirname $(dirname $0))
 changed=0
 
+mkdir -p ${tmpdir}
 for x in $(seq -${radius} ${radius}); do
     for z in $(seq -${radius} ${radius}); do
         xo=$(( ${x} * ${tiles} * 16 ))
@@ -16,16 +18,12 @@ for x in $(seq -${radius} ${radius}); do
             cmd="tc map world -s ${tiles} -o ${xo} ${zo}"
             echo "mine> ${cmd}..."
             $(dirname $0)/rcon-do.sh ${cmd}
-            changed=1
+            sleep 60
+            mv ${workdir}/world_biome.png ${tmpdir}/[${xo}_${zo}]world_biome.png
+            mv ${workdir}/world_temperature.png ${tmpdir}/[${xo}_${zo}]world_temperature.png
         fi
     done
 done
-
-if [[ "${changed}" != 0 ]]; then
-    sleep 60
-fi
-
-mkdir -p ${tmpdir}
 
 cmd1="montage"
 cmd2="montage"
@@ -38,11 +36,6 @@ for z in $(seq -${radius} ${radius}); do
         cmd2="${cmd2} ${tmpdir}/[${xo}_${zo}]world_temperature.png"
     done
 done
-
-if [[ "${changed}" != 0 ]]; then
-    echo "Moving images..."
-    mv $(dirname $(dirname $0))/*png ${tmpdir}/
-fi
 
 size=$(( ${radius} * 2 + 1 ))
 namesize=$(( ${tiles} * (${radius} * 16 + 8)))
