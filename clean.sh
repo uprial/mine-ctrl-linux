@@ -10,7 +10,7 @@ cd $(dirname $(dirname $(realpath $0)))
 rm -rf world
 rm -rf world_nether
 rm -rf world_the_end
-rm -f plugins/dynmap/web/tiles/world/*
+rm -rf plugins/dynmap/web/tiles/world/*
 rm -f crash-reports/*
 rm -f logs/*
 rm -f plugins/CustomNukes/block-meta.txt
