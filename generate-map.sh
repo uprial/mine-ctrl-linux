@@ -4,9 +4,11 @@ set -e
 
 radius=2
 tiles=125
-tmpdir=$(dirname $0)/tmpimgs/${tiles}
+
+seed=$(grep "seed" server.properties | cut -d '=' -f 2)
+tmpdir=$(dirname $0)/tmpimgs/${seed}/${tiles}
 workdir=$(dirname $(dirname $0))
-changed=0
+outdir=~/Yandex.Disk/Minecraft/${seed}-${tiles}
 
 mkdir -p ${tmpdir}
 for x in $(seq -${radius} ${radius}); do
@@ -47,5 +49,6 @@ echo "Creating world_temperature.png..."
 ${cmd2} -geometry +1+1 -background black -tile ${size}x \
     ${tmpdir}/world_temperature_${namesize}x${namesize}.png
 
-cp ${tmpdir}/world_*png ~/Yandex.Disk/Minecraft/
+mkdir -p ${outdir}
+cp ${tmpdir}/world_*png ${outdir}
 yandex-disk sync
