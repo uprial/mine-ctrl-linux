@@ -16,3 +16,4 @@ rm -f logs/*
 rm -f plugins/CustomNukes/block-meta.txt
 rm -f plugins/CustomNukes/repeater-task.txt
 rm -rf plugins/WorldGuard/worlds
+rm -f usercache.json
