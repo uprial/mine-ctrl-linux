@@ -8,7 +8,7 @@ tiles=125
 seed=$(grep "seed" server.properties | cut -d '=' -f 2)
 tmpdir=$(dirname $0)/tmpimgs/${seed}/${tiles}
 workdir=$(dirname $(dirname $0))
-outdir=~/Yandex.Disk/Minecraft/${seed}-${tiles}
+outdir=~/Yandex.Disk/Minecraft
 
 mkdir -p ${tmpdir}
 for x in $(seq -${radius} ${radius}); do
@@ -44,10 +44,10 @@ namesize=$(( ${tiles} * (${radius} * 16 + 8)))
 
 echo "Creating world_biome.png..."
 ${cmd1} -geometry +1+1 -background black -tile ${size}x \
-    ${tmpdir}/world_biome_${namesize}x${namesize}.png
+    ${tmpdir}/world_biome_${seed}_${namesize}x${namesize}.png
 echo "Creating world_temperature.png..."
 ${cmd2} -geometry +1+1 -background black -tile ${size}x \
-    ${tmpdir}/world_temperature_${namesize}x${namesize}.png
+    ${tmpdir}/world_temperature_${seed}_${namesize}x${namesize}.png
 
 mkdir -p ${outdir}
 cp ${tmpdir}/world_*png ${outdir}
