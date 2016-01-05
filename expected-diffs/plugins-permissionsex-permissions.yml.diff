@@ -102,6 +102,6 @@
 > users:
 >   c88ed80b-265b-3ad0-8034-c93d4241cb41:
 >     group:
->     - operators
+>     - unLoggedinGroup
 >     options:
 >       name: Rial73
