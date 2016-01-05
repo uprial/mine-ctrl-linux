@@ -17,10 +17,15 @@ for x in $(seq -${radius} ${radius}); do
         zo=$(( ${z} * ${tiles} * 16 ))
 
         if [ ! -f ${tmpdir}/[${xo}_${zo}]world_biome.png ]; then
+            rm -f ${workdir}/world_biome.png
+            rm -f ${workdir}/world_temperature.png
+
             cmd="tc map world -s ${tiles} -o ${xo} ${zo}"
             echo "mine> ${cmd}..."
             $(dirname $0)/rcon-do.sh ${cmd}
-            sleep 60
+
+            while [[ ! -f ${workdir}/world_biome.png \
+                || ! -f ${workdir}/world_temperature.png ]]; do sleep 1; done
             mv ${workdir}/world_biome.png ${tmpdir}/[${xo}_${zo}]world_biome.png
             mv ${workdir}/world_temperature.png ${tmpdir}/[${xo}_${zo}]world_temperature.png
         fi
