@@ -1,11 +1,9 @@
 #! /usr/bin/env python
 
 import os
-import subprocess
 import re
-import yaml
 
-BIOME_NAME_PATTERN = "[\w\s\(\)\+]+"
+BIOME_NAME_PATTERN = "[\\w\\s\\(\\)\\+]+"
 BIOME_LIST_PATTERN = "(?:" + BIOME_NAME_PATTERN + ",?)+"
 
 class Path(object):
@@ -28,7 +26,7 @@ class ConfigFile(object):
             self._content = filehandle.read()
 
     def get_biomes(self, key):
-        value = self._get("^\s*" + re.escape(key) + ":\s*(" + BIOME_LIST_PATTERN + ")$")
+        value = self._get("^\\s*" + re.escape(key) + ":\\s*(" + BIOME_LIST_PATTERN + ")$")
 
         if value is not None:
             biomes = self._parse_biomes(value)
@@ -38,7 +36,7 @@ class ConfigFile(object):
         return biomes
 
     def get_int(self, key):
-        value = self._get("^\s*" + re.escape(key) + ":\s*(\d+)$")
+        value = self._get("^\\s*" + re.escape(key) + ":\\s*(\\d+)$")
 
         if value is not None:
             value = int(value)
@@ -59,8 +57,8 @@ class ConfigFile(object):
     @staticmethod
     def _strip_biome(biome):
         biome = re.sub("\n$", '', biome)
-        biome = re.sub("^\s+", '', biome)
-        biome = re.sub("\s+$", '', biome)
+        biome = re.sub("^\\s+", '', biome)
+        biome = re.sub("\\s+$", '', biome)
 
         return biome
 
@@ -72,7 +70,7 @@ class ConfigFile(object):
             biomes = []
 
         return biomes
-        
+
 
 class Group(object):
 
@@ -97,7 +95,7 @@ class WorldConfig(ConfigFile):
     def _get_groups(self):
         groups = []
         for line in self._content.split("\n"):
-            match = re.match("^\s*BiomeGroup\((" + BIOME_NAME_PATTERN + "),\s*(\d+)\s*,\s*(\d+)\s*,(" + BIOME_LIST_PATTERN + ")\)$", line)
+            match = re.match("^\\s*BiomeGroup\\((" + BIOME_NAME_PATTERN + "),\\s*(\\d+)\\s*,\\s*(\\d+)\\s*,(" + BIOME_LIST_PATTERN + ")\\)$", line)
             if match:
                 name = match.group(1)
                 size = int(match.group(2))
@@ -140,10 +138,11 @@ class Biomes(object):
     def get(self, key):
         return self._biomes[key]
 
-    def _get_biome_names(self):
+    @staticmethod
+    def _get_biome_names():
         path = Path.get_plugin_path("WorldBiomes")
         biome_names = []
-        for (dirpath, dirnames, filenames) in os.walk(path):
+        for (_, _, filenames) in os.walk(path):
             for filename in filenames:
                 if filename.endswith(".bc"):
                     biome_names.append(filename[0:len(filename)-3])
@@ -196,14 +195,12 @@ def check_groups(world_config, biomes):
 def show_rarities(world_config, biomes):
 
     total_groups_rarity = 0
-    total_biomes_rarity = 0
     total_group_biomes_rarity = {}
     for group in world_config.groups:
         total_groups_rarity += group.rarity
         total_group_biomes_rarity[group.name] = 0
         for biome_name in group.biome_names:
             biome = biomes.get(biome_name)
-            total_biomes_rarity += biome.rarity
             total_group_biomes_rarity[group.name] += biome.rarity
 
     print "==== GROUPS ===="

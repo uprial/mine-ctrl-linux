@@ -9,7 +9,7 @@ def listfiles(dirname):
 def k(value):
     return value / 500
 
-def main(): 
+def main():
     print "ACCESS DENIED"
     sys.exit(1)
     x1 = k(-1000+1)
