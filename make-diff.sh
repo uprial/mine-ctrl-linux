@@ -39,6 +39,8 @@ cmp plugins/dynmap/shaders.txt
 cmp plugins/Dynmap-WorldGuard/config.yml
 cmp plugins/dynmap/worlds.txt
 cmp plugins/HealthBar/config.yml
+cmp plugins/Herobrine/config.yml
+cmp plugins/Herobrine/npc.yml
 cmp plugins/PermissionsEx/config.yml
 cmp plugins/PermissionsEx/permissions.yml
 cmp plugins/TerrainControl/TerrainControl.ini
