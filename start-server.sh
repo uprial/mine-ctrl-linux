@@ -4,6 +4,10 @@ set -e
 
 source `dirname $0`/config.sh
 
+if [ -f ./`dirname $0`/before-start.sh ]; then
+    ./`dirname $0`/before-start.sh
+fi
+
 VERSION="spigot-1.8.8.jar"
 echo "Starting bukkit minecraft server..."
 
