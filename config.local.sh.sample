@@ -2,7 +2,8 @@
 
 set -e
 
-SERVER_IP="0.0.0.0"
+SERVER_IP="127.0.0.1"
 MEMORY_MAX="2500M"
 MEMORY_START="500M"
 SERVER_ID="m"
+JAR_FILE="spigot-1.10.2.jar"

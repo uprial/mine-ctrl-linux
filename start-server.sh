@@ -8,7 +8,6 @@ if [ -f ./`dirname $0`/before-start.sh ]; then
     ./`dirname $0`/before-start.sh
 fi
 
-VERSION="spigot-1.8.8.jar"
 echo "Starting bukkit minecraft server..."
 
 cd $(dirname $(dirname $(realpath $0)))
@@ -29,5 +28,5 @@ java -server \
     -XX:ParallelGCThreads=2 \
     -XX:+AggressiveOpts \
     ${OPTS} \
-    -jar "${VERSION}" \
+    -jar "${JAR_FILE}" \
     nogui
