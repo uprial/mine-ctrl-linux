@@ -13,6 +13,25 @@ chk_path() {
 	fi
 }
 
+gen_diff() {
+	filename="${1}"
+	filename_clear="${2}"
+	diffname="${3}"
+
+	if [[ "${filename}" == "server.properties" ]]; then
+		${CONTROL_DIR}/cmp-server-properties.py \
+			"${filename}" "${filename_clear}" > "${diffname}"
+	else
+		if [[ -d "${filename}" ]]; then
+			from="${filename}/"
+			from=`echo "${from}" | sed -e 's/\//\\\\\//g'`
+			diff -r "${filename_clear}" "${filename}" | sed -e "s/${from}//g" > "${diffname}"
+		else
+			diff "${filename_clear}" "${filename}" > "${diffname}"
+		fi
+	fi
+}
+
 #
 # To remove all *.orig files please use the following command:
 # $ find . -name '*.orig' -exec rm -rf {} \;
@@ -34,13 +53,7 @@ cmp() {
     diffname=`echo "${filename}" | sed -e 's/\//-/g'`
     diffname="diffs/${diffname}.diff"
     if [[ ! -z `diff  "${filename_clear}" "${filename}"` ]]; then
-        if [[ -d "${filename}" ]]; then
-            from="${filename}/"
-            from=`echo "${from}" | sed -e 's/\//\\\\\//g'`
-            diff -r "${filename_clear}" "${filename}" | sed -e "s/${from}//g" > "${diffname}"
-        else
-            diff "${filename_clear}" "${filename}" > "${diffname}"
-        fi
+		gen_diff "${filename}" "${filename_clear}" "${diffname}"
 		if [[ "${filename_clear}" != "${filename_orig}" ]]; then
 			cp -r "${filename_clear}" "${filename_orig}"
 		fi
