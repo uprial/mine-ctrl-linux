@@ -1,22 +1,49 @@
 #!/bin/bash
 
-cd $(dirname $(dirname $(realpath $0)))
+CONTROL_DIR=$(dirname $(realpath $0))
+cd $(dirname "${CONTROL_DIR}")
 
 ORIG_PATH="minecraft-clear"
 
+chk_path() {
+	path="${1}"
+	if [ ! -r "${path}" ]; then
+		echo "ERROR: path ${path} does not exist"
+		exit 2
+	fi
+}
+
+#
+# To remove all *.orig files please use the following command:
+# $ find . -name '*.orig' -exec rm -rf {} \;
+#
 cmp() {
-    filename="$1"
-    filename_orig="../${ORIG_PATH}/${filename}"
-    diffname=`echo ${filename} | sed -e 's/\//-/g'`
-    diffname="diffs/${diffname,,}.diff"
-    if [[ ! -z `diff  "${filename_orig}" "${filename}"` ]]; then
+    filename="${1}"
+    filename_clear="../${ORIG_PATH}/${filename}"
+	chk_path "${filename}"
+	chk_path "${filename_clear}"
+
+	filename_orig="${filename_clear}.orig"
+	if [ -f "${filename_orig}" ]; then
+		if [[ ! -z `diff "${filename_clear}" "${filename_orig}"` ]]; then
+			filename_clear="${filename_orig}"
+			echo "WARNING: use original file from ${filename_clear}"
+		fi
+	fi
+
+    diffname=`echo "${filename}" | sed -e 's/\//-/g'`
+    diffname="diffs/${diffname}.diff"
+    if [[ ! -z `diff  "${filename_clear}" "${filename}"` ]]; then
         if [[ -d "${filename}" ]]; then
             from="${filename}/"
             from=`echo "${from}" | sed -e 's/\//\\\\\//g'`
-            diff  "${filename_orig}" "${filename}" | sed -e "s/${from}//g" > "${diffname}"
+            diff -r "${filename_clear}" "${filename}" | sed -e "s/${from}//g" > "${diffname}"
         else
-            diff  "${filename_orig}" "${filename}" > "${diffname}"
+            diff "${filename_clear}" "${filename}" > "${diffname}"
         fi
+		if [[ "${filename_clear}" != "${filename_orig}" ]]; then
+			cp -r "${filename_clear}" "${filename_orig}"
+		fi
     else
         rm -f "${diffname}"
     fi
@@ -25,29 +52,6 @@ cmp() {
 mkdir -p diffs
 rm -f diffs/*.diff
 
-cmp bukkit.yml
-cmp commands.yml
-cmp spigot.yml
-cmp server.properties
-cmp plugins/CraftBook/config.yml
-cmp plugins/CraftBook/mechanisms.yml
-cmp plugins/CustomDamage/config.yml
-cmp plugins/CustomNukes/config.yml
-cmp plugins/dynmap/configuration.txt
-cmp plugins/dynmap-mobs/config.yml
-cmp plugins/dynmap/shaders.txt
-cmp plugins/Dynmap-WorldGuard/config.yml
-cmp plugins/dynmap/worlds.txt
-cmp plugins/HealthBar/config.yml
-cmp plugins/Herobrine/config.yml
-cmp plugins/Herobrine/npc.yml
-cmp plugins/PermissionsEx/config.yml
-cmp plugins/PermissionsEx/permissions.yml
-cmp plugins/TerrainControl/TerrainControl.ini
-cmp plugins/TerrainControl/worlds/world/WorldBiomes
-cmp plugins/TerrainControl/worlds/world/WorldConfig.ini
-cmp plugins/Vault/config.yml
-cmp plugins/WorldBorder/config.yml
-cmp plugins/WorldEdit/config.yml
-cmp plugins/WorldGuard/config.yml
-cmp plugins/xAuth/config.yml
+for path in $(cat "${CONTROL_DIR}/diff-list.txt"); do
+	cmp "${path}"
+done
