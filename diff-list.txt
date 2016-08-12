@@ -3,6 +3,7 @@ commands.yml
 ops.json
 spigot.yml
 server.properties
+plugins/AuthMe/config.yml
 plugins/CraftBook/config.yml
 plugins/CraftBook/mechanisms.yml
 plugins/CustomCreatures/config.yml
@@ -25,4 +26,3 @@ plugins/Vault/config.yml
 plugins/WorldBorder/config.yml
 plugins/WorldEdit/config.yml
 plugins/WorldGuard/config.yml
-plugins/xAuth/config.yml
