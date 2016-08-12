@@ -20,7 +20,7 @@ gen_diff() {
 
 	if [[ "${filename}" == "server.properties" ]]; then
 		${CONTROL_DIR}/cmp-server-properties.py \
-			"${filename}" "${filename_clear}" > "${diffname}"
+			"${filename}" "${filename_clear}" | sort > "${diffname}"
 	else
 		if [[ -d "${filename}" ]]; then
 			from="${filename}/"
