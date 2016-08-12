@@ -29,9 +29,10 @@ gen_diff() {
 		if [[ -d "${filename}" ]]; then
 			from="${filename}/"
 			from=`echo "${from}" | sed -e 's/\//\\\\\//g'`
-			diff -r "${filename_clear}" "${filename}" | sed -e "s/${from}//g" > "${diffname}"
+			diff -r "${filename_clear}" "${filename}" \
+                | sed -e "s/${from}//g" > "${diffname}" ||:
 		else
-			diff "${filename_clear}" "${filename}" > "${diffname}"
+			diff "${filename_clear}" "${filename}" > "${diffname}" ||:
 		fi
 	fi
 }
