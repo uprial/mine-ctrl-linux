@@ -1,9 +1,13 @@
 #!/bin/bash
 
+set -e
+
+source `dirname $0`/config.sh
+
 CONTROL_DIR=$(dirname $(realpath $0))
 cd $(dirname "${CONTROL_DIR}")
 
-ORIG_PATH="minecraft-clear"
+ORIG_PATH="clean-${MINE_VERSION}"
 
 chk_path() {
 	path="${1}"
