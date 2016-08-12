@@ -3,7 +3,7 @@
 >     options:
 >       default: false
 >     permissions:
->     - xauth.allow.*
+>     - authme.player.*
 2a8,43
 >     inheritance:
 >     - unLoggedinGroup
