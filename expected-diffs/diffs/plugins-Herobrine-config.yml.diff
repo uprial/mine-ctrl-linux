@@ -1,0 +1,46 @@
+5c5
+<   SendMessages: true
+---
+>   SendMessages: false
+7c7
+<   DestroyTorches: true
+---
+>   DestroyTorches: false
+17,18c17,18
+<   Killable: false
+<   UsePotionEffects: true
+---
+>   Killable: true
+>   UsePotionEffects: false
+44c44
+<   BuryPlayers: true
+---
+>   BuryPlayers: false
+51c51
+<   BuildTemples: true
+---
+>   BuildTemples: false
+61,65c61,65
+<     Build: true
+<     Attack: true
+<     Haunt: true
+<     Signs: true
+<     Books: true
+---
+>     Build: false
+>     Attack: false
+>     Haunt: false
+>     Signs: false
+>     Books: false
+76,78c76,78
+<   Explosions: true
+<   Burn: true
+<   Curse: true
+---
+>   Explosions: false
+>   Burn: false
+>   Curse: false
+87c87
+<   UseHauntSound: true
+---
+>   UseHauntSound: false

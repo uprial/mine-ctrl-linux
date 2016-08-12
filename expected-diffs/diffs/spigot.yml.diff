@@ -1,0 +1,8 @@
+29c29
+<   restart-script: ./start.sh
+---
+>   restart-script: /root/m/ctrl-linux/start-server.sh
+99c99
+<     random-light-updates: false
+---
+>     random-light-updates: true

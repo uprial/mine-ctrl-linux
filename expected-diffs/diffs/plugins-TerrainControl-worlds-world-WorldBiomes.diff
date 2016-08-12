@@ -1,0 +1,625 @@
+diff -r ../clean-1.10.2/Cold Beach.bc Cold Beach.bc
+77c77
+< BiomeIsBorder: 
+---
+> BiomeIsBorder: Ocean
+81c81
+< NotBorderNear: 
+---
+> NotBorderNear: River, Swampland, Extreme Hills, MushroomIsland, Deep Ocean, Stone Beach, Beach, Mesa
+diff -r ../clean-1.10.2/Cold Taiga Hills.bc Cold Taiga Hills.bc
+360c360
+< Tree(10,Taiga1,35,Taiga2,100)
+---
+> Tree(35,Taiga1,35,Taiga2,100)
+diff -r ../clean-1.10.2/Cold Taiga M.bc Cold Taiga M.bc
+360c360
+< Tree(10,Taiga1,35,Taiga2,100)
+---
+> Tree(35,Taiga1,35,Taiga2,100)
+diff -r ../clean-1.10.2/Cold Taiga.bc Cold Taiga.bc
+360c360
+< Tree(10,Taiga1,35,Taiga2,100)
+---
+> Tree(35,Taiga1,35,Taiga2,100)
+diff -r ../clean-1.10.2/Desert M.bc Desert M.bc
+349c349
+< Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+---
+> Ore(DIAMOND_ORE,8,5,100.0,0,15,STONE)
+diff -r ../clean-1.10.2/Desert.bc Desert.bc
+349c349
+< Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+---
+> Ore(DIAMOND_ORE,8,5,100.0,0,15,STONE)
+diff -r ../clean-1.10.2/DesertHills.bc DesertHills.bc
+349c349
+< Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+---
+> Ore(DIAMOND_ORE,8,5,100.0,0,15,STONE)
+diff -r ../clean-1.10.2/Extreme Hills Edge.bc Extreme Hills Edge.bc
+102c102
+< BiomeVolatility: 0.3
+---
+> BiomeVolatility: 0.6
+112c112
+< MaxAverageHeight: 0.0
+---
+> MaxAverageHeight: 1.0
+116c116
+< MaxAverageDepth: 0.0
+---
+> MaxAverageDepth: 0.5
+345,347c345,347
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+< Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+< Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+---
+> Ore(COAL_ORE,17,30,100.0,0,127,STONE)
+> Ore(IRON_ORE,9,40,100.0,0,63,STONE)
+> Ore(GOLD_ORE,9,4,100.0,0,31,STONE)
+353,356c353,356
+< Liquid(WATER,20,100.0,8,128,STONE)
+< Liquid(LAVA,10,100.0,8,128,STONE)
+< SmallLake(WATER,4,7.0,8,119)
+< SmallLake(LAVA,2,1.0,8,119)
+---
+> Liquid(WATER,40,100.0,8,128,STONE)
+> Liquid(LAVA,20,100.0,8,128,STONE)
+> SmallLake(WATER,4,14.0,8,119)
+> SmallLake(LAVA,2,2.0,8,119)
+361c361,364
+< Tree(1,Taiga2,10,BigTree,1,Tree,9)
+---
+> Tree(2,BigTree,50)
+> Tree(2,Birch,80)
+> Tree(3,Taiga1,66,Tree,100)
+> Tree(3,Taiga2,66,Tree,100)
+diff -r ../clean-1.10.2/Extreme Hills M.bc Extreme Hills M.bc
+102c102
+< BiomeVolatility: 0.5
+---
+> BiomeVolatility: 1.0
+112c112
+< MaxAverageHeight: 0.0
+---
+> MaxAverageHeight: 1.0
+116c116
+< MaxAverageDepth: 0.0
+---
+> MaxAverageDepth: 0.5
+345,347c345,347
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+< Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+< Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+---
+> Ore(COAL_ORE,17,30,100.0,0,127,STONE)
+> Ore(IRON_ORE,9,40,100.0,0,63,STONE)
+> Ore(GOLD_ORE,9,4,100.0,0,31,STONE)
+353,356c353,356
+< Liquid(WATER,20,100.0,8,128,STONE)
+< Liquid(LAVA,10,100.0,8,128,STONE)
+< SmallLake(WATER,4,7.0,8,119)
+< SmallLake(LAVA,2,1.0,8,119)
+---
+> Liquid(WATER,40,100.0,8,128,STONE)
+> Liquid(LAVA,20,100.0,8,128,STONE)
+> SmallLake(WATER,4,14.0,8,119)
+> SmallLake(LAVA,2,2.0,8,119)
+361c361,364
+< Tree(1,Taiga2,10,BigTree,1,Tree,9)
+---
+> Tree(2,BigTree,50)
+> Tree(2,Birch,80)
+> Tree(3,Taiga1,66,Tree,100)
+> Tree(3,Taiga2,66,Tree,100)
+diff -r ../clean-1.10.2/Extreme Hills+ M.bc Extreme Hills+ M.bc
+102c102
+< BiomeVolatility: 0.5
+---
+> BiomeVolatility: 1.0
+112c112
+< MaxAverageHeight: 0.0
+---
+> MaxAverageHeight: 1.0
+116c116
+< MaxAverageDepth: 0.0
+---
+> MaxAverageDepth: 0.5
+345,347c345,347
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+< Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+< Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+---
+> Ore(COAL_ORE,17,30,100.0,0,127,STONE)
+> Ore(IRON_ORE,9,40,100.0,0,63,STONE)
+> Ore(GOLD_ORE,9,4,100.0,0,31,STONE)
+353,356c353,356
+< Liquid(WATER,20,100.0,8,128,STONE)
+< Liquid(LAVA,10,100.0,8,128,STONE)
+< SmallLake(WATER,4,7.0,8,119)
+< SmallLake(LAVA,2,1.0,8,119)
+---
+> Liquid(WATER,40,100.0,8,128,STONE)
+> Liquid(LAVA,20,100.0,8,128,STONE)
+> SmallLake(WATER,4,14.0,8,119)
+> SmallLake(LAVA,2,2.0,8,119)
+361c361,364
+< Tree(1,Taiga2,66,BigTree,10,Tree,100)
+---
+> Tree(2,BigTree,50)
+> Tree(2,Birch,80)
+> Tree(3,Taiga1,66,Tree,100)
+> Tree(3,Taiga2,66,Tree,100)
+diff -r ../clean-1.10.2/Extreme Hills+.bc Extreme Hills+.bc
+102c102
+< BiomeVolatility: 0.5
+---
+> BiomeVolatility: 1.0
+112c112
+< MaxAverageHeight: 0.0
+---
+> MaxAverageHeight: 1.0
+116c116
+< MaxAverageDepth: 0.0
+---
+> MaxAverageDepth: 0.5
+345,347c345,347
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+< Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+< Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+---
+> Ore(COAL_ORE,17,30,100.0,0,127,STONE)
+> Ore(IRON_ORE,9,40,100.0,0,63,STONE)
+> Ore(GOLD_ORE,9,4,100.0,0,31,STONE)
+353,356c353,356
+< Liquid(WATER,20,100.0,8,128,STONE)
+< Liquid(LAVA,10,100.0,8,128,STONE)
+< SmallLake(WATER,4,7.0,8,119)
+< SmallLake(LAVA,2,1.0,8,119)
+---
+> Liquid(WATER,40,100.0,8,128,STONE)
+> Liquid(LAVA,20,100.0,8,128,STONE)
+> SmallLake(WATER,4,14.0,8,119)
+> SmallLake(LAVA,2,2.0,8,119)
+361c361,364
+< Tree(1,Taiga2,66,BigTree,10,Tree,100)
+---
+> Tree(2,BigTree,50)
+> Tree(2,Birch,80)
+> Tree(3,Taiga1,66,Tree,100)
+> Tree(3,Taiga2,66,Tree,100)
+diff -r ../clean-1.10.2/Extreme Hills.bc Extreme Hills.bc
+41c41
+< BiomeRarity: 100
+---
+> BiomeRarity: 200
+102c102
+< BiomeVolatility: 0.5
+---
+> BiomeVolatility: 1.0
+112c112
+< MaxAverageHeight: 0.0
+---
+> MaxAverageHeight: 1.0
+116c116
+< MaxAverageDepth: 0.0
+---
+> MaxAverageDepth: 0.5
+345,347c345,347
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+< Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+< Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+---
+> Ore(COAL_ORE,17,30,100.0,0,127,STONE)
+> Ore(IRON_ORE,9,40,100.0,0,63,STONE)
+> Ore(GOLD_ORE,9,4,100.0,0,31,STONE)
+353,356c353,356
+< Liquid(WATER,20,100.0,8,128,STONE)
+< Liquid(LAVA,10,100.0,8,128,STONE)
+< SmallLake(WATER,4,7.0,8,119)
+< SmallLake(LAVA,2,1.0,8,119)
+---
+> Liquid(WATER,40,100.0,8,128,STONE)
+> Liquid(LAVA,20,100.0,8,128,STONE)
+> SmallLake(WATER,4,14.0,8,119)
+> SmallLake(LAVA,2,2.0,8,119)
+361c361,364
+< Tree(1,Taiga2,10,BigTree,1,Tree,9)
+---
+> Tree(2,BigTree,50)
+> Tree(2,Birch,80)
+> Tree(3,Taiga1,66,Tree,100)
+> Tree(3,Taiga2,66,Tree,100)
+diff -r ../clean-1.10.2/Flower Forest.bc Flower Forest.bc
+41c41
+< BiomeRarity: 10
+---
+> BiomeRarity: 100
+diff -r ../clean-1.10.2/Jungle M.bc Jungle M.bc
+99c99
+< BiomeHeight: 0.2
+---
+> BiomeHeight: 0.4
+102c102
+< BiomeVolatility: 0.4
+---
+> BiomeVolatility: 0.8
+112c112
+< MaxAverageHeight: 0.0
+---
+> MaxAverageHeight: 0.4
+116c116
+< MaxAverageDepth: 0.0
+---
+> MaxAverageDepth: 0.2
+345,347c345,347
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+< Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+< Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+---
+> Ore(COAL_ORE,17,40,100.0,0,127,STONE)
+> Ore(IRON_ORE,9,40,100.0,0,63,STONE)
+> Ore(GOLD_ORE,9,4,100.0,0,31,STONE)
+349c349,350
+< Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+---
+> Ore(DIAMOND_ORE,8,2,100.0,0,15,STONE)
+> Ore(EMERALD_ORE,5,1,100.0,4,32,STONE)
+417c418
+< VillageType: disabled
+---
+> VillageType: wood
+diff -r ../clean-1.10.2/Jungle.bc Jungle.bc
+99c99
+< BiomeHeight: 0.1
+---
+> BiomeHeight: 0.2
+102c102
+< BiomeVolatility: 0.2
+---
+> BiomeVolatility: 0.4
+112c112
+< MaxAverageHeight: 0.0
+---
+> MaxAverageHeight: 0.4
+116c116
+< MaxAverageDepth: 0.0
+---
+> MaxAverageDepth: 0.2
+345,347c345,347
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+< Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+< Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+---
+> Ore(COAL_ORE,17,40,100.0,0,127,STONE)
+> Ore(IRON_ORE,9,40,100.0,0,63,STONE)
+> Ore(GOLD_ORE,9,4,100.0,0,31,STONE)
+349c349,350
+< Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+---
+> Ore(DIAMOND_ORE,8,2,100.0,0,15,STONE)
+> Ore(EMERALD_ORE,5,1,100.0,4,32,STONE)
+417c418
+< VillageType: disabled
+---
+> VillageType: wood
+diff -r ../clean-1.10.2/JungleEdge M.bc JungleEdge M.bc
+99c99
+< BiomeHeight: 0.2
+---
+> BiomeHeight: 0.4
+102c102
+< BiomeVolatility: 0.4
+---
+> BiomeVolatility: 0.8
+112c112
+< MaxAverageHeight: 0.0
+---
+> MaxAverageHeight: 0.4
+116c116
+< MaxAverageDepth: 0.0
+---
+> MaxAverageDepth: 0.2
+345,347c345,347
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+< Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+< Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+---
+> Ore(COAL_ORE,17,40,100.0,0,127,STONE)
+> Ore(IRON_ORE,9,40,100.0,0,63,STONE)
+> Ore(GOLD_ORE,9,4,100.0,0,31,STONE)
+349c349,350
+< Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+---
+> Ore(DIAMOND_ORE,8,2,100.0,0,15,STONE)
+> Ore(EMERALD_ORE,5,1,100.0,4,32,STONE)
+417c418
+< VillageType: disabled
+---
+> VillageType: wood
+diff -r ../clean-1.10.2/JungleEdge.bc JungleEdge.bc
+99c99
+< BiomeHeight: 0.1
+---
+> BiomeHeight: 0.2
+102c102
+< BiomeVolatility: 0.2
+---
+> BiomeVolatility: 0.4
+112c112
+< MaxAverageHeight: 0.0
+---
+> MaxAverageHeight: 0.4
+116c116
+< MaxAverageDepth: 0.0
+---
+> MaxAverageDepth: 0.2
+345,347c345,347
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+< Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+< Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+---
+> Ore(COAL_ORE,17,40,100.0,0,127,STONE)
+> Ore(IRON_ORE,9,40,100.0,0,63,STONE)
+> Ore(GOLD_ORE,9,4,100.0,0,31,STONE)
+349c349,350
+< Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+---
+> Ore(DIAMOND_ORE,8,2,100.0,0,15,STONE)
+> Ore(EMERALD_ORE,5,1,100.0,4,32,STONE)
+417c418
+< VillageType: disabled
+---
+> VillageType: wood
+diff -r ../clean-1.10.2/JungleHills.bc JungleHills.bc
+99c99
+< BiomeHeight: 0.45
+---
+> BiomeHeight: 0.9
+102c102
+< BiomeVolatility: 0.3
+---
+> BiomeVolatility: 0.6
+112c112
+< MaxAverageHeight: 0.0
+---
+> MaxAverageHeight: 0.4
+116c116
+< MaxAverageDepth: 0.0
+---
+> MaxAverageDepth: 0.2
+345,347c345,347
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+< Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+< Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+---
+> Ore(COAL_ORE,17,40,100.0,0,127,STONE)
+> Ore(IRON_ORE,9,40,100.0,0,63,STONE)
+> Ore(GOLD_ORE,9,4,100.0,0,31,STONE)
+349c349,350
+< Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+---
+> Ore(DIAMOND_ORE,8,2,100.0,0,15,STONE)
+> Ore(EMERALD_ORE,5,1,100.0,4,32,STONE)
+417c418
+< VillageType: disabled
+---
+> VillageType: wood
+diff -r ../clean-1.10.2/Mega Spruce Taiga Hills.bc Mega Spruce Taiga Hills.bc
+361c361
+< Tree(10,HugeTaiga2,8,HugeTaiga1,30,Taiga1,33,Taiga2,100)
+---
+> Tree(35,HugeTaiga2,8,HugeTaiga1,30,Taiga1,33,Taiga2,100)
+diff -r ../clean-1.10.2/Mega Spruce Taiga.bc Mega Spruce Taiga.bc
+361c361
+< Tree(10,HugeTaiga2,8,HugeTaiga1,30,Taiga1,33,Taiga2,100)
+---
+> Tree(35,HugeTaiga2,8,HugeTaiga1,30,Taiga1,33,Taiga2,100)
+diff -r ../clean-1.10.2/Mega Taiga Hills.bc Mega Taiga Hills.bc
+361c361
+< Tree(10,HugeTaiga1,33,Taiga1,33,Taiga2,100)
+---
+> Tree(35,HugeTaiga1,33,Taiga1,33,Taiga2,100)
+diff -r ../clean-1.10.2/Mega Taiga.bc Mega Taiga.bc
+361c361
+< Tree(10,HugeTaiga1,33,Taiga1,33,Taiga2,100)
+---
+> Tree(35,HugeTaiga1,33,Taiga1,33,Taiga2,100)
+diff -r ../clean-1.10.2/Mesa (Bryce).bc Mesa (Bryce).bc
+41c41
+< BiomeRarity: 10
+---
+> BiomeRarity: 400
+99c99
+< BiomeHeight: 0.1
+---
+> BiomeHeight: 0.4
+102c102
+< BiomeVolatility: 0.2
+---
+> BiomeVolatility: 0.8
+112c112
+< MaxAverageHeight: 0.0
+---
+> MaxAverageHeight: 0.6
+116c116
+< MaxAverageDepth: 0.0
+---
+> MaxAverageDepth: 0.3
+348c348
+< Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
+---
+> Ore(REDSTONE_ORE,8,24,100.0,0,15,STONE)
+353c353
+< Liquid(LAVA,10,100.0,8,128,STONE)
+---
+> Liquid(LAVA,400,100.0,8,128,STONE)
+355c355
+< SmallLake(LAVA,2,1.0,8,119)
+---
+> SmallLake(LAVA,2,4.0,8,119)
+363c363
+< Cactus(CACTUS,10,100.0,0,128,SAND)
+---
+> Cactus(CACTUS,50,100.0,0,128,SAND)
+414c414
+< VillageType: disabled
+---
+> VillageType: sandstone
+425c425
+< RareBuildingType: disabled
+---
+> RareBuildingType: desertPyramid
+diff -r ../clean-1.10.2/Mesa Plateau F M.bc Mesa Plateau F M.bc
+348c348
+< Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
+---
+> Ore(REDSTONE_ORE,8,24,100.0,0,15,STONE)
+365c365
+< Cactus(CACTUS,10,100.0,0,128,SAND)
+---
+> Cactus(CACTUS,50,100.0,0,128,SAND)
+416c416
+< VillageType: disabled
+---
+> VillageType: sandstone
+427c427
+< RareBuildingType: disabled
+---
+> RareBuildingType: desertPyramid
+diff -r ../clean-1.10.2/Mesa Plateau F.bc Mesa Plateau F.bc
+348c348
+< Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
+---
+> Ore(REDSTONE_ORE,8,24,100.0,0,15,STONE)
+365c365
+< Cactus(CACTUS,10,100.0,0,128,SAND)
+---
+> Cactus(CACTUS,50,100.0,0,128,SAND)
+416c416
+< VillageType: disabled
+---
+> VillageType: sandstone
+427c427
+< RareBuildingType: disabled
+---
+> RareBuildingType: desertPyramid
+diff -r ../clean-1.10.2/Mesa Plateau M.bc Mesa Plateau M.bc
+348c348
+< Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
+---
+> Ore(REDSTONE_ORE,8,24,100.0,0,15,STONE)
+363c363
+< Cactus(CACTUS,10,100.0,0,128,SAND)
+---
+> Cactus(CACTUS,50,100.0,0,128,SAND)
+414c414
+< VillageType: disabled
+---
+> VillageType: sandstone
+425c425
+< RareBuildingType: disabled
+---
+> RareBuildingType: desertPyramid
+diff -r ../clean-1.10.2/Mesa Plateau.bc Mesa Plateau.bc
+348c348
+< Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
+---
+> Ore(REDSTONE_ORE,8,24,100.0,0,15,STONE)
+363c363
+< Cactus(CACTUS,10,100.0,0,128,SAND)
+---
+> Cactus(CACTUS,50,100.0,0,128,SAND)
+414c414
+< VillageType: disabled
+---
+> VillageType: sandstone
+425c425
+< RareBuildingType: disabled
+---
+> RareBuildingType: desertPyramid
+diff -r ../clean-1.10.2/Mesa.bc Mesa.bc
+348c348
+< Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
+---
+> Ore(REDSTONE_ORE,8,24,100.0,0,15,STONE)
+363c363
+< Cactus(CACTUS,10,100.0,0,128,SAND)
+---
+> Cactus(CACTUS,50,100.0,0,128,SAND)
+414c414
+< VillageType: disabled
+---
+> VillageType: sandstone
+425c425
+< RareBuildingType: disabled
+---
+> RareBuildingType: desertPyramid
+diff -r ../clean-1.10.2/Plains.bc Plains.bc
+41c41
+< BiomeRarity: 100
+---
+> BiomeRarity: 250
+diff -r ../clean-1.10.2/River.bc River.bc
+33c33
+< BiomeSize: 8
+---
+> BiomeSize: 7
+diff -r ../clean-1.10.2/Roofed Forest M.bc Roofed Forest M.bc
+418c418
+< VillageType: disabled
+---
+> VillageType: wood
+429c429
+< RareBuildingType: disabled
+---
+> RareBuildingType: jungleTemple
+diff -r ../clean-1.10.2/Roofed Forest.bc Roofed Forest.bc
+418c418
+< VillageType: disabled
+---
+> VillageType: wood
+429c429
+< RareBuildingType: disabled
+---
+> RareBuildingType: jungleTemple
+diff -r ../clean-1.10.2/Stone Beach.bc Stone Beach.bc
+77c77
+< BiomeIsBorder: 
+---
+> BiomeIsBorder: Ocean
+81c81
+< NotBorderNear: 
+---
+> NotBorderNear: River, Swampland, Extreme Hills, MushroomIsland, Deep Ocean, Cold Beach, Beach, Mesa
+diff -r ../clean-1.10.2/Sunflower Plains.bc Sunflower Plains.bc
+41c41
+< BiomeRarity: 10
+---
+> BiomeRarity: 50
+diff -r ../clean-1.10.2/Swampland M.bc Swampland M.bc
+345c345
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+---
+> Ore(COAL_ORE,17,100,100.0,0,127,STONE)
+diff -r ../clean-1.10.2/Swampland.bc Swampland.bc
+345c345
+< Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+---
+> Ore(COAL_ORE,17,100,100.0,0,127,STONE)
+diff -r ../clean-1.10.2/Taiga M.bc Taiga M.bc
+360c360
+< Tree(10,Taiga1,35,Taiga2,100)
+---
+> Tree(35,Taiga1,35,Taiga2,100)
+diff -r ../clean-1.10.2/Taiga.bc Taiga.bc
+360c360
+< Tree(10,Taiga1,35,Taiga2,100)
+---
+> Tree(35,Taiga1,35,Taiga2,100)
+diff -r ../clean-1.10.2/TaigaHills.bc TaigaHills.bc
+360c360
+< Tree(10,Taiga1,35,Taiga2,100)
+---
+> Tree(35,Taiga1,35,Taiga2,100)

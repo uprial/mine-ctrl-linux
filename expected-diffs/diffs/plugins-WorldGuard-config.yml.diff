@@ -1,0 +1,8 @@
+41c41
+<     max-claim-volume: 30000
+---
+>     max-claim-volume: 50000
+90c90
+<     disable-lava-fire-spread: true
+---
+>     disable-lava-fire-spread: false

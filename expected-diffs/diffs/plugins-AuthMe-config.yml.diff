@@ -1,0 +1,9 @@
+96c96
+<         timeout: 10
+---
+>         timeout: 600
+431c431
+<     MysqlWindowsPath: 'C:\Program Files\MySQL\MySQL Server 5.1\'
+\ No newline at end of file
+---
+>     MysqlWindowsPath: 'C:\Program Files\MySQL\MySQL Server 5.1\'
