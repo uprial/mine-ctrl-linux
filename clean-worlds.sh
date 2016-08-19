@@ -2,8 +2,14 @@
 
 set -e
 
-echo "ACCESS DENIED"
-exit 1
+if [[ "${1}" != "-y" ]]; then
+    read -p "Do you really want to remove all the generated data? (y/N): " -n 1 -r
+    echo ""
+    if [[ ! $REPLY =~ ^[Yy]$ ]]; then
+        echo "ACCESS DENIED"
+        exit 1
+    fi
+fi
 
 cd $(dirname $(dirname $(realpath $0)))
 
