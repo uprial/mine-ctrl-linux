@@ -184,7 +184,7 @@ def check_groups(world_config, biomes):
 
             biomes_map[biome_name] = group.name
 
-    system_biomes = ['FrozenOcean', 'Sky', 'Hell', 'Ocean', 'FrozenRiver', 'River']
+    system_biomes = ['FrozenOcean', 'Sky', 'Hell', 'Ocean', 'FrozenRiver', 'River', 'The Void']
     alone_biomes = list(set(biomes.keys()) - set(biomes_map.keys()) - set(world_config.border_biomes) - set(world_config.isle_biomes) - set(system_biomes))
 
     assert len(alone_biomes) <= 0, \

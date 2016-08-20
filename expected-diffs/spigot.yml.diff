@@ -1,48 +1,32 @@
-16d15
-<   save-user-cache-on-stop-only: false
-29c28
+29c29
 <   restart-script: ./start.sh
 ---
 >   restart-script: /root/m/ctrl-linux/start-server.sh
-37a37,40
->   save-user-cache-on-stop-only: false
-> stats:
->   disable-saving: false
->   forced-stats: {}
-39d41
-<   tab-complete: 0
-48a51
->   tab-complete: 0
-49a53
->   restart: Server is restarting
-55,58d58
-<   restart: Server is restarting
-< stats:
-<   disable-saving: false
-<   forced-stats: {}
-62,69d61
+62,63c62
 <     zombie-aggressive-towards-villager: true
 <     hanging-tick-frequency: 100
-<     merge-radius:
+---
+>     item-despawn-rate: 6000
+65d63
 <       exp: 3.0
-<       item: 2.5
+67,69c65
 <     nerf-spawner-mobs: false
 <     item-despawn-rate: 6000
 <     arrow-despawn-rate: 1200
-70a63
+---
+>       exp: 3.0
+71,72c67,68
+<     wither-spawn-sound-radius: 0
+<     view-distance: 10
+---
+>     zombie-aggressive-towards-villager: true
 >     hanging-tick-frequency: 100
-73d65
-<     mob-spawn-range: 4
-99c91
+99c95
 <     random-light-updates: false
 ---
 >     random-light-updates: true
-113a106,113
->     item-despawn-rate: 6000
->     merge-radius:
->       item: 2.5
->       exp: 3.0
->     zombie-aggressive-towards-villager: true
->     nerf-spawner-mobs: false
+113a110,113
 >     arrow-despawn-rate: 1200
->     mob-spawn-range: 4
+>     nerf-spawner-mobs: false
+>     wither-spawn-sound-radius: 0
+>     view-distance: 10
