@@ -5,9 +5,9 @@ set -e
 radius=2
 tiles=125
 
-tmpdir=$(dirname $0)/tmpimgs/${seed}/${tiles}
 workdir=$(dirname $(realpath $(dirname $0)))
 seed=$(grep "seed" ${workdir}/server.properties | cut -d '=' -f 2)
+tmpdir=$(dirname $0)/tmpimgs/${seed}/${tiles}
 
 mkdir -p ${tmpdir}
 for x in $(seq -${radius} ${radius}); do
