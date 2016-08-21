@@ -21,10 +21,16 @@ for x in $(seq -${radius} ${radius}); do
 
             cmd="tc map world -s ${tiles} -o ${xo} ${zo}"
             echo "mine> ${cmd}..."
-            $(dirname $0)/rcon-do.sh ${cmd}
+            while $(dirname $0)/rcon-do.sh ${cmd} 2>&1 \
+                | grep --ignore-case "error"; do
+                sleep 5
+                echo "retry> ${cmd}..."
+            done
 
             while [[ ! -f ${workdir}/world_biome.png \
-                || ! -f ${workdir}/world_temperature.png ]]; do sleep 1; done
+                || ! -f ${workdir}/world_temperature.png ]]; do
+                sleep 1
+            done
             mv ${workdir}/world_biome.png ${tmpdir}/[${xo}_${zo}]world_biome.png
             mv ${workdir}/world_temperature.png ${tmpdir}/[${xo}_${zo}]world_temperature.png
         fi
