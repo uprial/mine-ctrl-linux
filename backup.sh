@@ -35,6 +35,4 @@ tar -zcf "${FILENAME}" \
     *
 cd - > /dev/null
 
-mv ${FILEPATH}/${FILENAME} /root/Yandex.Disk/Minecraft/
-sleep 5
-yandex-disk sync
+google-upload ${FILEPATH}/${FILENAME}
