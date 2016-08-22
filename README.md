@@ -11,4 +11,4 @@
 * Configure
 
 ## Cron
-`0 2,14 * * * /root/m/ctrl-linux/backup.sh >> /tmp/cron.log 2>&1`
+`cp data/m.cron /etc/cron.d/`
