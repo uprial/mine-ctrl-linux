@@ -1,0 +1,2 @@
+# vim: ft=crontab
+0 2,14 * * * root /root/m/ctrl-linux/backup.sh >> /tmp/cron.log 2>&1
