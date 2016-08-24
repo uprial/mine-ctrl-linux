@@ -32,6 +32,14 @@
 >     Haunt: false
 >     Signs: false
 >     Books: false
+72,74c72,74
+<     Guardian: true
+<     Warrior: true
+<     Demon: true
+---
+>     Guardian: false
+>     Warrior: false
+>     Demon: false
 76,78c76,78
 <   Explosions: true
 <   Burn: true
