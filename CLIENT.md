@@ -23,12 +23,12 @@ Download a client launcher: https://ru-m.org/
 
 * [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
 * [CraftBook](https://www.spigotmc.org/resources/craftbook.2083/)
-	* [AI](http://wiki.sk89q.com/wiki/CraftBook/AI_Mechanics)
-	* [Better Pistons](http://wiki.sk89q.com/wiki/CraftBook/Better_Pistons)
-	* [Chunk Anchors](http://wiki.sk89q.com/wiki/CraftBook/Chunk_Anchors)
-	* [Hidden Switches](http://wiki.sk89q.com/wiki/CraftBook/Hidden_switches)
-	* [Minecart Speed Modifier Blocks](http://wiki.sk89q.com/wiki/CraftBook/Minecart_Speed_Modifier_Blocks)
-	* Maximum minecart speed changed to 4.0.
+    * [AI](http://wiki.sk89q.com/wiki/CraftBook/AI_Mechanics)
+    * [Better Pistons](http://wiki.sk89q.com/wiki/CraftBook/Better_Pistons)
+    * [Chunk Anchors](http://wiki.sk89q.com/wiki/CraftBook/Chunk_Anchors)
+    * [Hidden Switches](http://wiki.sk89q.com/wiki/CraftBook/Hidden_switches)
+    * [Minecart Speed Modifier Blocks](http://wiki.sk89q.com/wiki/CraftBook/Minecart_Speed_Modifier_Blocks)
+    * Maximum minecart speed changed to 4.0.
 * [CustomCreatures](https://dev.bukkit.org/projects/customcreatures)
 * [CustomDamage](https://dev.bukkit.org/projects/customdamage)
 * [CustomNukes](https://dev.bukkit.org/projects/customnukes)

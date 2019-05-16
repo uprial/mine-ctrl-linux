@@ -103,3 +103,5 @@ Make you second backup:
 Check previous configration differences in ./ctrl-linux/expected-diffs and the current differences generated in ./diffs via `./ctrl-linux/make-diff.sh`. Configure the game until the difference in differences is negotiated.
 
 ### Setup cron
+
+    cp data/m.cron /etc/cron.d/
