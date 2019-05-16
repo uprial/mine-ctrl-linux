@@ -105,3 +105,7 @@ Check previous configration differences in ./ctrl-linux/expected-diffs and the c
 ### Setup cron
 
     cp data/m.cron /etc/cron.d/
+
+# See also
+
+	[Client installation](CLIENT.md)
