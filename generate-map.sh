@@ -2,6 +2,8 @@
 
 set -e
 
+source `dirname $0`/realpath-mock.sh
+
 radius=2
 tiles=125
 

@@ -2,6 +2,8 @@
 
 set -e
 
+source `dirname $0`/realpath-mock.sh
+
 workdir=$(dirname $0)
 gamedir=$(dirname $(realpath ${workdir}))
 PIDFILE=${workdir}/pidfile

@@ -2,6 +2,8 @@
 
 set -e
 
+source `dirname $0`/realpath-mock.sh
+
 if [[ "${1}" != "-y" ]]; then
     read -p "Do you really want to remove all the generated data? (y/N): " -n 1 -r
     echo ""
