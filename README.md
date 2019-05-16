@@ -108,4 +108,4 @@ Check previous configration differences in ./ctrl-linux/expected-diffs and the c
 
 # See also
 
-	[Client installation](CLIENT.md)
+* [Client installation](CLIENT.md)
