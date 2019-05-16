@@ -14,7 +14,12 @@ cd $(dirname $(dirname $(realpath $0)))
 
 OPTS=""
 
-java_version=$(java -version 2>&1 | awk -F '"' '/version/ {print $2}' | cut -d'.' -f1)
+java_version=$(java -version 2>&1 | awk -F '"' '/version/ {print $2}')
+if [[ "${OSTYPE}" = darwin* ]]; then
+    java_version=$(echo ${java_version} | cut -d'.' -f1)
+else
+    java_version=$(echo ${java_version} | cut -d'.' -f2)
+fi
 echo "Detected java version is ${java_version}..."
 if test ${java_version} -lt 6; then
     echo "ERROR: Java version is too old."
