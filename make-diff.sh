@@ -7,7 +7,7 @@ source `dirname $0`/config.sh
 CONTROL_DIR=$(dirname $(realpath $0))
 cd $(dirname "${CONTROL_DIR}")
 
-ORIG_PATH="clean-${MINE_VERSION}"
+ORIG_PATH="m-clean"
 
 chk_path() {
 	path="${1}"
