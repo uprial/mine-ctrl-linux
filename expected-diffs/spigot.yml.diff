@@ -1,32 +1,6 @@
-29c29
+23c23
 <   restart-script: ./start.sh
 ---
 >   restart-script: /root/m/ctrl-linux/start-server.sh
-62,63c62
-<     zombie-aggressive-towards-villager: true
-<     hanging-tick-frequency: 100
----
->     item-despawn-rate: 6000
-65d63
-<       exp: 3.0
-67,69c65
-<     nerf-spawner-mobs: false
-<     item-despawn-rate: 6000
-<     arrow-despawn-rate: 1200
----
->       exp: 3.0
-71,72c67,68
-<     wither-spawn-sound-radius: 0
-<     view-distance: 10
----
->     zombie-aggressive-towards-villager: true
->     hanging-tick-frequency: 100
-99c95
-<     random-light-updates: false
----
+128a129
 >     random-light-updates: true
-113a110,113
->     arrow-despawn-rate: 1200
->     nerf-spawner-mobs: false
->     wither-spawn-sound-radius: 0
->     view-distance: 10

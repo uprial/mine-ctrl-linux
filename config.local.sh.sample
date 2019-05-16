@@ -2,9 +2,18 @@
 
 set -e
 
-MINE_VERSION="1.10.2"
+# Check the latest version at https://www.spigotmc.org/wiki/buildtools/.
+MINE_VERSION="1.14.1"
+
+# An externally accessible IP.
 SERVER_IP="127.0.0.1"
+
+# Check your memory available and allocate something between 2G and [your-memory-available]-1.5G.
 MEMORY_MAX="2500M"
 MEMORY_START="500M"
+
+# A prefix word for backup files.
 SERVER_ID="m"
+
+# A runnable JAR file.
 JAR_FILE="spigot-${MINE_VERSION}.jar"

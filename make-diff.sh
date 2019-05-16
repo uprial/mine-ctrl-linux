@@ -43,6 +43,10 @@ gen_diff() {
 #
 cmp() {
     filename="${1}"
+
+	if [[ ${filename:0:1} == "#" ]]; then
+		return 
+	fi
     filename_clear="../${ORIG_PATH}/${filename}"
 	chk_path "${filename}"
 	chk_path "${filename_clear}"

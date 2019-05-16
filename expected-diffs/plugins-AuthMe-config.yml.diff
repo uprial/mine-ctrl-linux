@@ -1,17 +1,12 @@
-90c90
+102c102
 <         enabled: false
 ---
 >         enabled: true
-96c96
+105c105
 <         timeout: 10
 ---
 >         timeout: 600
-170c170
+192c192
 <         timeout: 30
 ---
 >         timeout: 120
-431c431
-<     MysqlWindowsPath: 'C:\Program Files\MySQL\MySQL Server 5.1\'
-\ No newline at end of file
----
->     MysqlWindowsPath: 'C:\Program Files\MySQL\MySQL Server 5.1\'
