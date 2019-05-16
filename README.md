@@ -102,6 +102,20 @@ Make you second backup:
 
 Check previous configration differences in ./ctrl-linux/expected-diffs and the current differences generated in ./diffs via `./ctrl-linux/make-diff.sh`. Configure the game until the difference in differences is negotiated.
 
+### Setup server
+
+    screen -RD mine
+    ./ctrl-linux/start-server-continuous.sh
+	Ctrl+a, d
+
+### Install mcrcon
+
+    git clone https://github.com/Tiiffi/mcrcon
+    cd mcrcon/
+    vim README.md
+    make
+    sudo make install
+
 ### Setup cron
 
     cp data/m.cron /etc/cron.d/
