@@ -104,7 +104,7 @@ Check previous configration differences in ./ctrl-linux/expected-diffs and the c
 
 ### Setup server
 
-    screen -RD mine
+    ssh root@remote-host -t "screen -RD mine"
     ./ctrl-linux/start-server-continuous.sh
 	Ctrl+a, d
 
