@@ -9,8 +9,7 @@ MINE_VERSION="1.14.1"
 SERVER_IP="127.0.0.1"
 
 # Check your memory available and allocate something between 2G and [your-memory-available]-1.5G.
-MEMORY_MAX="4500M"
-MEMORY_START="500M"
+MEMORY_MAX="16000M"
 
 # A prefix word for backup files.
 SERVER_ID="m"

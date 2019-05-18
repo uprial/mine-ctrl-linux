@@ -35,7 +35,7 @@ fi
 # Please refer to https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
 java -server \
     -Xmx${MEMORY_MAX} \
-    -Xms${MEMORY_START} \
+    -Xms${MEMORY_MAX} \
     -Djline.terminal=jline.UnsupportedTerminal \
     -XX:+UseG1GC \
     -XX:+UnlockExperimentalVMOptions \
