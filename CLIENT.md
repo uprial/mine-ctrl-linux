@@ -8,12 +8,12 @@ Download a client launcher: https://ru-m.org/
 
 ### Server configration
 
-* Server: exnu.rial.cc
+* Server: exnu2.rial.cc
 * Seed: 1049
 * Difficulty: Hard
 * View Distance: 10
 * Session Timeout: 30 minutes
-* Monsters * 4, animals * 2
+* Monsters * 2, animals * 2
 
 ### Documentation
 
