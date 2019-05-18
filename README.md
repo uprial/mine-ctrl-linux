@@ -37,6 +37,8 @@ Check [simple instructions to build CraftBukkit and Spigot](https://www.spigotmc
 
     ./ctrl-linux/build-server.sh
 
+Check [Paper releases](https://paper.readthedocs.io/en/stable/).
+
 ### Try to start the server 1st time
 
     ./ctrl-linux/start-server.sh
