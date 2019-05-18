@@ -8,7 +8,7 @@ Download a client launcher: https://ru-m.org/
 
 ### Server configration
 
-* Server: exnu.rial.cc
+* Server: exnu2.rial.cc
 * Seed: 1049
 * Difficulty: Hard
 * View Distance: 10
