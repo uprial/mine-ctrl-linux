@@ -6,17 +6,9 @@
 <   shutdown-message: Server closed
 ---
 >   shutdown-message: Server was stopped by hand
-26,29c26,29
+26,27c26,27
 <   monsters: 70
-<   animals: 15
-<   water-animals: 5
-<   ambient: 15
+<   animals: 10
 ---
->   monsters: 280
->   animals: 30
->   water-animals: 10
->   ambient: 30
-43a44,46
-> worlds:
->   world:
->     generator: TerrainControl
+>   monsters: 140
+>   animals: 20
