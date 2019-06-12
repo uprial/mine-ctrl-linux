@@ -12,7 +12,7 @@ if [[ -z "${action}" ]]; then
 fi
 
 `dirname $0`/mcrcon/mcrcon \
-    -H ${SERVER_IP} \
+    -H $(hostname -i) \
     -P 25575 \
     -p mine230886 \
     "${action}" || :

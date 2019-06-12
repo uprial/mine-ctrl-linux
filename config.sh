@@ -3,7 +3,6 @@
 set -e
 
 unset $MINE_VERSION
-unset $SERVER_IP
 unset $MEMORY_MAX
 unset $SERVER_ID
 unset $JAR_FILE
@@ -19,7 +18,6 @@ check_var() {
 }
 
 check_var "MINE_VERSION"
-check_var "SERVER_IP"
 check_var "MEMORY_MAX"
 check_var "SERVER_ID"
 check_var "JAR_FILE"
