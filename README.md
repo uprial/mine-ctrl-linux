@@ -71,7 +71,7 @@ Also, please check for newest versions of links via search.
 * [CustomCreatures](https://dev.bukkit.org/projects/customcreatures)
 * [CustomDamage](https://dev.bukkit.org/projects/customdamage)
 * [CustomNukes](https://dev.bukkit.org/projects/customnukes)
-* [Dynmap, **1.13 only**](https://www.spigotmc.org/resources/dynmap.274/)
+* [Dynmap](https://www.spigotmc.org/resources/dynmap.274/)
 * [Dynmap-Mobs, **1.13 only**](https://dev.bukkit.org/projects/dynmap-mobs)
 * [Dynmap-WorldGuard, **1.12 only**](https://dev.bukkit.org/projects/dynmap-worldguard)
 * [HealthBar](https://www.spigotmc.org/resources/healthbar.57695/)

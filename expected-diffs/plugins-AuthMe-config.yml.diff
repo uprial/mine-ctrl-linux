@@ -6,7 +6,11 @@
 <         timeout: 10
 ---
 >         timeout: 600
+143c143
+<         maxRegPerIp: 1
+---
+>         maxRegPerIp: 2
 192c192
 <         timeout: 30
 ---
->         timeout: 120
+>         timeout: 300

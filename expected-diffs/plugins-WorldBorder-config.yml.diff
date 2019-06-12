@@ -1,3 +1,7 @@
+3c3
+< round-border: true
+---
+> round-border: false
 20a21,33
 > worlds:
 >   world:

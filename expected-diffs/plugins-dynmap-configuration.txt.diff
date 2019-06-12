@@ -1,4 +1,12 @@
-322c322
+318c318
 < webserver-port: 8123
 ---
 > webserver-port: 80
+346c346
+< #parallelrendercnt: 4
+---
+> parallelrendercnt: 4
+404c404
+< defaultmap: flat
+---
+> defaultmap: surface

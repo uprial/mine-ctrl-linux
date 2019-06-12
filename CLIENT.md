@@ -19,6 +19,10 @@ Download a client launcher: https://ru-m.org/
 
 [Tutorials/Beginner's guide](https://minecraft.gamepedia.com/Tutorials/Beginner%27s_guide)
 
+### Map
+
+Here is a 3D interactive zoomable map: [http://exnu.rial.cc/](http://exnu.rial.cc/)
+
 ### Installed plugins
 
 * [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
