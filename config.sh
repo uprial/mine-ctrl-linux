@@ -22,8 +22,4 @@ check_var "MEMORY_MAX"
 check_var "SERVER_ID"
 check_var "JAR_FILE"
 
-if ! which realpath; then
-	realpath() {
-		[[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
-	}
-fi
+source `dirname $0`/realpath-mock.sh
