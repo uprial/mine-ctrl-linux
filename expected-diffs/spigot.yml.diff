@@ -2,8 +2,6 @@
 <   restart-script: ./start.sh
 ---
 >   restart-script: /root/m/ctrl-linux/start-server.sh
-62a63
->     max-entity-collisions: 8
 64c65,72
 <     mob-spawn-range: 8
 ---

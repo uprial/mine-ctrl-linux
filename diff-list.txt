@@ -1,6 +1,7 @@
 bukkit.yml
 commands.yml
 ops.json
+paper.yml
 spigot.yml
 server.properties
 plugins/AuthMe/config.yml
@@ -9,6 +10,7 @@ plugins/CraftBook/mechanisms.yml
 plugins/CustomCreatures/config.yml
 plugins/CustomDamage/config.yml
 plugins/CustomNukes/config.yml
+plugins/CustomVillage/config.yml
 plugins/dynmap/configuration.txt
 #plugins/dynmap-mobs/config.yml
 plugins/dynmap/shaders.txt
@@ -19,6 +21,7 @@ plugins/HealthBar/config.yml
 #plugins/Herobrine/npc.yml
 plugins/PermissionsEx/config.yml
 plugins/PermissionsEx/permissions.yml
+plugins/TakeAim/config.yml
 #plugins/TerrainControl/TerrainControl.ini
 #plugins/TerrainControl/worlds/world/WorldBiomes
 #plugins/TerrainControl/worlds/world/WorldConfig.ini
