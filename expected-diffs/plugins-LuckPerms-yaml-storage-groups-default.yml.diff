@@ -1,0 +1,35 @@
+0a1,34
+> name: default
+> permissions:
+> - worldedit.selection.*
+> - healthbar.see.onplayer
+> - craftbook.mech.hiddenswitch.use
+> - craftbook.mech.hiddenswitch
+> - craftbook.mech.pistons.*
+> - worldguard.region.redefine.own.*
+> - worldguard.region.claim
+> - worldguard.region.select.own.*
+> - worldguard.region.info.own.*
+> - worldguard.region.info.member.*
+> - worldguard.region.addowner.own.*
+> - worldguard.region.removeowner.own.*
+> - worldguard.region.addmember.own.*
+> - worldguard.region.removemember.own.*
+> - worldguard.region.list.own
+> - worldguard.region.flag.regions.own.*
+> - worldguard.region.flag.flags.pvp.*
+> - worldguard.region.flag.flags.sleep.*
+> - worldguard.region.flag.flags.tnt.*
+> - worldguard.region.flag.flags.lighter.*
+> - worldguard.region.flag.flags.chest-access.*
+> - worldguard.region.flag.flags.use.*
+> - worldguard.region.flag.flags.vehicle-place.*
+> - worldguard.region.flag.flags.vehicle-destroy.*
+> - worldguard.region.flag.flags.entry.*
+> - worldguard.region.flag.flags.exit.*
+> - worldguard.region.flag.flags.greeting.*
+> - worldguard.region.flag.flags.farewell.*
+> - worldguard.region.setpriority.own.*
+> - worldguard.region.setparent.own.*
+> - worldguard.region.remove.own.*
+> - xauth.allow.*
