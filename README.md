@@ -33,11 +33,11 @@ to: [GitHub - SSH keys](https://github.com/settings/ssh)
 
 ### Build a new server
 
-Check [simple instructions to build CraftBukkit and Spigot](https://www.spigotmc.org/wiki/buildtools/) and try this:
+Check [Paper releases](https://paper.readthedocs.io/en/stable/).
+
+If Paper didn't work, check [simple instructions to build CraftBukkit and Spigot](https://www.spigotmc.org/wiki/buildtools/) and try this:
 
     ./ctrl-linux/build-server.sh
-
-Check [Paper releases](https://paper.readthedocs.io/en/stable/).
 
 ### Try to start the server 1st time
 
@@ -66,26 +66,29 @@ For each plugin that refers to sites outside of www.spigotmc.org, please check i
 
 Also, please check for newest versions of links via search.
 
-* [AuthMeReloaded](https://ci.codemc.org/job/AuthMe/job/AuthMeReloaded/) - dev build
+* [AuthMeReloaded](https://ci.codemc.org/job/AuthMe/job/AuthMeReloaded/)
 * [CraftBook](https://www.spigotmc.org/resources/craftbook.2083/)
-* [CustomCreatures](https://dev.bukkit.org/projects/customcreatures)
-* [CustomDamage](https://dev.bukkit.org/projects/customdamage)
-* [CustomNukes](https://dev.bukkit.org/projects/customnukes)
+* [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
+* [CustomDamage](https://www.spigotmc.org/resources/customdamage.68712/)
+* [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
+* [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
 * [Dynmap](https://www.spigotmc.org/resources/dynmap.274/)
-* [Dynmap-Mobs, **1.13 only**](https://dev.bukkit.org/projects/dynmap-mobs)
-* [Dynmap-WorldGuard, **1.12 only**](https://dev.bukkit.org/projects/dynmap-worldguard)
-* [HealthBar](https://www.spigotmc.org/resources/healthbar.57695/)
+* [Dynmap-Mobs, **1.9 only**](https://dev.bukkit.org/projects/dynmap-mobs)
+* [Dynmap-WorldGuard, **1.14 only**](https://dev.bukkit.org/projects/dynmap-worldguard)
+* [HealthBar](https://www.spigotmc.org/resources/healthbars-1-12-2-1-16-4-mob-or-player-healthbar-customizable-toggleable.84895/)
 * [Herobrine, **1.12 only**](https://www.spigotmc.org/resources/herobrine.50393/)
-* [PermissionsEx](https://dev.bukkit.org/projects/permissionsex)
+* [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
+* [PermissionsEx, **1.14 only**](https://dev.bukkit.org/projects/permissionsex)
+* [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [TerrainControl, **1.12 only**](http://tardisjenkins.duckdns.org:8080/job/TerrainControl/)
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/)
-* [WorldEdit](https://dev.bukkit.org/projects/worldedit) - beta
+* [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 * [WorldGuard](https://dev.bukkit.org/projects/worldguard)
 
 In case any updates in links or versions, please update this document and also the [CLIENT.md](CLIENT.md) document with the versions you've chosen.
 
-Enable the TerrainControl if needed:
+Enable the TerrainControl, **1.12 only**
 
     echo -e "worlds:\n  world:\n    generator: TerrainControl" >> bukkit.yml
 
