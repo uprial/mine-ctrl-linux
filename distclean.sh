@@ -17,9 +17,19 @@ for dir in $(ls \
 	rm -rf ./${dir}
 done
 
+LPED=plugins/LuckPerms/extensions/
+if [ -f ${LPED}extension-legacy-api* ]; then
+    mv ${LPED}extension-legacy-api* .
+fi
+
 for dir in $(ls plugins); do
 	dir="plugins/${dir}"
 	if [ -d ${dir} ]; then
 		rm -rf ./${dir}
 	fi
 done
+
+if [ -f extension-legacy-api* ]; then
+    mkdir -p ${LPED}
+    mv extension-legacy-api* ${LPED}
+fi
