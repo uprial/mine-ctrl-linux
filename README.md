@@ -71,6 +71,7 @@ Also, please check for newest versions of links via search.
 * [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
 * [CustomDamage](https://www.spigotmc.org/resources/customdamage.68712/)
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
+* [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/)
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
 * [Dynmap](https://www.spigotmc.org/resources/dynmap.274/)
 * [Dynmap-Mobs, **1.9 only**](https://dev.bukkit.org/projects/dynmap-mobs)

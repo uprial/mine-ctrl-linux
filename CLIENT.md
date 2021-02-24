@@ -36,6 +36,7 @@ Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.irosly
 * [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
 * [CustomDamage](https://www.spigotmc.org/resources/customdamage.68712/)
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
+* [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/)
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)

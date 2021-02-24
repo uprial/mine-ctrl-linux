@@ -10,6 +10,7 @@ plugins/CraftBook/mechanisms.yml
 plugins/CustomCreatures/config.yml
 plugins/CustomDamage/config.yml
 plugins/CustomNukes/config.yml
+plugins/CustomRecipes/config.yml
 plugins/CustomVillage/config.yml
 plugins/dynmap/configuration.txt
 #plugins/dynmap-mobs/config.yml
