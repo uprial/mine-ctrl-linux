@@ -75,7 +75,7 @@ Also, please check for newest versions of links via search.
 * [Dynmap](https://www.spigotmc.org/resources/dynmap.274/)
 * [Dynmap-Mobs, **1.9 only**](https://dev.bukkit.org/projects/dynmap-mobs)
 * [Dynmap-WorldGuard, **1.14 only**](https://dev.bukkit.org/projects/dynmap-worldguard)
-* [HealthBar](https://www.spigotmc.org/resources/healthbars-1-12-2-1-16-4-mob-or-player-healthbar-customizable-toggleable.84895/)
+* [HealthBar, **BROKEN in 1.16**](https://www.spigotmc.org/resources/healthbars-1-12-2-1-16-4-mob-or-player-healthbar-customizable-toggleable.84895/)
 * [Herobrine, **1.12 only**](https://www.spigotmc.org/resources/herobrine.50393/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [PermissionsEx, **1.14 only**](https://dev.bukkit.org/projects/permissionsex)
@@ -126,6 +126,11 @@ Add your host public key to `~/.ssh/authorized_keys`.
 ### Setup cron
 
     cp data/m.cron /etc/cron.d/
+
+
+### Update client overview
+
+    CLIENT.md
 
 # See also
 

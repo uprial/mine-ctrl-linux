@@ -8,7 +8,7 @@ Download a client launcher: https://ru-m.org/
 
 ### Server configration
 
-* Server: exnu.rial.cc
+* Server: m.iroslyakov.ru
 * Seed: 1049
 * Difficulty: Hard
 * View Distance: 10
@@ -21,7 +21,7 @@ Download a client launcher: https://ru-m.org/
 
 ### Map
 
-Here is a 3D interactive zoomable map: [http://exnu.rial.cc/](http://exnu.rial.cc/)
+Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.iroslyakov.ru/)
 
 ### Installed plugins
 
@@ -33,12 +33,12 @@ Here is a 3D interactive zoomable map: [http://exnu.rial.cc/](http://exnu.rial.c
     * [Hidden Switches](http://wiki.sk89q.com/wiki/CraftBook/Hidden_switches)
     * [Minecart Speed Modifier Blocks](http://wiki.sk89q.com/wiki/CraftBook/Minecart_Speed_Modifier_Blocks)
     * Maximum minecart speed changed to 4.0.
-* [CustomCreatures](https://dev.bukkit.org/projects/customcreatures)
-* [CustomDamage](https://dev.bukkit.org/projects/customdamage)
-* [CustomNukes](https://dev.bukkit.org/projects/customnukes)
-* [HealthBar](https://www.spigotmc.org/resources/healthbar.57695/)
-* [PermissionsEx](https://dev.bukkit.org/projects/permissionsex)
-* [Vault](https://www.spigotmc.org/resources/vault.34315/)
+* [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
+* [CustomDamage](https://www.spigotmc.org/resources/customdamage.68712/)
+* [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
+* [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
+* [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
+* [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/): (-5050,-5050); (5050,5050)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 * [WorldGuard](https://dev.bukkit.org/projects/worldguard)
