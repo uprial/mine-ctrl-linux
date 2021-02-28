@@ -61,4 +61,4 @@ echo "Creating world_temperature.png..."
 ${cmd2} -geometry +1+1 -background black -tile ${size}x \
     ${tmpdir}/world_temperature_${seed}_${namesize}x${namesize}.png
 
-google-upload ${tmpdir}/world_*${seed}*png
+yandex-upload ${tmpdir}/world_*${seed}*png

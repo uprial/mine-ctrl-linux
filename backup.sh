@@ -35,4 +35,4 @@ tar -zcf "${FILENAME}" \
     *
 cd - > /dev/null
 
-google-upload ${FILEPATH}/${FILENAME}
+yandex-upload ${FILEPATH}/${FILENAME}
