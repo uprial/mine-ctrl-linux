@@ -8,6 +8,8 @@ if [ -f ./`dirname $0`/before-start.sh ]; then
     ./`dirname $0`/before-start.sh
 fi
 
+systemctl stop httpd.service ||
+
 echo "Starting bukkit minecraft server..."
 
 cd $(dirname $(dirname $(realpath $0)))
