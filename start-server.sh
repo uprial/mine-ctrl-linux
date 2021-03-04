@@ -8,7 +8,9 @@ if [ -f ./`dirname $0`/before-start.sh ]; then
     ./`dirname $0`/before-start.sh
 fi
 
-systemctl stop httpd.service ||
+if which systemctl; then
+    systemctl stop httpd.service
+fi
 
 echo "Starting bukkit minecraft server..."
 
