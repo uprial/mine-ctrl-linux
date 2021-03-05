@@ -7,12 +7,18 @@
 >   world:
 >     x: 0.0
 >     z: 0.0
->     radiusX: 5050
->     radiusZ: 5050
+>     radiusX: 10050
+>     radiusZ: 10050
 >     wrapping: false
 >   world_nether:
 >     x: 0.0
 >     z: 0.0
->     radiusX: 625
->     radiusZ: 625
+>     radiusX: 1300
+>     radiusZ: 1300
+>     wrapping: false
+>   world_the_end:
+>     x: 0.0
+>     z: 0.0
+>     radiusX: 10050
+>     radiusZ: 10050
 >     wrapping: false

@@ -1,14 +1,24 @@
 8a9,21
 >   - name: world_nether
->     enabled: false
+>     enabled: true
+>     fullrenderlocations:
+>      - x0: -1350
+>        z0: -1350
+>        x1: 1350
+>        z1: 1350
 >   - name: world_the_end
->     enabled: false
->   - name: world_herobrine_graveyard
->     enabled: false
+>     enabled: true
+>     fullrenderlocations:
+>      - x0: -10100
+>        z0: -10100
+>        x1: 10100
+>        z1: 10100
 >   - name: world
 >     enabled: true
 >     fullrenderlocations:
->      - x0: -5100
->        z0: -5100
->        x1: 5100
->        z1: 5100
+>      - x0: -10100
+>        z0: -10100
+>        x1: 10100
+>        z1: 10100
+>   - name: world_herobrine_graveyard
+>     enabled: false
