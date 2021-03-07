@@ -8,9 +8,10 @@ if [ -f ./`dirname $0`/before-start.sh ]; then
     ./`dirname $0`/before-start.sh
 fi
 
-if which systemctl; then
-    systemctl stop httpd.service
-fi
+#Uncomment is 80 port is busy with httpd
+#if which systemctl; then
+#    systemctl stop httpd.service
+#fi
 
 echo "Starting bukkit minecraft server..."
 
