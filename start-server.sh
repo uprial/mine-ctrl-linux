@@ -37,23 +37,41 @@ if test ${java_version} -lt 10; then
     OPTS="${OPTS} -d64"
 fi
 
+#
 # Please refer to https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
+#
+# My personal preferences are:
+# -server
+# -Djline.terminal=jline.UnsupportedTerminal
+# -Djava.awt.headless=true
+# and platform-related options in $OPTS
+#
+
 java -server \
     -Xmx${MEMORY_MAX} \
     -Xms${MEMORY_MAX} \
     -Djline.terminal=jline.UnsupportedTerminal \
-    -XX:+UseG1GC \
-    -XX:+UnlockExperimentalVMOptions \
-    -XX:MaxGCPauseMillis=100 \
-    -XX:+DisableExplicitGC \
-    -XX:TargetSurvivorRatio=90 \
-    -XX:G1NewSizePercent=50 \
-    -XX:G1MaxNewSizePercent=80 \
-    -XX:G1MixedGCLiveThresholdPercent=35 \
-    -XX:+AlwaysPreTouch \
-    -XX:+ParallelRefProcEnabled \
-    -Dusing.aikars.flags=mcflags.emc.gs \
     -Djava.awt.headless=true \
+    -XX:+UseG1GC \
+    -XX:+ParallelRefProcEnabled \
+    -XX:MaxGCPauseMillis=200 \
+    -XX:+UnlockExperimentalVMOptions \
+    -XX:+DisableExplicitGC \
+    -XX:+AlwaysPreTouch \
+    -XX:G1NewSizePercent=30 \
+    -XX:G1MaxNewSizePercent=40 \
+    -XX:G1HeapRegionSize=8M \
+    -XX:G1ReservePercent=20 \
+    -XX:G1HeapWastePercent=5 \
+    -XX:G1MixedGCCountTarget=4 \
+    -XX:InitiatingHeapOccupancyPercent=15 \
+    -XX:G1MixedGCLiveThresholdPercent=90 \
+    -XX:G1RSetUpdatingPauseTimePercent=5 \
+    -XX:SurvivorRatio=32 \
+    -XX:+PerfDisableSharedMem \
+    -XX:MaxTenuringThreshold=1 \
+    -Dusing.aikars.flags=https://mcflags.emc.gs \
+    -Daikars.new.flags=true \
     ${OPTS} \
     -jar "${JAR_FILE}" \
     nogui
