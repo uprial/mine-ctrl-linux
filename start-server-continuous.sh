@@ -7,5 +7,5 @@ while true; do
     echo "`date`" >> /var/log/crashes
     echo ""
     echo ""
-    sleep 30
+    sleep 10
 done
