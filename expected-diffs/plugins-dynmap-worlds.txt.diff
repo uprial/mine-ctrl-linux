@@ -1,5 +1,6 @@
 8a9,21
 >   - name: world_nether
+>     title: "Nether"
 >     enabled: true
 >     fullrenderlocations:
 >      - x0: -1350
@@ -7,6 +8,7 @@
 >        x1: 1350
 >        z1: 1350
 >   - name: world_the_end
+>     title: "The End"
 >     enabled: true
 >     fullrenderlocations:
 >      - x0: -10100
@@ -14,6 +16,7 @@
 >        x1: 10100
 >        z1: 10100
 >   - name: world
+>     title: "Overworld"
 >     enabled: true
 >     fullrenderlocations:
 >      - x0: -10100
