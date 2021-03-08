@@ -4,7 +4,7 @@ set -e
 
 # Check the latest version at https://www.spigotmc.org/wiki/buildtools/.
 # You may also need the latest PAper version from https://papermc.io/ci/.
-MINE_VERSION="1.16.5"
+MINE_VERSION="1.16.5-526"
 
 # Check your memory available and allocate something between 2G and [your-memory-available]-1.5G.
 MEMORY_MAX="4000M"
@@ -13,4 +13,4 @@ MEMORY_MAX="4000M"
 SERVER_ID="m"
 
 # A runnable JAR file.
-JAR_FILE="paperclip-${MINE_VERSION}.jar"
+JAR_FILE="paper-${MINE_VERSION}.jar"
