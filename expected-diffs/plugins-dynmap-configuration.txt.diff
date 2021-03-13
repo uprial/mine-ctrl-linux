@@ -5,7 +5,7 @@
 346c346
 < #parallelrendercnt: 4
 ---
-> parallelrendercnt: 2
+> parallelrendercnt: 4
 404c404
 < defaultmap: flat
 ---
