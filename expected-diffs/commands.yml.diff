@@ -23,7 +23,7 @@
 >     1
 >   - give $$1 diamond_boots{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:feather_falling",lvl:4},{id:"minecraft:depth_strider",lvl:3}]}
 >     1
->   - give $$1 bow{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:flame",lvl:1},{id:"minecraft:infinity",lvl:1},{id:"minecraft:power",lvl:5},{id:"minecraft:punch",lvl:2}]}
+>   - give $$1 bow{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:flame",lvl:1},{id:"minecraft:infinity",lvl:1},{id:"minecraft:power",lvl:10},{id:"minecraft:punch",lvl:2}]}
 >     1
 >   - give $$1 diamond_pickaxe{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:fortune",lvl:3}]}
 >     1
