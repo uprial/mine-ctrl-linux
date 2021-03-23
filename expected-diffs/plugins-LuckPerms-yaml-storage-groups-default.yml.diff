@@ -1,5 +1,4 @@
 0a1,34
-> name: default
 > permissions:
 > - worldedit.selection.*
 > - healthbar.see.onplayer
