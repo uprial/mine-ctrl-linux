@@ -17,7 +17,9 @@ def main():
     z2 = k(+square_radius-1) + 1
     dirname = os.path.realpath(sys.argv[0])
     dirname = os.path.dirname(os.path.dirname(dirname))
+    #dirname = os.path.join(dirname, "world")
     dirname = os.path.join(dirname, "world_nether", "DIM-1")
+    #dirname = os.path.join(dirname, "world_the_end", "DIM1")
     dirname = os.path.join(dirname, "region")
     for filename in listfiles(dirname):
         parts = filename.split(".")
