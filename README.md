@@ -93,6 +93,10 @@ Enable the TerrainControl, **1.12 only**
 
     echo -e "worlds:\n  world:\n    generator: TerrainControl" >> bukkit.yml
 
+Change LuckPerms storage-method in plugins/LuckPerms/config.yml:
+
+    storage-method: YAML
+
 Try the server:
 
     ./ctrl-linux/start-server.sh

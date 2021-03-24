@@ -17,7 +17,7 @@ plugins/dynmap/configuration.txt
 plugins/dynmap/shaders.txt
 #plugins/Dynmap-WorldGuard/config.yml
 plugins/dynmap/worlds.txt
-plugins/HealthBar/config.yml
+#plugins/HealthBar/config.yml
 #plugins/Herobrine/config.yml
 #plugins/Herobrine/npc.yml
 plugins/LuckPerms/config.yml
