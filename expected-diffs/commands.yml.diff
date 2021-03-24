@@ -8,10 +8,6 @@
 >   - gamemode survival $1
 >   summoner:
 >   - setblock $$1 $$2 $$3 mob_spawner 0 replace {EntityId:$$4}
->   home:
->   - tp -39 100 225
->   gate:
->   - tp 2162 100 -427
 >   ench:
 >   - give $$1 netherite_sword{Enchantments:[{id:"minecraft:sharpness",lvl:10},{id:"minecraft:fire_aspect",lvl:3},{id:"minecraft:knockback",lvl:3},{id:"minecraft:looting",lvl:5},{id:"minecraft:sweeping",lvl:5},{id:"minecraft:unbreaking",lvl:5}]}   
 >     1
