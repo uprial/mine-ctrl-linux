@@ -26,6 +26,10 @@ else
     java_version=$(echo ${java_version} | cut -d'.' -f2)
 fi
 echo "Detected java version is ${java_version}..."
+if [ -z "${java_version}" ]; then
+    echo "ERROR: Java is not installed."
+    exit 1
+fi
 if test ${java_version} -lt 6; then
     echo "ERROR: Java version is too old."
     exit 1
