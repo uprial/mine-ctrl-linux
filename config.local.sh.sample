@@ -2,9 +2,9 @@
 
 set -e
 
-# Check the latest version at https://www.spigotmc.org/wiki/buildtools/.
-# You may also need the latest PAper version from https://papermc.io/ci/.
-MINE_VERSION="1.16.5-526"
+# A version from https://papermc.io/downloads
+# or https://www.spigotmc.org/wiki/buildtools/
+MINE_VERSION="1.19-66"
 
 # Check your memory available and allocate something between 2G and [your-memory-available]-1.5G.
 MEMORY_MAX="4000M"

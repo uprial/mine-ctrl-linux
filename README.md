@@ -43,9 +43,9 @@ Check the output of the command above of how to finish the installation.
 
 ### Build a new server
 
-Check [Paper releases](https://paper.readthedocs.io/en/stable/).
+Check [Paper releases](https://papermc.io/downloads).
 
-If Paper didn't work, check [simple instructions to build CraftBukkit and Spigot](https://www.spigotmc.org/wiki/buildtools/) and try this:
+If Paper doesn't have the server version you picked, check [simple instructions to build CraftBukkit and Spigot](https://www.spigotmc.org/wiki/buildtools/) and try this:
 
     ./ctrl-linux/build-server.sh
 
