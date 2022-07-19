@@ -26,6 +26,16 @@ to: [GitHub - SSH keys](https://github.com/settings/ssh)
 
     git clone git@github.com:uprial/mine-ctrl-linux.git ctrl-linux
 
+### Pick server version
+
+Check [Java Edition version history](https://minecraft.fandom.com/wiki/Java_Edition_version_history)
+
+### Install Java
+
+    brew install openjdk
+
+Check the output of the command above of how to finish the installation.
+
 ### Check the server configuration
 
     cp ctrl-linux/config.local.sh.sample ctrl-linux/config.local.sh
