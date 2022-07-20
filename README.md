@@ -189,10 +189,14 @@ Add your host public key to `~/.ssh/authorized_keys`.
 
     cp ./ctrl-linux/data/m.cron /etc/cron.d/
 
-
 ### Update client overview
 
     CLIENT.md
+
+### Finalize
+
+* Check backups
+* Check dynmap, maybe run a full render
 
 # See also
 
