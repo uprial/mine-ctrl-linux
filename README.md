@@ -132,8 +132,8 @@ AuthMe
 * Register on the server
 
 Commands
-* /morning
-* /ench
+* /morning should work
+* /ench should work
 
 CraftBook
 * Create a sign with "[Chunk]" on the second line. A message should appear.
@@ -154,7 +154,7 @@ CustomVillage
 * Find the closest village via https://www.chunkbase.com/apps/village-finder, run /customvillage info
 
 Dynmap
-* Open HTTP://<server.properties:server-ip>:<plugins/dynmap/configuration.txt:webserver-port>
+* Open HTTP://\<server.properties:server-ip>:\<plugins/dynmap/configuration.txt:webserver-port>
 
 TakeAim
 * Summon a skeleton, take a long distance from it, the Skeleton should aim at you when you're simultaneously moving and jumping
