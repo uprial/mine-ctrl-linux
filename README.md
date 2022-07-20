@@ -186,7 +186,7 @@ Add your host public key to `~/.ssh/authorized_keys`.
 
 ### Setup cron
 
-    cp data/m.cron /etc/cron.d/
+    cp ./ctrl-linux/data/m.cron /etc/cron.d/
 
 
 ### Update client overview
