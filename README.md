@@ -178,6 +178,7 @@ Add your host public key to `~/.ssh/authorized_keys`.
 
 ### Install mcrcon
 
+    cd ./ctrl-linux
     git clone https://github.com/Tiiffi/mcrcon
     cd mcrcon/
     vim README.md
