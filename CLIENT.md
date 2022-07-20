@@ -13,7 +13,6 @@ Download a client launcher: https://ru-m.org/
 * Difficulty: Hard
 * View Distance: 10
 * Session Timeout: 30 minutes
-* Monsters * 2, animals * 2
 
 ### Documentation
 
