@@ -79,7 +79,7 @@ Also, please check for newest versions of links via search.
 * [AuthMeReloaded](https://ci.codemc.org/job/AuthMe/job/AuthMeReloaded/)
 * [CraftBook](https://www.spigotmc.org/resources/craftbook.2083/)
 * [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
-* [CustomDamage](https://www.spigotmc.org/resources/customdamage.68712/)
+* [CustomDamage, **1.16 only**](https://www.spigotmc.org/resources/customdamage.68712/)
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
 * [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/)
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)

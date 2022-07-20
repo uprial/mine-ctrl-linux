@@ -34,7 +34,6 @@ Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.irosly
     * [Minecart Speed Modifier Blocks](http://wiki.sk89q.com/wiki/CraftBook/Minecart_Speed_Modifier_Blocks)
     * Maximum minecart speed changed to 4.0.
 * [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
-* [CustomDamage](https://www.spigotmc.org/resources/customdamage.68712/)
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
 * [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/)
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
