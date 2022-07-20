@@ -72,9 +72,7 @@ Make you first backup:
 
 ### Install plugins
 
-For each plugin that refers to sites outside of www.spigotmc.org, please check its existence on www.spigotmc.org and prefer the latter if it exists.
-
-Also, please check for newest versions of links via search.
+Download the latest versions of plugins: 
 
 * [AuthMeReloaded](https://ci.codemc.org/job/AuthMe/job/AuthMeReloaded/)
 * [CraftBook](https://www.spigotmc.org/resources/craftbook.2083/)
@@ -90,7 +88,9 @@ Also, please check for newest versions of links via search.
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 * [WorldGuard](https://dev.bukkit.org/projects/worldguard)
 
-Abandoned plugins worth to check for updates:
+For each plugin hosted outside of www.spigotmc.org, please check its existence on www.spigotmc.org.
+
+Check abandoned plugins for updates:
 * [CustomDamage, **1.16 only**](https://www.spigotmc.org/resources/customdamage.68712/)
 * [Dynmap-Mobs, **1.9 only**](https://dev.bukkit.org/projects/dynmap-mobs)
 * [Dynmap-WorldGuard, **1.14 only**](https://dev.bukkit.org/projects/dynmap-worldguard)
@@ -99,7 +99,7 @@ Abandoned plugins worth to check for updates:
 * [PermissionsEx, **1.14 only**](https://dev.bukkit.org/projects/permissionsex)
 * [TerrainControl, **1.12 only**](http://tardisjenkins.duckdns.org:8080/job/TerrainControl/)
 
-In case any updates in links or versions, please update this document and also the [CLIENT.md](CLIENT.md) document with the versions you've chosen.
+In case any updates in links or versions, please update this document and also the [CLIENT.md](CLIENT.md) document.
 
 Enable the TerrainControl, **1.12 only**
 
