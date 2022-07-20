@@ -136,19 +136,19 @@ Commands
 * /ench
 
 CraftBook
-* Create a sign with "[Chunk]" on second line. A message should appear.
-* Create a rail road of 50 length, put under the 1st powered rail a block of gold. Max speed should be big.
-* Create a regular piston, on it put a sign with "[Crush]" on second line. The piston should break blocks.
+* Create a sign with "[Chunk]" on the second line. A message should appear.
+* Create a railroad of 50 length, put under the 1st powered rail a block of gold. Max speed should be great.
+* Create a regular piston, on it put a sign with "[Crush]" on the second line. The piston should break blocks.
 
 CustomCreatures
 * Once killed, you should have an apple and two modifiers.
-* Change netherite-zombie.filter.probability to 99.5, reload config, the zombie should appear.
+* Change netherite-zombie.filter.probability to 99.5, /customcreatures reload, the zombie should appear.
 
 CustomNukes
-* Forge a TNT in center and 8 x SAND into a Toy bomb, trigger a chain of 8 Toy bombs via Flint & Steel
+* Put a TNT in center and 8 x SAND, forge a Toy bomb, trigger a chain of 8 Toy bombs via Flint & Steel
 
 CustomRecipes
-* Forge an Egg in center and 8 x GUNPOWDER into a Creeper spawn egg.
+* Put an Egg in center and 8 x GUNPOWDER, forge a Creeper spawn egg.
 
 CustomVillage
 * Find the closest village via https://www.chunkbase.com/apps/village-finder, run /customvillage info
@@ -157,16 +157,16 @@ Dynmap
 * Open HTTP://<server.properties:server-ip>:<plugins/dynmap/configuration.txt:webserver-port>
 
 TakeAim
-* Summon skeleton, take a long distance from it, the Skeleton should aim you when you're simultaneuously moving and jumping
+* Summon a skeleton, take a long distance from it, the Skeleton should aim at you when you're simultaneously moving and jumping
 
 WorldBorder
 * The border should be visible in Dynmap
 
 WorldEdit
-* Take a wooden axe, pick start via left click, pick end via right click, //set sand
+* Take a wooden axe, pick start via left-click, pick end via right-click, //set sand
 
 WorldGuard
-* Take a wooden axe, pick start via left click, pick end via right click, /rg claim test
+* Take a wooden axe, pick start via left-click, pick end via right-click, /rg claim test
 
 ### Setup server
 
