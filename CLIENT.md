@@ -9,7 +9,7 @@ Download a client launcher: https://ru-m.org/
 ### Server configration
 
 * Server: m.iroslyakov.ru
-* Seed: 1049
+* Seed: 3011
 * Difficulty: Hard
 * View Distance: 10
 * Session Timeout: 30 minutes
