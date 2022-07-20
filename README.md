@@ -185,18 +185,19 @@ Add your host public key to `~/.ssh/authorized_keys`.
     make
     sudo make install
 
-### Setup cron
+### Setup backups
 
     cp ./ctrl-linux/data/m.cron /etc/cron.d/
+
+Check backups work. :-)
+
+### Render the map
+
+    /dynmap fullrender world
 
 ### Update client overview
 
     CLIENT.md
-
-### Finalize
-
-* Check backups
-* Check dynmap, maybe run a full render
 
 # See also
 
