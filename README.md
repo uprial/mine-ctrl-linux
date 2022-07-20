@@ -124,6 +124,50 @@ Make you second backup:
 
 Check previous configration differences in ./ctrl-linux/expected-diffs and the current differences generated in ./diffs via `./ctrl-linux/make-diff.sh`. Configure the game until the difference in differences is negotiated.
 
+For local server update plugins/dynmap/configuration.txt:webserver-port to 8082.
+
+### Test Plugins
+
+AuthMe
+* Register on the server
+
+Commands
+* /morning
+* /ench
+
+CraftBook
+* Create a sign with "[Chunk]" on second line. A message should appear.
+* Create a rail road of 50 length, put under the 1st powered rail a block of gold. Max speed should be big.
+* Create a regular piston, on it put a sign with "[Crush]" on second line. The piston should break blocks.
+
+CustomCreatures
+* Once killed, you should have an apple and two modifiers.
+* Change netherite-zombie.filter.probability to 99.5, reload config, the zombie should appear.
+
+CustomNukes
+* Forge a TNT in center and 8 x SAND into a Toy bomb, trigger a chain of 8 Toy bombs via Flint & Steel
+
+CustomRecipes
+* Forge an Egg in center and 8 x GUNPOWDER into a Creeper spawn egg.
+
+CustomVillage
+* Find the closest village via https://www.chunkbase.com/apps/village-finder, run /customvillage info
+
+Dynmap
+* Open HTTP://<server.properties:server-ip>:<plugins/dynmap/configuration.txt:webserver-port>
+
+TakeAim
+* Summon skeleton, take a long distance from it, the Skeleton should aim you when you're simultaneuously moving and jumping
+
+WorldBorder
+* The border should be visible in Dynmap
+
+WorldEdit
+* Take a wooden axe, pick start via left click, pick end via right click, //set sand
+
+WorldGuard
+* Take a wooden axe, pick start via left click, pick end via right click, /rg claim test
+
 ### Setup server
 
 Add your host public key to `~/.ssh/authorized_keys`.
