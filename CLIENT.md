@@ -26,11 +26,11 @@ Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.irosly
 
 * [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
 * [CraftBook](https://www.spigotmc.org/resources/craftbook.2083/)
-    * [AI](http://wiki.sk89q.com/wiki/CraftBook/AI_Mechanics)
-    * [Better Pistons](http://wiki.sk89q.com/wiki/CraftBook/Better_Pistons)
-    * [Chunk Anchors](http://wiki.sk89q.com/wiki/CraftBook/Chunk_Anchors)
-    * [Hidden Switches](http://wiki.sk89q.com/wiki/CraftBook/Hidden_switches)
-    * [Minecart Speed Modifier Blocks](http://wiki.sk89q.com/wiki/CraftBook/Minecart_Speed_Modifier_Blocks)
+    * [AI](https://craftbook.enginehub.org/en/3.x/mechanics/ai_mechanics/)
+    * [Better Pistons](https://craftbook.enginehub.org/en/3.x/mechanics/better_pistons/)
+    * [Chunk Anchors](https://craftbook.enginehub.org/en/latest/mechanics/chunk_anchor/)
+    * [Hidden Switches](https://craftbook.enginehub.org/en/latest/mechanics/hidden_switch/)
+    * [Minecart Speed Modifier Blocks](https://craftbook.enginehub.org/en/3.x/mechanics/minecart/block/booster_brake/)
     * Maximum minecart speed changed to 4.0.
 * [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
