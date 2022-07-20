@@ -79,23 +79,25 @@ Also, please check for newest versions of links via search.
 * [AuthMeReloaded](https://ci.codemc.org/job/AuthMe/job/AuthMeReloaded/)
 * [CraftBook](https://www.spigotmc.org/resources/craftbook.2083/)
 * [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
-* [CustomDamage, **1.16 only**](https://www.spigotmc.org/resources/customdamage.68712/)
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
 * [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/)
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
 * [Dynmap](https://www.spigotmc.org/resources/dynmap.274/)
-* [Dynmap-Mobs, **1.9 only**](https://dev.bukkit.org/projects/dynmap-mobs)
-* [Dynmap-WorldGuard, **1.14 only**](https://dev.bukkit.org/projects/dynmap-worldguard)
-* [HealthBar, **BROKEN in 1.16**](https://www.spigotmc.org/resources/healthbars-1-12-2-1-16-4-mob-or-player-healthbar-customizable-toggleable.84895/)
-* [Herobrine, **1.12 only**](https://www.spigotmc.org/resources/herobrine.50393/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
-* [PermissionsEx, **1.14 only**](https://dev.bukkit.org/projects/permissionsex)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
-* [TerrainControl, **1.12 only**](http://tardisjenkins.duckdns.org:8080/job/TerrainControl/)
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 * [WorldGuard](https://dev.bukkit.org/projects/worldguard)
+
+Abandoned plugins worth to check for updates:
+* [CustomDamage, **1.16 only**](https://www.spigotmc.org/resources/customdamage.68712/)
+* [Dynmap-Mobs, **1.9 only**](https://dev.bukkit.org/projects/dynmap-mobs)
+* [Dynmap-WorldGuard, **1.14 only**](https://dev.bukkit.org/projects/dynmap-worldguard)
+* [HealthBar, **BROKEN in 1.16**](https://www.spigotmc.org/resources/healthbars-1-12-2-1-16-4-mob-or-player-healthbar-customizable-toggleable.84895/)
+* [Herobrine, **1.12 only**](https://www.spigotmc.org/resources/herobrine.50393/)
+* [PermissionsEx, **1.14 only**](https://dev.bukkit.org/projects/permissionsex)
+* [TerrainControl, **1.12 only**](http://tardisjenkins.duckdns.org:8080/job/TerrainControl/)
 
 In case any updates in links or versions, please update this document and also the [CLIENT.md](CLIENT.md) document with the versions you've chosen.
 
