@@ -39,6 +39,6 @@ Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.irosly
 * [Dynmap](https://www.spigotmc.org/resources/dynmap.274/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
-* [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/): (-5050,-5050); (5050,5050)
+* [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/): (-10050,-10050); (10050,10050)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 * [WorldGuard](https://dev.bukkit.org/projects/worldguard)
