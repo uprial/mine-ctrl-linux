@@ -187,7 +187,7 @@ Add your host public key to `~/.ssh/authorized_keys`.
 
 ### Setup backups
 
-    cp ./ctrl-linux/data/m.cron /etc/cron.d/
+    cp ./ctrl-linux/data/m-cron /etc/cron.d/
 
 Check backups work. :-)
 
