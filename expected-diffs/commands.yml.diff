@@ -8,7 +8,7 @@
 >   - gamemode survival $1
 >   summoner:
 >   - setblock $$1 $$2 $$3 mob_spawner 0 replace {EntityId:$$4}
->   ench:
+>   ench_d:
 >   - give $$1 diamond_sword{Enchantments:[{id:"minecraft:sharpness",lvl:5},{id:"minecraft:fire_aspect",lvl:2},{id:"minecraft:knockback",lvl:2},{id:"minecraft:looting",lvl:5},{id:"minecraft:sweeping",lvl:3},{id:"minecraft:unbreaking",lvl:3}]}
 >     1
 >   - give $$1 diamond_helmet{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:aqua_affinity",lvl:1},{id:"minecraft:respiration",lvl:3}]}
@@ -27,3 +27,24 @@
 >     1
 >   - give $$1 diamond_shovel{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:fortune",lvl:3}]}
 >     1
+>   - give $$1 shield{Enchantments:[{id:"minecraft:unbreaking",lvl:3}]} 1
+>   ench_i:
+>   - give $$1 iron_sword{Enchantments:[{id:"minecraft:sharpness",lvl:5},{id:"minecraft:fire_aspect",lvl:2},{id:"minecraft:knockback",lvl:2},{id:"minecraft:looting",lvl:5},{id:"minecraft:sweeping",lvl:3},{id:"minecraft:unbreaking",lvl:3}]}
+>     1
+>   - give $$1 iron_helmet{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:aqua_affinity",lvl:1},{id:"minecraft:respiration",lvl:3}]}
+>     1
+>   - give $$1 iron_chestplate{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"minecraft:unbreaking",lvl:3}]}
+>     1
+>   - give $$1 iron_leggings{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"minecraft:unbreaking",lvl:3}]}
+>     1
+>   - give $$1 iron_boots{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:feather_falling",lvl:4},{id:"minecraft:depth_strider",lvl:3}]}
+>     1
+>   - give $$1 bow{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:flame",lvl:1},{id:"minecraft:infinity",lvl:1},{id:"minecraft:power",lvl:5},{id:"minecraft:punch",lvl:2}]}
+>     1
+>   - give $$1 iron_pickaxe{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:fortune",lvl:3}]}
+>     1
+>   - give $$1 iron_axe{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:fortune",lvl:3}]}
+>     1
+>   - give $$1 iron_shovel{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:fortune",lvl:3}]}
+>     1
+>   - give $$1 shield{Enchantments:[{id:"minecraft:unbreaking",lvl:3}]} 1
