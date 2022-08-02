@@ -1,4 +1,8 @@
-42c42
+15c15
+<     high-frequency-flags: false
+---
+>     high-frequency-flags: true
+18c18
 <     max-claim-volume: 30000
 ---
 >     max-claim-volume: 50000
