@@ -8,6 +8,8 @@
 >   - gamemode survival $1
 >   summoner:
 >   - setblock $$1 $$2 $$3 mob_spawner 0 replace {EntityId:$$4}
+>   white_horse:
+>   - execute at $$1 run summon horse ~ ~ ~ {Variant:512,Tame:1,Attributes:[{Name:"generic.max_health",Base:30},{Name:"generic.movement_speed",Base:0.5},{Name:"generic.knockback_resistance",Base:0.5}],Health:30}
 >   ench_d:
 >   - give $$1 diamond_sword{Enchantments:[{id:"minecraft:sharpness",lvl:5},{id:"minecraft:fire_aspect",lvl:2},{id:"minecraft:knockback",lvl:2},{id:"minecraft:looting",lvl:5},{id:"minecraft:sweeping",lvl:3},{id:"minecraft:unbreaking",lvl:3}]}
 >     1
