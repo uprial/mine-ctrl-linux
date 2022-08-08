@@ -43,5 +43,11 @@
 >     1
 >   - give $$1 bow{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:flame",lvl:1},{id:"minecraft:infinity",lvl:1},{id:"minecraft:power",lvl:5},{id:"minecraft:punch",lvl:2}]}
 >     1
+>   - give $$1 iron_pickaxe{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:fortune",lvl:3}]}
+>     1
+>   - give $$1 iron_axe{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:fortune",lvl:3}]}
+>     1
+>   - give $$1 iron_shovel{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:fortune",lvl:3}]}
+>     1
 >   - give $$1 shield{Enchantments:[{id:"minecraft:unbreaking",lvl:3}]}
 >     1
