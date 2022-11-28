@@ -38,6 +38,7 @@ Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.irosly
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
 * [Dynmap](https://www.spigotmc.org/resources/dynmap.274/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
+* [RespawnLimiter](https://www.spigotmc.org/resources/respawnlimiter.106469/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/): (-10050,-10050); (10050,10050)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
