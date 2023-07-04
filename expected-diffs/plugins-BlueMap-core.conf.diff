@@ -1,0 +1,8 @@
+12c12
+< accept-download: false
+---
+> accept-download: true
+24c24
+< render-thread-count: 2
+---
+> render-thread-count: 4
