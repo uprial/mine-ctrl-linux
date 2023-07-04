@@ -16,6 +16,7 @@ fi
 cd $(dirname $(dirname $(realpath $0)))
 
 rm -rf \
+    bluemap/web \
     world \
     world_nether \
     world_the_end \
