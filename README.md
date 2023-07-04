@@ -192,9 +192,22 @@ WorldGuard
 
 Add your host public key to `~/.ssh/authorized_keys`.
 
+    tar -zcf mine-0.tar.gz *
+    scp mine-0.tar.gz root@remote-host:~/
+
     ssh root@remote-host -t "screen -RD mine"
+    mkdir -p mine
+    cd mine
+    mv ../mine-0.tar.gz ./
+    tar -xf mine-0.tar.gz
+    find . -name '._*' -exec rm {} \;
+
+Check server.properties:server-ip
+
+Check plugins/BlueMap/webserver.conf:port
+
     ./ctrl-linux/start-server-continuous.sh
-	Ctrl+a, d
+    Ctrl+a, d
 
 ### Install mcrcon
 
@@ -210,6 +223,10 @@ Add your host public key to `~/.ssh/authorized_keys`.
     cp ./ctrl-linux/data/m-cron /etc/cron.d/
 
 Check backups work. :-)
+
+### Render the map
+
+    /bluemap update world
 
 ### Update client overview
 
