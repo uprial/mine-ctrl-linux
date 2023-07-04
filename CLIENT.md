@@ -4,12 +4,12 @@ Here you are to get a basic understanding of how to play on a custom Minecraft s
 
 ### Client application
 
-Download a client launcher. Official (paid) site: https://www.minecraft.net/en-us/about-minecraft
+Download a client launcher from [official site](https://www.minecraft.net/en-us/about-minecraft)
 
 ### Server configration
 
 * Server: m.iroslyakov.ru
-* Seed: 2079843220577918432
+* Seed: [2079843220577918432](https://www.chunkbase.com/apps/seed-map#2079843220577918432)
 * View Distance: 10
 * Session Timeout: 30 minutes
 
