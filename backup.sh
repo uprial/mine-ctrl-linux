@@ -13,6 +13,7 @@ rcon_do() {
 }
 
 cleanup() {
+    rcon_do bluemap start
     rcon_do dynmap pause none
     rm -f ${FILEPATH}/${FILENAME}
 }
@@ -20,6 +21,7 @@ trap cleanup EXIT SIGINT
 
 rcon_do save-all
 rcon_do dynmap pause all
+rcon_do bluemap stop
 
 sleep 5
 
@@ -28,6 +30,7 @@ set -x
 cd ${FILEPATH}
 tar -zcf "${FILENAME}" \
     --exclude="plugins/dynmap/web" \
+    --exclude="bluemap/web" \
     --exclude="crash-reports/*" \
     --exclude="logs/*" \
     --exclude="diffs/*" \

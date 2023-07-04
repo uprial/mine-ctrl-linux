@@ -24,6 +24,7 @@ Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.irosly
 ### Installed plugins
 
 * [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
+* [Bluemap](https://www.spigotmc.org/resources/bluemap.83557/)
 * [CraftBook](https://www.spigotmc.org/resources/craftbook.2083/)
     * [AI](https://craftbook.enginehub.org/en/3.x/mechanics/ai_mechanics/)
     * [Better Pistons](https://craftbook.enginehub.org/en/3.x/mechanics/better_pistons/)
@@ -35,7 +36,6 @@ Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.irosly
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
 * [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/)
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
-* [Dynmap](https://www.spigotmc.org/resources/dynmap.274/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [NastyIllusioner](https://www.spigotmc.org/resources/nastyillusioner.109715/)
 * [RespawnLimiter](https://www.spigotmc.org/resources/respawnlimiter.106469/)
