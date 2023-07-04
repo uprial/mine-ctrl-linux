@@ -171,7 +171,7 @@ CustomVillage
 * Find the closest village via https://www.chunkbase.com/apps/village-finder, run /customvillage info
 
 NastyIllusioner
-* Fly for one minute in creative mode in one direction close to the surface, ensure an illusioner appears
+* Chahge per_second_trigger_probability to 99.1, tly for one minute in creative mode in one direction close to the surface, ensure an illusioner appears
 
 RespawnLimiter
 * Die once, ensure max health is decreased for a game day
