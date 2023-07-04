@@ -10,7 +10,6 @@ Download a client launcher. Official (paid) site: https://www.minecraft.net/en-u
 
 * Server: m.iroslyakov.ru
 * Seed: 2079843220577918432
-* Difficulty: Hard
 * View Distance: 10
 * Session Timeout: 30 minutes
 
