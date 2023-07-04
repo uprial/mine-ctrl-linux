@@ -4,7 +4,7 @@ Here you are to get a basic understanding of how to play on a custom Minecraft s
 
 ### Client application
 
-Download a client launcher: https://ru-m.org/
+Download a client launcher. Official (paid) site: https://www.minecraft.net/en-us/about-minecraft
 
 ### Server configration
 
