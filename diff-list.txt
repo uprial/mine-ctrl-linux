@@ -13,7 +13,6 @@ plugins/CustomNukes/config.yml
 plugins/CustomRecipes/config.yml
 plugins/CustomVillage/config.yml
 #plugins/dynmap/configuration.txt
-#plugins/dynmap-mobs/config.yml
 #plugins/dynmap/shaders.txt
 #plugins/dynmap/worlds.txt
 #plugins/HealthBar/config.yml
