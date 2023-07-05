@@ -1,33 +1,29 @@
-# Overview
-
-Here you are to get a basic understanding of how to play on a custom Minecraft server.
-
-### Values
+# Values
 
 ![Peace Logo](images/peace.png)
 
 Our core value is no war, no PvP, no griefing—only peaceful survival in a hard environment of people who support each other.
 
 
-### Client application
+# Client application
 
 Download a client launcher from [official site](https://www.minecraft.net/en-us/about-minecraft) or [an unofficial one](https://ru-m.org/).
 
-### Server configration
+# Server configration
 
 * Server: m.iroslyakov.ru
 * Version: 1.20.1
 * View Distance: 10
 
-### Documentation
+# Documentation
 
 [Tutorials/Beginner's guide](https://minecraft.gamepedia.com/Tutorials/Beginner%27s_guide)
 
-### Map
+# Map
 
 Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.iroslyakov.ru/)
 
-### Installed plugins
+# Installed plugins
 
 A cherry-picking of the server owner for server security, automation of boring manual tasks, and survival complication.
 
