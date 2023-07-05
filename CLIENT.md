@@ -48,7 +48,6 @@ A cherry-picking of the server owner for server security, automation of boring m
 * [NastyIllusioner](https://www.spigotmc.org/resources/nastyillusioner.109715/)
 * [RespawnLimiter](https://www.spigotmc.org/resources/respawnlimiter.106469/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
-* [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/): (-10050,-10050); (10050,10050)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 * [WorldGuard](https://dev.bukkit.org/projects/worldguard)
