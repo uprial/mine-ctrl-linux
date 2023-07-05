@@ -2,16 +2,22 @@
 
 Here you are to get a basic understanding of how to play on a custom Minecraft server.
 
+### Values
+
+![Peace Logo](images/peace.png)
+
+Our core value is no war, no PvP, no griefing—only peaceful survival in a hard environment of people who support each other.
+
+
 ### Client application
 
-Download a client launcher from [official site](https://www.minecraft.net/en-us/about-minecraft)
+Download a client launcher from [official site](https://www.minecraft.net/en-us/about-minecraft) or [an unofficial one](https://ru-m.org/).
 
 ### Server configration
 
 * Server: m.iroslyakov.ru
-* Seed: [2079843220577918432](https://www.chunkbase.com/apps/seed-map#2079843220577918432)
+* Version: 1.20.1
 * View Distance: 10
-* Session Timeout: 30 minutes
 
 ### Documentation
 
@@ -22,6 +28,8 @@ Download a client launcher from [official site](https://www.minecraft.net/en-us/
 Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.iroslyakov.ru/)
 
 ### Installed plugins
+
+All the plugins are only for server security, automation of boring manual tasks, and survival complication.
 
 * [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
 * [Bluemap](https://www.spigotmc.org/resources/bluemap.83557/)
@@ -40,6 +48,7 @@ Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.irosly
 * [NastyIllusioner](https://www.spigotmc.org/resources/nastyillusioner.109715/)
 * [RespawnLimiter](https://www.spigotmc.org/resources/respawnlimiter.106469/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
+* [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/): (-10050,-10050); (10050,10050)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 * [WorldGuard](https://dev.bukkit.org/projects/worldguard)

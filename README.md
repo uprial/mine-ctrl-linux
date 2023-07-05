@@ -85,6 +85,7 @@ Download the latest versions of plugins:
 * [NastyIllusioner](https://www.spigotmc.org/resources/nastyillusioner.109715/)
 * [RespawnLimiter](https://www.spigotmc.org/resources/respawnlimiter.106469/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
+* [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
@@ -101,9 +102,6 @@ Check abandoned plugins for updates:
 * [Herobrine, **1.18 only**](https://www.spigotmc.org/resources/herobrine.50393/)
 * [PermissionsEx, **ABANDONED**](https://dev.bukkit.org/projects/permissionsex)
 * [TerrainControl, **ABANDONED**](http://tardisjenkins.duckdns.org:8080/job/TerrainControl/)
-
-Check experimental plugins:
-* [TerraformGenerator, **experimental**](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
 
 In case any updates in links or versions, please update this document and also the [CLIENT.md](CLIENT.md) document.
 

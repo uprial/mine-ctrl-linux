@@ -12,3 +12,7 @@
 ---
 >   monsters: 140
 >   animals: 20
+32a33,35
+> worlds:
+>   world:
+>     generator: TerraformGenerator
