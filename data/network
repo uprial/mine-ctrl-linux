@@ -1,9 +1,0 @@
-auto em1:0
-iface em1:0 inet static
-    address 94.250.254.176
-    netmask 255.255.254.0
-    nerwotk 94.250.254.0
-    broadcast 94.250.255.255
-    gateway 94.250.255.254
-    dns-nameservers 188.120.247.2
-    dns-search rial.cc
