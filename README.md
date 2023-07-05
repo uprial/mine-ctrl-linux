@@ -98,7 +98,6 @@ For each plugin hosted outside of www.spigotmc.org, please check its existence o
 Check abandoned plugins for updates:
 * [Dynmap, **1.19 only**](https://www.spigotmc.org/resources/dynmap.274/)
 * [Herobrine, **1.18 only**](https://www.spigotmc.org/resources/herobrine.50393/)
-* [PermissionsEx, **ABANDONED**](https://dev.bukkit.org/projects/permissionsex)
 
 In case any updates in links or versions, please update this document and also the [CLIENT.md](CLIENT.md) document.
 

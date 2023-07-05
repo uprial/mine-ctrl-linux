@@ -19,8 +19,6 @@ plugins/CustomVillage/config.yml
 #plugins/Herobrine/npc.yml
 plugins/LuckPerms/config.yml
 plugins/LuckPerms/yaml-storage/groups/default.yml
-#plugins/PermissionsEx/config.yml
-#plugins/PermissionsEx/permissions.yml
 plugins/TakeAim/config.yml
 plugins/Vault/config.yml
 plugins/WorldBorder/config.yml
