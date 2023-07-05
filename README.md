@@ -103,13 +103,8 @@ Check abandoned plugins for updates:
 * [HealthBar, **1.16 only**](https://www.spigotmc.org/resources/healthbars-1-12-2-1-16-4-mob-or-player-healthbar-customizable-toggleable.84895/)
 * [Herobrine, **1.18 only**](https://www.spigotmc.org/resources/herobrine.50393/)
 * [PermissionsEx, **ABANDONED**](https://dev.bukkit.org/projects/permissionsex)
-* [TerrainControl, **ABANDONED**](http://tardisjenkins.duckdns.org:8080/job/TerrainControl/)
 
 In case any updates in links or versions, please update this document and also the [CLIENT.md](CLIENT.md) document.
-
-Enable the TerrainControl, **1.12 only**
-
-    echo -e "worlds:\n  world:\n    generator: TerrainControl" >> bukkit.yml
 
 Change LuckPerms storage-method in plugins/LuckPerms/config.yml:
 
