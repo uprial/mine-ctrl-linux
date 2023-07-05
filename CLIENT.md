@@ -25,7 +25,7 @@ Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.irosly
 
 # Installed plugins
 
-A cherry-picking of the server owner for server security, automation of boring manual tasks, and survival complication.
+Plugins for server security, automation of tedious manual tasks, survival complication - but keeping the spirit of vanilla survival.
 
 * [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
 * [Bluemap](https://www.spigotmc.org/resources/bluemap.83557/)
