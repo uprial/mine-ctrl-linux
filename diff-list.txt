@@ -1,7 +1,6 @@
 bukkit.yml
 commands.yml
 ops.json
-#paper.yml
 spigot.yml
 server.properties
 plugins/AuthMe/config.yml
