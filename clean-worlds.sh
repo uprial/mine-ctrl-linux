@@ -20,7 +20,6 @@ rm -rf \
     world \
     world_nether \
     world_the_end \
-    world_herobrine_graveyard \
     plugins/dynmap/web/tiles/world/* \
     plugins/WorldGuard/worlds
 

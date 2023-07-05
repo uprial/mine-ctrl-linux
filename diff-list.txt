@@ -15,8 +15,6 @@ plugins/CustomVillage/config.yml
 #plugins/dynmap/configuration.txt
 #plugins/dynmap/shaders.txt
 #plugins/dynmap/worlds.txt
-#plugins/Herobrine/config.yml
-#plugins/Herobrine/npc.yml
 plugins/LuckPerms/config.yml
 plugins/LuckPerms/yaml-storage/groups/default.yml
 plugins/TakeAim/config.yml
