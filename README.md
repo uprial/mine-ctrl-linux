@@ -99,7 +99,6 @@ Check abandoned plugins for updates:
 * [CustomDamage, **1.19 only**](https://www.spigotmc.org/resources/customdamage.68712/)
 * [Dynmap, **1.19 only**](https://www.spigotmc.org/resources/dynmap.274/)
 * [Dynmap-Mobs, **1.9 only**](https://dev.bukkit.org/projects/dynmap-mobs)
-* [Dynmap-WorldGuard, **1.18 only**](https://dev.bukkit.org/projects/dynmap-worldguard)
 * [HealthBar, **1.16 only**](https://www.spigotmc.org/resources/healthbars-1-12-2-1-16-4-mob-or-player-healthbar-customizable-toggleable.84895/)
 * [Herobrine, **1.18 only**](https://www.spigotmc.org/resources/herobrine.50393/)
 * [PermissionsEx, **ABANDONED**](https://dev.bukkit.org/projects/permissionsex)

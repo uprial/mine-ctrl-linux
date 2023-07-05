@@ -16,7 +16,6 @@ plugins/CustomVillage/config.yml
 #plugins/dynmap/configuration.txt
 #plugins/dynmap-mobs/config.yml
 #plugins/dynmap/shaders.txt
-#plugins/Dynmap-WorldGuard/config.yml
 #plugins/dynmap/worlds.txt
 #plugins/HealthBar/config.yml
 #plugins/Herobrine/config.yml
