@@ -10,7 +10,6 @@
 >     permissions:
 >     - modifyworld.*
 >     - worldedit.selection.*
->     - healthbar.see.onplayer
 >     - craftbook.mech.hiddenswitch.use
 >     - craftbook.mech.hiddenswitch
 >     - craftbook.mech.pistons.*

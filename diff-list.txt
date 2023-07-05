@@ -15,7 +15,6 @@ plugins/CustomVillage/config.yml
 #plugins/dynmap/configuration.txt
 #plugins/dynmap/shaders.txt
 #plugins/dynmap/worlds.txt
-#plugins/HealthBar/config.yml
 #plugins/Herobrine/config.yml
 #plugins/Herobrine/npc.yml
 plugins/LuckPerms/config.yml
