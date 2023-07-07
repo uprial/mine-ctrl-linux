@@ -42,7 +42,6 @@ Plugins for server security, automation of tedious manual tasks, survival compli
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [NastyIllusioner](https://www.spigotmc.org/resources/nastyillusioner.109715/)
-* [RespawnLimiter](https://www.spigotmc.org/resources/respawnlimiter.106469/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/): (-10050,-10050); (10050,10050)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)

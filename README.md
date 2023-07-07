@@ -83,7 +83,6 @@ Download the latest versions of plugins:
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [NastyIllusioner](https://www.spigotmc.org/resources/nastyillusioner.109715/)
-* [RespawnLimiter](https://www.spigotmc.org/resources/respawnlimiter.106469/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/)
@@ -161,9 +160,6 @@ CustomVillage
 
 NastyIllusioner
 * Chahge per_second_trigger_probability to 99.1, tly for one minute in creative mode in one direction close to the surface, ensure an illusioner appears
-
-RespawnLimiter
-* Die once, ensure max health is decreased for a game day
 
 TakeAim
 * Summon a skeleton, take a long distance from it, the Skeleton should aim at you when you're simultaneously moving and jumping
