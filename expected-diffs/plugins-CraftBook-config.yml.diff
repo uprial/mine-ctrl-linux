@@ -1,7 +1,6 @@
 11a12,18
 > - AI
 > - BetterPistons
-> - BoatWaterPlaceOnly
 > - ChunkAnchor
 > - HiddenSwitch
 > - MinecartBooster
@@ -10,8 +9,6 @@
 < - AI
 20d25
 < - BetterPistons
-28d32
-< - BoatWaterPlaceOnly
 34d37
 < - ChunkAnchor
 47d49
