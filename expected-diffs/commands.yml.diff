@@ -13,13 +13,13 @@
 >   ench_d:
 >   - give $$1 diamond_sword{Enchantments:[{id:"minecraft:sharpness",lvl:10},{id:"minecraft:fire_aspect",lvl:2},{id:"minecraft:knockback",lvl:2},{id:"minecraft:looting",lvl:5},{id:"minecraft:sweeping",lvl:3},{id:"minecraft:unbreaking",lvl:3}]}
 >     1
->   - give $$1 diamond_helmet{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:aqua_affinity",lvl:1},{id:"minecraft:respiration",lvl:3}]}
+>   - give $$1 diamond_helmet{Enchantments:[{id:"minecraft:protection",lvl:10},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:aqua_affinity",lvl:1},{id:"minecraft:respiration",lvl:3}]}
 >     1
->   - give $$1 diamond_chestplate{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"minecraft:unbreaking",lvl:3}]}
+>   - give $$1 diamond_chestplate{Enchantments:[{id:"minecraft:protection",lvl:10},{id:"minecraft:unbreaking",lvl:3}]}
 >     1
->   - give $$1 diamond_leggings{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"minecraft:unbreaking",lvl:3}]}
+>   - give $$1 diamond_leggings{Enchantments:[{id:"minecraft:protection",lvl:10},{id:"minecraft:unbreaking",lvl:3}]}
 >     1
->   - give $$1 diamond_boots{Enchantments:[{id:"minecraft:protection",lvl:5},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:feather_falling",lvl:4},{id:"minecraft:depth_strider",lvl:3}]}
+>   - give $$1 diamond_boots{Enchantments:[{id:"minecraft:protection",lvl:10},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:feather_falling",lvl:4},{id:"minecraft:depth_strider",lvl:3}]}
 >     1
 >   - give $$1 bow{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:flame",lvl:1},{id:"minecraft:infinity",lvl:1},{id:"minecraft:power",lvl:10},{id:"minecraft:punch",lvl:3}]}
 >     1
