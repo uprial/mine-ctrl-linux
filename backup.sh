@@ -39,3 +39,4 @@ tar -zcf "${FILENAME}" \
 cd - > /dev/null
 
 yandex-upload ${FILEPATH}/${FILENAME}
+yandex-disk start
