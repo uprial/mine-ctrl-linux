@@ -30,7 +30,7 @@ to: [GitHub - SSH keys](https://github.com/settings/ssh)
 
 Check [Java Edition version history](https://minecraft.fandom.com/wiki/Java_Edition_version_history)
 
-### Install Java
+### Install Java on MacOS
 
     brew install openjdk
 
