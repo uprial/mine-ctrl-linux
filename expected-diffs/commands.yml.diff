@@ -11,44 +11,44 @@
 >   white_horse:
 >   - execute at $$1 run summon horse ~ ~ ~ {Variant:512,Tame:1,Attributes:[{Name:"generic.max_health",Base:30},{Name:"generic.movement_speed",Base:0.5},{Name:"generic.knockback_resistance",Base:0.5}],Health:30}
 >   ench_d:
->   - give $$1 diamond_sword{Enchantments:[{id:"minecraft:sharpness",lvl:10},{id:"minecraft:fire_aspect",lvl:2},{id:"minecraft:knockback",lvl:2},{id:"minecraft:looting",lvl:5},{id:"minecraft:sweeping",lvl:3},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:mending",lvl:1}]}
+>   - give $$1 diamond_sword[minecraft:enchantments={"minecraft:sharpness":10,"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":5,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3,"minecraft:mending":1}]
 >     1
->   - give $$1 diamond_helmet{Enchantments:[{id:"minecraft:protection",lvl:10},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:aqua_affinity",lvl:1},{id:"minecraft:respiration",lvl:3},{id:"minecraft:mending",lvl:1}]}
+>   - give $$1 diamond_helmet[minecraft:enchantments={"minecraft:protection":10,"minecraft:unbreaking":3,"minecraft:aqua_affinity":1,"minecraft:respiration":3,"minecraft:mending":1}]
 >     1
->   - give $$1 diamond_chestplate{Enchantments:[{id:"minecraft:protection",lvl:10},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:mending",lvl:1}]}
+>   - give $$1 diamond_chestplate[minecraft:enchantments={"minecraft:protection":10,"minecraft:unbreaking":3,"minecraft:mending":1}]
 >     1
->   - give $$1 diamond_leggings{Enchantments:[{id:"minecraft:protection",lvl:10},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:mending",lvl:1},{id:"minecraft:swift_sneak",lvl:5}]}
+>   - give $$1 diamond_leggings[minecraft:enchantments={"minecraft:protection":10,"minecraft:unbreaking":3,"minecraft:mending":1,"minecraft:swift_sneak":5}]
 >     1
->   - give $$1 diamond_boots{Enchantments:[{id:"minecraft:protection",lvl:10},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:feather_falling",lvl:4},{id:"minecraft:depth_strider",lvl:3},{id:"minecraft:mending",lvl:1}]}
+>   - give $$1 diamond_boots[minecraft:enchantments={"minecraft:protection":10,"minecraft:unbreaking":3,"minecraft:feather_falling":4,"minecraft:depth_strider":3,"minecraft:mending":1}]
 >     1
->   - give $$1 bow{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:flame",lvl:1},{id:"minecraft:infinity",lvl:1},{id:"minecraft:power",lvl:10},{id:"minecraft:punch",lvl:3}]}
+>   - give $$1 bow[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":10,"minecraft:punch":3}]
 >     1
->   - give $$1 diamond_pickaxe{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:10},{id:"minecraft:fortune",lvl:3},{id:"minecraft:mending",lvl:1}]}
+>   - give $$1 diamond_pickaxe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":10,"minecraft:fortune":3,"minecraft:mending":1}]
 >     1
->   - give $$1 diamond_pickaxe{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:10},{id:"minecraft:silk_touch",lvl:3},{id:"minecraft:mending",lvl:1}]}
+>   - give $$1 diamond_pickaxe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":10,"minecraft:silk_touch":3,"minecraft:mending":1}]
 >     1
->   - give $$1 diamond_axe{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:10},{id:"minecraft:fortune",lvl:3}]}
+>   - give $$1 diamond_axe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":10,"minecraft:fortune":3}]
 >     1
->   - give $$1 diamond_shovel{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:100},{id:"minecraft:fortune",lvl:3}]}
+>   - give $$1 diamond_shovel[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":10,"minecraft:fortune":3}]
 >     1
->   - give $$1 shield{Enchantments:[{id:"minecraft:unbreaking",lvl:3}]} 1
+>   - give $$1 shield[minecraft:enchantments={"minecraft:unbreaking":3}] 1
 >   ench_i:
->   - give $$1 iron_sword{Enchantments:[{id:"minecraft:sharpness",lvl:5},{id:"minecraft:fire_aspect",lvl:2},{id:"minecraft:knockback",lvl:2},{id:"minecraft:looting",lvl:3},{id:"minecraft:sweeping",lvl:3},{id:"minecraft:unbreaking",lvl:3}]}
+>   - give $$1 iron_sword[minecraft:enchantments={"minecraft:sharpness":5,"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3}]
 >     1
->   - give $$1 chainmail_helmet{Enchantments:[{id:"minecraft:protection",lvl:4},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:aqua_affinity",lvl:1},{id:"minecraft:respiration",lvl:3}]}
+>   - give $$1 chainmail_helmet[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:aqua_affinity":1,"minecraft:respiration":3}]
 >     1
->   - give $$1 chainmail_chestplate{Enchantments:[{id:"minecraft:protection",lvl:4},{id:"minecraft:unbreaking",lvl:3}]}
+>   - give $$1 chainmail_chestplate[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3}]
 >     1
->   - give $$1 chainmail_leggings{Enchantments:[{id:"minecraft:protection",lvl:4},{id:"minecraft:unbreaking",lvl:3}]}
+>   - give $$1 chainmail_leggings[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3}]
 >     1
->   - give $$1 chainmail_boots{Enchantments:[{id:"minecraft:protection",lvl:4},{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:feather_falling",lvl:4},{id:"minecraft:depth_strider",lvl:3}]}
+>   - give $$1 chainmail_boots[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:feather_falling":4,"minecraft:depth_strider":3}]
 >     1
->   - give $$1 bow{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:flame",lvl:1},{id:"minecraft:infinity",lvl:1},{id:"minecraft:power",lvl:5},{id:"minecraft:punch",lvl:2}]}
+>   - give $$1 bow[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":5,"minecraft:punch":2}]
 >     1
->   - give $$1 iron_pickaxe{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:fortune",lvl:3}]}
+>   - give $$1 iron_pickaxe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3}]
 >     1
->   - give $$1 iron_axe{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:fortune",lvl:3}]}
+>   - give $$1 iron_axe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3}]
 >     1
->   - give $$1 iron_shovel{Enchantments:[{id:"minecraft:unbreaking",lvl:3},{id:"minecraft:efficiency",lvl:5},{id:"minecraft:fortune",lvl:3}]}
+>   - give $$1 iron_shovel[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3}]
 >     1
->   - give $$1 shield{Enchantments:[{id:"minecraft:unbreaking",lvl:3}]} 1
+>   - give $$1 shield[minecraft:enchantments={"minecraft:unbreaking":3}] 1

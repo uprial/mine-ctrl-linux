@@ -30,7 +30,7 @@ if [ -z "${java_version}" ]; then
     echo "ERROR: Java is not installed."
     exit 1
 fi
-if test ${java_version} -lt 6; then
+if test ${java_version} -lt 21; then
     echo "ERROR: Java version is too old."
     exit 1
 fi
