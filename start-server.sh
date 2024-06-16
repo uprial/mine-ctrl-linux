@@ -17,8 +17,6 @@ echo "Starting bukkit minecraft server..."
 
 cd $(dirname $(dirname $(realpath $0)))
 
-OPTS=""
-
 java_version=$(java -version 2>&1 | awk -F '"' '/version/ {print $2}')
 if [[ "${OSTYPE}" = darwin* || "${OSTYPE}" = linux-gnu ]]; then
     java_version=$(echo ${java_version} | cut -d'.' -f1)
@@ -34,12 +32,6 @@ if test ${java_version} -lt 21; then
     echo "ERROR: Java version is too old."
     exit 1
 fi
-if test ${java_version} -lt 8; then
-    OPTS="${OPTS} -XX:MaxPermSize=128m"
-fi
-if test ${java_version} -lt 10; then
-    OPTS="${OPTS} -d64"
-fi
 
 #
 # Please refer to https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
@@ -48,7 +40,6 @@ fi
 # -server
 # -Djline.terminal=jline.UnsupportedTerminal
 # -Djava.awt.headless=true
-# and platform-related options in $OPTS
 #
 
 java -server \
@@ -76,6 +67,5 @@ java -server \
     -XX:MaxTenuringThreshold=1 \
     -Dusing.aikars.flags=https://mcflags.emc.gs \
     -Daikars.new.flags=true \
-    ${OPTS} \
     -jar "${JAR_FILE}" \
     nogui
