@@ -97,7 +97,7 @@ For each plugin hosted outside of www.spigotmc.org, please check its existence o
 Check abandoned plugins for updates:
 * [Dynmap, **1.19 only**](https://www.spigotmc.org/resources/dynmap.274/)
 
-In case any updates in links or versions, please update this document and also the [CLIENT.md](CLIENT.md) document.
+In case any updates in links, please update this document and also the [CLIENT.md](CLIENT.md) document.
 
 Change LuckPerms storage-method in plugins/LuckPerms/config.yml:
 
@@ -212,10 +212,6 @@ Check backups work. :-)
 ### Render the map
 
     /bluemap update world
-
-### Update client overview
-
-    CLIENT.md
 
 # See also
 
