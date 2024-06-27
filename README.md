@@ -162,7 +162,7 @@ NastyIllusioner
 * Chahge per_second_trigger_probability to 99.1, tly for one minute in creative mode in one direction close to the surface, ensure an illusioner appears
 
 TakeAim
-* Summon a skeleton, take a long distance from it, the Skeleton should aim at you when you're simultaneously moving and jumping
+* Summon a Skeleton and a Ghast, take a long distance from them, they should aim at you when you're simultaneously moving and jumping
 
 WorldBorder
 * Reach the world border
