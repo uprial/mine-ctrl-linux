@@ -49,26 +49,23 @@ If Paper doesn't have the server version you picked, check [simple instructions 
 
     ./ctrl-linux/build-server.sh
 
-### Try to start the server 1st time
+### Configure EULA
+
+#### Start the server 1st time
 
     ./ctrl-linux/start-server.sh
+    stop
+    ./ctrl-linux/clean-worlds.sh
 
 You'll get an error message about EULA. Fix it:
 
     sed -i '' 's/=false/=true/' eula.txt
 
-### Start the server 2nd time
+### Check the client works
 
-    ./ctrl-linux/start-server.sh
+#### Start the server 2nd time
 
 Download a client launcher: https://ru-m.org/, install the same version as the server and check that the client works with the server. Then stop the server via /stop and clean the mess up:
-
-    ./ctrl-linux/clean-worlds.sh
-
-Make you first backup:
-
-    cp -r . ../m-empty
-    tar -zcf ../m-empty.tar.gz *
 
 ### Install plugins
 
@@ -99,6 +96,8 @@ Check abandoned plugins for updates:
 
 In case any updates in links, please update this document and also the [CLIENT.md](CLIENT.md) document.
 
+### Configure the basic params
+
 Change LuckPerms storage-method in plugins/LuckPerms/config.yml:
 
     storage-method: YAML
@@ -109,24 +108,18 @@ Enable TerraformGenerator, **experimental** in bukkit.yml:
       world:
         generator: TerraformGenerator
 
-Try the server:
+#### Start the server 3rd time
 
-    ./ctrl-linux/start-server.sh
-    /stop
-    ./ctrl-linux/clean-worlds.sh
-
-Ensure no errors in the console.
-
-Make you second backup:
+Make your backup:
 
     cp -r . ../m-clean
     tar -zcf ../m-clean.tar.gz *
 
-### Configure the game
+#### Configure all the params
 
 Check previous configration differences in ./ctrl-linux/expected-diffs and the current differences generated in ./diffs via `./ctrl-linux/make-diff.sh`. Configure the game until the difference in differences is negotiated.
 
-For local server update plugins/BlueMap/webserver.conf:port to 8082.
+#### Start the server 4rd time
 
 ### Test Plugins
 
