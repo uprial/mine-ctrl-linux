@@ -12,8 +12,8 @@ Download a client launcher from [official site](https://www.minecraft.net/en-us/
 # Server configration
 
 * Server: m.iroslyakov.ru
-* Version: 1.20.1
-* View Distance: 10
+* Version: 1.21
+* View Distance: 16
 
 # Documentation
 
