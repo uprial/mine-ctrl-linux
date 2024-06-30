@@ -3,8 +3,10 @@
 set -e
 
 # A version from https://papermc.io/downloads
+MINE_VERSION="1.21-39"
+
 # or https://www.spigotmc.org/wiki/buildtools/
-MINE_VERSION="1.20.6-130"
+#MINE_VERSION="1.21"
 
 # Check your memory available and allocate something between 2G and [your-memory-available]-1.5G.
 MEMORY_MAX="12000M"
@@ -14,3 +16,4 @@ SERVER_ID="m"
 
 # A runnable JAR file.
 JAR_FILE="paper-${MINE_VERSION}.jar"
+#JAR_FILE="spigot-${MINE_VERSION}.jar"
