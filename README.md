@@ -12,7 +12,7 @@ This repo assists to run a modern Minecraft server.
 
 from:
 
-    # ssh-keygen -t rsa -b 2048
+    ssh-keygen -t rsa -b 2048
     cat ~/.ssh/id_rsa.pub
 
 to: [GitHub - SSH keys](https://github.com/settings/ssh)
