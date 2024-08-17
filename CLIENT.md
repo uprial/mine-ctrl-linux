@@ -11,8 +11,8 @@ Download a client launcher from [official site](https://www.minecraft.net/en-us/
 
 # Server configration
 
-* Server: m.iroslyakov.ru
-* Version: 1.21
+* Server: m.iroslyakov.com
+* Version: 1.21.1
 * View Distance: 16
 
 # Documentation
@@ -21,7 +21,7 @@ Download a client launcher from [official site](https://www.minecraft.net/en-us/
 
 # Map
 
-Here is a 3D interactive zoomable map: [http://m.iroslyakov.ru/](http://m.iroslyakov.ru/)
+Here is a 3D interactive zoomable map: [http://m.iroslyakov.com/](http://m.iroslyakov.com/)
 
 # Installed plugins
 
