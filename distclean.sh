@@ -12,7 +12,6 @@ cd $(dirname $(dirname $(realpath $0)))
 for dir in $(ls \
 	| grep -v "^${JAR_FILE}$" \
 	| grep -v "^ctrl-linux$" \
-	| grep -v "^ctrl-windows$" \
 	| grep -v "^plugins$"); do
 	rm -rf ./${dir}
 done
