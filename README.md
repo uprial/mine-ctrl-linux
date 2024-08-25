@@ -92,7 +92,7 @@ Check experimental plugins:
 For each plugin hosted outside of www.spigotmc.org, please check its existence on www.spigotmc.org.
 
 Check abandoned plugins for updates:
-* [Dynmap, **1.19 only**](https://www.spigotmc.org/resources/dynmap.274/)
+* [Dynmap, **1.19 only**](https://www.spigotmc.org/resources/dynmap.274/) - don't forget to grep 'dynmap' inside this GIT repo to enable some functions
 
 In case any updates in links, please update this document and also the [CLIENT.md](CLIENT.md) document.
 
