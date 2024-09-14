@@ -22,7 +22,7 @@ No war, no griefing — only peaceful survival in a hard environment of people w
 
 # Plugins
 
-Plugins are used for server security, automation of tedious manual tasks, and survival complications, but they keep the spirit of vanilla survival.
+Plugins are used for server security, automation of tedious manual tasks, and survival complication, while keeping the spirit of vanilla survival.
 
 To discover new features, it's strongly recommended to check descriptions of the following plugins:
 
