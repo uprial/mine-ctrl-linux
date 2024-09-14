@@ -22,9 +22,9 @@ No war, no griefing — only peaceful survival in a hard environment of people w
 
 # Plugins
 
-Plugins are used for server security, automation of tedious manual tasks, and survival complication, while keeping the spirit of vanilla survival.
+This server commits to keeping the spirit of vanilla survival.
 
-To discover new features, it's strongly recommended to check descriptions of the following plugins:
+Please check the following plugins to discover untypical features for fun and automation of tedious manual tasks:
 
 * [CraftBook](https://www.spigotmc.org/resources/craftbook.2083/)
     * [AI](https://craftbook.enginehub.org/en/3.x/mechanics/ai_mechanics/)
@@ -36,7 +36,7 @@ To discover new features, it's strongly recommended to check descriptions of the
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
 * [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/)
 
-All other plugins for transparency, which you may not check:
+For dull transparency, you may also check plugins for server security and survival complications:
 
 * [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
 * [Bluemap](https://www.spigotmc.org/resources/bluemap.83557/)
