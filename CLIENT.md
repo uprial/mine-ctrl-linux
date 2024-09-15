@@ -30,8 +30,7 @@ Please check the following plugins to discover untypical features for fun and au
     * [Better Pistons](https://craftbook.enginehub.org/en/3.x/mechanics/better_pistons/) - make pistons that crash blocks, act for up to 10 blocks, push air
     * [Chunk Anchors](https://craftbook.enginehub.org/en/latest/mechanics/chunk_anchor/) - keep a selected world chunk loaded
     * [Hidden Switches](https://craftbook.enginehub.org/en/latest/mechanics/hidden_switch/) - hide a redstone lever or button behind a wall
-    * [Minecart Speed Modifier Blocks](https://craftbook.enginehub.org/en/3.x/mechanics/minecart/block/booster_brake/) - change a minecart's speed
-    * Maximum minecart speed increased 4.0 times
+    * [Minecart Speed Modifier Blocks](https://craftbook.enginehub.org/en/3.x/mechanics/minecart/block/booster_brake/) - boost a minecart for up to x4.0 of normal speed via gold blocks
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/) - craft Nuclear, Flash, Normal and Toy bombs
 * [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/) - craft a mob spawner, many spawn eggs, sponge, prismarine, etc.
 
