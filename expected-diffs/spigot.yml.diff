@@ -1,7 +1,7 @@
 25c23
 <   restart-script: ./start.sh
 ---
->   restart-script: /root/mine/ctrl-linux/start-server.sh
+>   restart-script: ./ctrl-linux/start-server.sh
 64c65,72
 <     mob-spawn-range: 8
 ---
