@@ -1,6 +1,5 @@
 1c1,8
 < []
-\ No newline at end of file
 ---
 > [
 >   {
@@ -10,4 +9,3 @@
 >     "bypassesPlayerLimit": false
 >   }
 > ]
-\ No newline at end of file
