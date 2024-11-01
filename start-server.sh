@@ -13,7 +13,7 @@ fi
 #    systemctl stop httpd.service
 #fi
 
-echo "Starting bukkit minecraft server..."
+echo "Starting minecraft server..."
 
 cd $(dirname $(dirname $(realpath $0)))
 
