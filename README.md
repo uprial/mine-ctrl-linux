@@ -73,7 +73,7 @@ Download the latest versions of plugins:
 
 * [AuthMeReloaded](https://ci.codemc.org/job/AuthMe/job/AuthMeReloaded/)
 * [Bluemap](https://www.spigotmc.org/resources/bluemap.83557/)
-* [CraftBook](https://www.spigotmc.org/resources/craftbook.2083/)
+* [CraftBook](https://dev.bukkit.org/projects/craftbook)
 * [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
 * [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/)
