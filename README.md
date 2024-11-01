@@ -80,14 +80,12 @@ Download the latest versions of plugins:
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [NastyIllusioner](https://www.spigotmc.org/resources/nastyillusioner.109715/)
+* [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
 * [WorldGuard](https://dev.bukkit.org/projects/worldguard)
-
-Check experimental plugins:
-* [TerraformGenerator, **experimental**](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
 
 For each plugin hosted outside of www.spigotmc.org, please check its existence on www.spigotmc.org.
 
