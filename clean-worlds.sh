@@ -20,7 +20,6 @@ rm -rf \
     world \
     world_nether \
     world_the_end \
-    plugins/dynmap/web/tiles/world/* \
     plugins/WorldGuard/worlds
 
 rm -f \
