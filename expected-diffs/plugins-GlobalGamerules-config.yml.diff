@@ -1,0 +1,5 @@
+1c1,2
+< gamerules: {}
+---
+> gamerules:
+>   minecartMaxSpeed: 1000

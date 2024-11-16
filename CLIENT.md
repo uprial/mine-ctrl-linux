@@ -41,6 +41,7 @@ For dull transparency, you may also check plugins for server security and surviv
 * [Bluemap](https://www.spigotmc.org/resources/bluemap.83557/)
 * [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
+* [GlobalGamerules](https://www.spigotmc.org/resources/global-gamerules-1-7-1-16.82310/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [NastyIllusioner](https://www.spigotmc.org/resources/nastyillusioner.109715/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)

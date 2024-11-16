@@ -78,6 +78,7 @@ Download the latest versions of plugins:
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
 * [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/)
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
+* [GlobalGamerules](https://www.spigotmc.org/resources/global-gamerules-1-7-1-16.82310/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [NastyIllusioner](https://www.spigotmc.org/resources/nastyillusioner.109715/)
 * [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
@@ -130,7 +131,6 @@ Commands
 
 CraftBook
 * Create a sign with "[Chunk]" on the second line. A message should appear.
-* Create a railroad of 50 length, put under the 1st powered rail a block of gold. Max speed should be great.
 * Create a regular piston, on it put a sign with "[Crush]" on the second line. The piston should break blocks.
 
 CustomCreatures
@@ -145,6 +145,9 @@ CustomRecipes
 
 CustomVillage
 * Find the closest village via https://www.chunkbase.com/apps/village-finder, run /customvillage info
+
+GlobalGamerules
+* Check gamerule minecartMaxSpeed
 
 NastyIllusioner
 * Chahge per_second_trigger_probability to 99.1, tly for one minute in creative mode in one direction close to the surface, ensure an illusioner appears

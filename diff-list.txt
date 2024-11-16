@@ -12,6 +12,7 @@ plugins/CustomCreatures/config.yml
 plugins/CustomNukes/config.yml
 plugins/CustomRecipes/config.yml
 plugins/CustomVillage/config.yml
+plugins/GlobalGamerules/config.yml
 plugins/LuckPerms/config.yml
 plugins/LuckPerms/yaml-storage/groups/default.yml
 plugins/TakeAim/config.yml
