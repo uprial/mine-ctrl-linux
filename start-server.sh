@@ -32,6 +32,12 @@ if test ${java_version} -lt 21; then
     echo "ERROR: Java version is too old."
     exit 1
 fi
+if test ${java_version} -gt 21; then
+    # According to https://github.com/PaperMC/Paper/issues/11618,
+    # the profiler library version spark uses does not support 23
+    echo "ERROR: Java version is too new."
+    exit 1
+fi
 
 #
 # Please refer to https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/
