@@ -80,7 +80,6 @@ Download the latest versions of plugins:
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
 * [GlobalGamerules](https://www.spigotmc.org/resources/global-gamerules-1-7-1-16.82310/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
-* [NastyIllusioner](https://www.spigotmc.org/resources/nastyillusioner.109715/)
 * [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
@@ -148,9 +147,6 @@ CustomVillage
 
 GlobalGamerules
 * Check gamerule minecartMaxSpeed
-
-NastyIllusioner
-* Chahge per_second_trigger_probability to 99.1, tly for one minute in creative mode in one direction close to the surface, ensure an illusioner appears
 
 TakeAim
 * Summon a Skeleton and a Ghast, take a long distance from them, they should aim at you when you're simultaneously moving and jumping
