@@ -26,7 +26,7 @@ This server commits to keeping the spirit of vanilla survival.
 
 Please check the following plugins to discover untypical features for fun and automation of tedious manual tasks:
 
-* [CraftBook](https://www.spigotmc.org/resources/craftbook.2083/)
+* [CraftBook](https://dev.bukkit.org/projects/craftbook)
     * [Better Pistons](https://craftbook.enginehub.org/en/3.x/mechanics/better_pistons/) - make pistons that crash blocks, act for up to 10 blocks, push air
     * [Chunk Anchors](https://craftbook.enginehub.org/en/latest/mechanics/chunk_anchor/) - keep a selected world chunk loaded
     * [Hidden Switches](https://craftbook.enginehub.org/en/latest/mechanics/hidden_switch/) - hide a redstone lever or button behind a wall
