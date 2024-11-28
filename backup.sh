@@ -15,6 +15,7 @@ rcon_do() {
 cleanup() {
     rcon_do bluemap start
     rm -f ${FILEPATH}/${FILENAME}
+    rm -f ${FILEPATH}/${FILENAME}-part-*
 }
 trap cleanup EXIT SIGINT
 
@@ -35,5 +36,7 @@ tar -zcf "${FILENAME}" \
     *
 cd - > /dev/null
 
-yandex-upload ${FILEPATH}/${FILENAME}
+split -b 1G -d ${FILEPATH}/${FILENAME} ${FILEPATH}/${FILENAME}-part-
+
+yandex-upload ${FILEPATH}/${FILENAME}-part-*
 yandex-disk start
