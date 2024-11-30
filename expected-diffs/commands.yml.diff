@@ -33,22 +33,22 @@
 >     1
 >   - give $$1 shield[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}] 1
 >   ench_i:
->   - give $$1 iron_sword[minecraft:enchantments={"minecraft:sharpness":5,"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3}]
+>   - give $$1 iron_sword[minecraft:enchantments={"minecraft:sharpness":5,"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 chainmail_helmet[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:aqua_affinity":1,"minecraft:respiration":3},minecraft:trim={material:"minecraft:redstone",pattern:"minecraft:vex"}]
+>   - give $$1 chainmail_helmet[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:aqua_affinity":1,"minecraft:respiration":3,"minecraft:vanishing_curse":1},minecraft:trim={material:"minecraft:redstone",pattern:"minecraft:vex"}]
 >     1
->   - give $$1 chainmail_chestplate[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3},minecraft:trim={material:"minecraft:redstone",pattern:"minecraft:vex"}]
+>   - give $$1 chainmail_chestplate[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:vanishing_curse":1},minecraft:trim={material:"minecraft:redstone",pattern:"minecraft:vex"}]
 >     1
->   - give $$1 chainmail_leggings[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:swift_sneak":3},minecraft:trim={material:"minecraft:redstone",pattern:"minecraft:vex"}]
+>   - give $$1 chainmail_leggings[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:swift_sneak":3,"minecraft:vanishing_curse":1},minecraft:trim={material:"minecraft:redstone",pattern:"minecraft:vex"}]
 >     1
->   - give $$1 chainmail_boots[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:feather_falling":4,"minecraft:depth_strider":3},minecraft:trim={material:"minecraft:redstone",pattern:"minecraft:vex"}]
+>   - give $$1 chainmail_boots[minecraft:enchantments={"minecraft:protection":4,"minecraft:unbreaking":3,"minecraft:feather_falling":4,"minecraft:depth_strider":3,"minecraft:vanishing_curse":1},minecraft:trim={material:"minecraft:redstone",pattern:"minecraft:vex"}]
 >     1
->   - give $$1 bow[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":5,"minecraft:punch":2}]
+>   - give $$1 bow[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":5,"minecraft:punch":2,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 iron_pickaxe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3}]
+>   - give $$1 iron_pickaxe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 iron_axe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3}]
+>   - give $$1 iron_axe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 iron_shovel[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3}]
+>   - give $$1 iron_shovel[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 shield[minecraft:enchantments={"minecraft:unbreaking":3}] 1
+>   - give $$1 shield[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:vanishing_curse":1}] 1
