@@ -31,7 +31,13 @@
 >     1
 >   - give $$1 diamond_shovel[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":10,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 shield[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}] 1
+>   - give $$1 shield[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
+>     1
+>   - give $$1 wooden_axe[minecraft:enchantments={"minecraft:vanishing_curse":1}] 1
+>   - give $$1 potion[potion_contents={custom_effects:[{id:resistance,duration:-1,amplifier:4}]}]
+>     1
+>   - give $$1 minecraft:crossbow[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:quick_charge":3,"minecraft:vanishing_curse":1,"minecraft:mending":1}]
+>     1
 >   ench_i:
 >   - give $$1 iron_sword[minecraft:enchantments={"minecraft:sharpness":5,"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:looting":3,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3,"minecraft:vanishing_curse":1}]
 >     1
