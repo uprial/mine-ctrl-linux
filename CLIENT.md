@@ -1,8 +1,6 @@
-# Values
+# Overview
 
-![Peace Logo](images/peace.png)
-
-No war, no griefing — only peaceful survival in a hard environment of people who support each other, with PvP based on a bilateral agreement.
+This server commits to keeping the spirit of vanilla survival, but the survival is much harder.
 
 # Client
 
@@ -18,11 +16,14 @@ No war, no griefing — only peaceful survival in a hard environment of people w
 
 # Documentation
 
-[Tutorials/Beginner's guide](https://minecraft.fandom.com/wiki/Tutorials/Beginner%27s_guide)
+[Tutorials](https://minecraft.wiki/w/Tutorials)
+
+# Security
+
+1. Register via /register <password> <password> and then login via /login <password>
+2. Mark a region via a wooden axe, save it via /region claim <name>, and then secure it via /region flag <name> <flag> deny
 
 # Plugins
-
-This server commits to keeping the spirit of vanilla survival.
 
 Please check the following plugins to discover untypical features for fun and automation of tedious manual tasks:
 
@@ -33,7 +34,6 @@ Please check the following plugins to discover untypical features for fun and au
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/) - craft Nuclear, Flash, Normal and Toy bombs
 * [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/) - craft a mob spawner, many spawn eggs, sponge, prismarine, etc.
 
-
 For dull transparency, you may also check plugins for server security and survival complications:
 
 * [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
@@ -42,6 +42,7 @@ For dull transparency, you may also check plugins for server security and surviv
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
 * [GlobalGamerules](https://www.spigotmc.org/resources/global-gamerules-1-7-1-16.82310/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
+* [Rails & Chests & Bazookas](https://www.spigotmc.org/resources/rails-chests-bazookas.121505/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/): (-10050,-10050); (10050,10050)
