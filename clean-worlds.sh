@@ -27,4 +27,5 @@ rm -f \
     logs/* \
     plugins/CustomNukes/block-meta.txt \
     plugins/CustomNukes/repeater-task.txt \
+    plugins/CustomVillage/world_villages.txt \
     usercache.json
