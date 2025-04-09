@@ -69,28 +69,9 @@ Download a client launcher: https://ru-m.org/, install the same version as the s
 
 ### Install plugins
 
-Download the latest versions of plugins: 
-
-* [AuthMeReloaded](https://ci.codemc.org/job/AuthMe/job/AuthMeReloaded/)
-* [Bluemap](https://www.spigotmc.org/resources/bluemap.83557/)
-* [CraftBook](https://dev.bukkit.org/projects/craftbook)
-* [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
-* [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/)
-* [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/)
-* [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
-* [GlobalGamerules](https://www.spigotmc.org/resources/global-gamerules-1-7-1-16.82310/)
-* [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
-* [Rails & Chests & Bazookas](https://www.spigotmc.org/resources/rails-chests-bazookas.121505/)
-* [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
-* [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
-* [Vault](https://www.spigotmc.org/resources/vault.34315/)
-* [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/)
-* [WorldEdit](https://dev.bukkit.org/projects/worldedit)
-* [WorldGuard](https://dev.bukkit.org/projects/worldguard)
+Download the latest versions of plugins listed in [CLIENT.md](CLIENT.md).
 
 For each plugin hosted outside of www.spigotmc.org, please check its existence on www.spigotmc.org.
-
-In case any updates in links, please update this document and also the [CLIENT.md](CLIENT.md) document.
 
 ### Configure the basic params
 
