@@ -18,25 +18,26 @@ This server commits to keeping the spirit of vanilla survival, but the survival 
 
 [Tutorials](https://minecraft.wiki/w/Tutorials)
 
-# Security
-
-1. Register via /register <password> <password> and then login via /login <password>
-2. Mark a region via a wooden axe, save it via /region claim <name>, and then secure it via /region flag <name> <flag> deny
-
 # Plugins
 
 Please check the following plugins to discover untypical features for fun and automation of tedious manual tasks:
 
+* [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
+    * Register via `/register <password> <password>`
+    * Login via `/login <password>`
 * [CraftBook](https://dev.bukkit.org/projects/craftbook)
     * [Better Pistons](https://craftbook.enginehub.org/en/3.x/mechanics/better_pistons/) - make pistons that crash blocks, act for up to 10 blocks, push air
     * [Chunk Anchors](https://craftbook.enginehub.org/en/latest/mechanics/chunk_anchor/) - keep a selected world chunk loaded
     * [Hidden Switches](https://craftbook.enginehub.org/en/latest/mechanics/hidden_switch/) - hide a redstone lever or button behind a wall
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/) - craft Nuclear, Flash, Normal and Toy bombs
 * [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/) - craft a mob spawner, many spawn eggs, sponge, prismarine, etc.
+* [WorldGuard](https://dev.bukkit.org/projects/worldguard)
+    * Mark a region via a wooden axe
+    * Save the region via `/region claim <name>`
+    * Secure the region via `/region flag <name> <flag> deny`
 
 For dull transparency, you may also check plugins for server security and survival complications:
 
-* [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
 * [Bluemap](https://www.spigotmc.org/resources/bluemap.83557/)
 * [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
@@ -47,4 +48,3 @@ For dull transparency, you may also check plugins for server security and surviv
 * [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
 * [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/): (-10050,-10050); (10050,10050)
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
-* [WorldGuard](https://dev.bukkit.org/projects/worldguard)
