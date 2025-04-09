@@ -79,7 +79,7 @@ Change LuckPerms storage-method in plugins/LuckPerms/config.yml:
 
     storage-method: YAML
 
-Enable TerraformGenerator, **experimental** in bukkit.yml:
+Enable TerraformGenerator in bukkit.yml:
 
     worlds:
       world:
@@ -100,15 +100,15 @@ Check previous configration differences in ./ctrl-linux/expected-diffs and the c
 
 ### Test Plugins
 
-AuthMe
-* Register on the server
+AuthMeReloaded
+* Register and login on the server
 
 Bluemap
 * Open HTTP://\<server.properties:server-ip>:\<plugins/BlueMap/webserver.conf:port>
 
 Commands
-* /morning should work
-* /ench_i @p should work
+* `/morning`
+* `/ench_i @p`
 
 CraftBook
 * Create a sign with "[Chunk]" on the second line. A message should appear.
@@ -116,7 +116,7 @@ CraftBook
 
 CustomCreatures
 * Once killed, you should have an apple and two modifiers.
-* Change chainmail-zombie.filter.probability to 99.5, /customcreatures reload, the zombie should appear.
+* Change chainmail-zombie.filter.probability to 99.5, `/customcreatures reload`, the zombie should appear.
 
 CustomNukes
 * Put a TNT in center and 8 x SAND, forge a Toy bomb, trigger a chain of 8 Toy bombs via Flint & Steel
@@ -125,22 +125,32 @@ CustomRecipes
 * Put an Egg in center and 8 x GUNPOWDER, forge a Creeper spawn egg.
 
 CustomVillage
-* Find the closest village via https://www.chunkbase.com/apps/village-finder, run /customvillage info
+* Find the closest village via https://www.chunkbase.com/apps/village-finder, `/customvillage info`
 
 GlobalGamerules
 * Check gamerule minecartMaxSpeed
 
+LuckPerms
+TBD
+
+Rails & Chests & Bazookas
+* Check an End Ship has an illusioner
+* Make a bazooka from a Firework and TNT and launch it via crossbow
+
 TakeAim
 * Summon a Skeleton and a Ghast, take a long distance from them, they should aim at you when you're simultaneously moving and jumping
+
+Vault
+TBD
 
 WorldBorder
 * Reach the world border
 
 WorldEdit
-* Take a wooden axe, pick start via left-click, pick end via right-click, //set sand
+* Take a wooden axe, pick start via left-click, pick end via right-click, `//set sand`
 
 WorldGuard
-* Take a wooden axe, pick start via left-click, pick end via right-click, /rg claim test
+* Take a wooden axe, pick start via left-click, pick end via right-click, `/rg claim test`
 
 ### Setup server
 
