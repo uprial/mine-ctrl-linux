@@ -47,12 +47,16 @@ fi
 # -Djline.terminal=jline.UnsupportedTerminal
 # -Djava.awt.headless=true
 #
+# https://flags.sh/ adds:
+# --add-modules=jdk.incubator.vector
+#
 
 java -server \
     -Xmx${MEMORY_MAX} \
     -Xms${MEMORY_MAX} \
     -Djline.terminal=jline.UnsupportedTerminal \
     -Djava.awt.headless=true \
+    --add-modules=jdk.incubator.vector \
     -XX:+UseG1GC \
     -XX:+ParallelRefProcEnabled \
     -XX:MaxGCPauseMillis=200 \
@@ -74,4 +78,4 @@ java -server \
     -Dusing.aikars.flags=https://mcflags.emc.gs \
     -Daikars.new.flags=true \
     -jar "${JAR_FILE}" \
-    nogui
+    --nogui
