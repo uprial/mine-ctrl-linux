@@ -16,6 +16,7 @@ plugins/GlobalGamerules/config.yml
 plugins/LuckPerms/config.yml
 plugins/LuckPerms/yaml-storage/groups/default.yml
 plugins/TakeAim/config.yml
+plugins/TerraformGenerator/config.yml
 plugins/Vault/config.yml
 plugins/WorldBorder/config.yml
 plugins/WorldEdit/config.yml
