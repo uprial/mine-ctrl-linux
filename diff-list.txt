@@ -5,6 +5,7 @@ spigot.yml
 server.properties
 plugins/AuthMe/config.yml
 plugins/BlueMap/core.conf
+plugins/BlueMap/plugin.conf
 plugins/BlueMap/webserver.conf
 plugins/CraftBook/config.yml
 plugins/CraftBook/mechanisms.yml
