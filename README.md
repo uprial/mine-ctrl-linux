@@ -133,6 +133,10 @@ GlobalGamerules
 LuckPerms
 TBD
 
+MasochisticSurvival
+* Spawn a shooting mob, it should immediately target the player
+* Break a healing crystal, kick the Ender Dragon, the healing crystal should be resurrected
+
 Rails & Chests & Bazookas
 * Check an End Ship has an illusioner
 * Make a bazooka from a Firework and TNT and launch it via crossbow

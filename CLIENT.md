@@ -43,6 +43,7 @@ For dull transparency, you may also check plugins for server security and surviv
 * [CustomVillage](https://www.spigotmc.org/resources/customvillage.69170/)
 * [GlobalGamerules](https://www.spigotmc.org/resources/global-gamerules-1-7-1-16.82310/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
+* [MasochisticSurvival](https://www.spigotmc.org/resources/masochisticsurvival.124943/)
 * [Rails & Chests & Bazookas](https://www.spigotmc.org/resources/rails-chests-bazookas.121505/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
