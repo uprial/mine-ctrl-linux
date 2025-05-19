@@ -12,6 +12,7 @@ This server commits to keeping the spirit of vanilla survival, but the survival 
 * Server: m.iroslyakov.com
 * Version: 1.21.3
 * View Distance: 32
+* Silulation Distance: 32
 * [3D interactive zoomable map](http://m.iroslyakov.com/)
 
 # Documentation
@@ -31,7 +32,7 @@ Please check the following plugins to discover untypical features for fun and au
     * [Hidden Switches](https://craftbook.enginehub.org/en/latest/mechanics/hidden_switch/) - hide a redstone lever or button behind a wall
 * [CustomBazookas](https://www.spigotmc.org/resources/custombazookas.124997/) - make bazookas from fireworks joined with TNTs, end crystals, nether stars, heavy cores, spawn eggs
 * [CustomNukes](https://www.spigotmc.org/resources/customnukes.68710/) - craft Nuclear, Flash, Normal and Toy bombs
-* [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/) - craft a mob spawner, many spawn eggs, sponge, prismarine, etc.
+* [CustomRecipes](https://www.spigotmc.org/resources/customrecipes.89435/) - craft a mob spawner, many spawn eggs, etc.
 * [WorldGuard](https://dev.bukkit.org/projects/worldguard)
     * Mark a region via a wooden axe
     * Save the region via `/region claim <name>`
@@ -45,7 +46,7 @@ For dull transparency, you may also check plugins for server security and surviv
 * [GlobalGamerules](https://www.spigotmc.org/resources/global-gamerules-1-7-1-16.82310/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [MasochisticSurvival](https://www.spigotmc.org/resources/masochisticsurvival.124943/)
-* [Rails & Chests & Bazookas](https://www.spigotmc.org/resources/rails-chests-bazookas.121505/)
+* [Rails & Chests](https://www.spigotmc.org/resources/rails-chests-bazookas.121505/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
