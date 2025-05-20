@@ -114,6 +114,10 @@ CraftBook
 * Create a sign with "[Chunk]" on the second line. A message should appear.
 * Create a regular piston, on it put a sign with "[Crush]" on the second line. The piston should break blocks.
 
+CustomBazookas
+* Make a bazooka from a firework and a nether star
+* Load a crossbow in your left hand and the bazooka in your right, and make a shot
+
 CustomCreatures
 * Once killed, you should have an apple and two modifiers.
 * Change chainmail-zombie.filter.probability to 99.5, `/customcreatures reload`, the zombie should appear.
