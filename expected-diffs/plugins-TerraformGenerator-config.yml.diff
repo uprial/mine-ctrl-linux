@@ -1,4 +1,14 @@
+4c4
+<   land-height-amplifier: 1.0
+---
+>   land-height-amplifier: 1.7
+36,37c36,37
+<   temperature-frequency: 0.03
+<   moisture-frequency: 0.03
+---
+>   temperature-frequency: 0.015
+>   moisture-frequency: 0.015
 42c42
 <   oceanic-threshold: 22.0
 ---
->   oceanic-threshold: 8.0
+>   oceanic-threshold: 11.0
