@@ -141,9 +141,9 @@ MasochisticSurvival
 * Spawn a shooting mob, it should immediately target the player
 * Break a healing crystal, kick the Ender Dragon, the healing crystal should be resurrected
 
-Rails & Chests & Bazookas
+Secret Rooms
 * Check an End Ship has an illusioner
-* Make a bazooka from a Firework and TNT and launch it via crossbow
+* With debug enabled, check that logs report Whirlpool and Dungeon generation
 
 TakeAim
 * Summon a Skeleton and a Ghast, take a long distance from them, they should aim at you when you're simultaneously moving and jumping
