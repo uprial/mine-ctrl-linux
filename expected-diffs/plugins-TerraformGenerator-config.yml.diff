@@ -1,7 +1,3 @@
-4c4
-<   land-height-amplifier: 1.0
----
->   land-height-amplifier: 1.7
 36,37c36,37
 <   temperature-frequency: 0.03
 <   moisture-frequency: 0.03
