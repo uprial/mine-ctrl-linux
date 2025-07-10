@@ -3,10 +3,10 @@
 set -e
 
 # A version from https://papermc.io/downloads
-MINE_VERSION="1.21.5-93"
+MINE_VERSION="1.21.7-17"
 
 # or https://www.spigotmc.org/wiki/buildtools/
-#MINE_VERSION="1.21.5"
+#MINE_VERSION="1.21.7"
 
 # Check your memory available and allocate something between 2G and [your-memory-available]-1.5G.
 MEMORY_MAX="12000M"
