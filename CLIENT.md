@@ -10,7 +10,7 @@ This server commits to keeping the spirit of vanilla survival, but the survival 
 # Server
 
 * Server: m.iroslyakov.com
-* Version: 1.21.3
+* Version: 1.21.7
 * View Distance: 32
 * Silulation Distance: 32
 * [3D interactive zoomable map](http://m.iroslyakov.com/)
