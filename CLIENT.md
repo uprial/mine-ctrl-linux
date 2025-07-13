@@ -38,7 +38,7 @@ Please check the following plugins to discover untypical features for fun and au
     * Save the region via `/region claim <name>`
     * Secure the region via `/region flag <name> <flag> deny`
 
-For dull transparency, you may also check plugins for server security, survival complications, terrain generation, and map exploration rewards.
+For dull transparency, you may also check plugins for server security, survival complications, terrain generation, and map exploration rewards:
 
 * [Bluemap](https://www.spigotmc.org/resources/bluemap.83557/)
 * [CustomCreatures](https://www.spigotmc.org/resources/customcreatures.68711/)
