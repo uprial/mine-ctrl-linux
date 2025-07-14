@@ -2,6 +2,10 @@
 
 This server commits to keeping the spirit of vanilla survival, but the survival is much harder.
 
+![Peace Logo](images/peace.png)
+
+No war, no griefing — only peaceful survival in a hard environment of people who support each other, with PvP based on a bilateral agreement.
+
 # Client
 
 * [An official client](https://www.minecraft.net/en-us/about-minecraft)
