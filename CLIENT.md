@@ -54,5 +54,5 @@ For dull transparency, you may also check plugins for server security, survival 
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
 * [Vault](https://www.spigotmc.org/resources/vault.34315/)
-* [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/): (-10050,-10050); (10050,10050)
+* [WorldBorder](https://www.spigotmc.org/resources/worldborder.60905/) "world" and "end" have border radius 10,050, "nether" - 1,300
 * [WorldEdit](https://dev.bukkit.org/projects/worldedit)
