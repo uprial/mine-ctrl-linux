@@ -31,8 +31,6 @@
 >     1
 >   - give $$1 diamond_shovel[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 shield[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
->     1
 >   - give $$1 wooden_axe[minecraft:enchantments={"minecraft:vanishing_curse":1}] 1
 >   - give $$1 potion[potion_contents={custom_effects:[{id:resistance,duration:-1,amplifier:3}]}]
 >     1
@@ -59,5 +57,7 @@
 >     1
 >   - give $$1 iron_shovel[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 shield[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:vanishing_curse":1}]
+>   - give $$1 wooden_axe[minecraft:enchantments={"minecraft:vanishing_curse":1}] 1
+>   - give $$1 potion[potion_contents={custom_effects:[{id:resistance,duration:-1,amplifier:3}]}]
 >     1
+
