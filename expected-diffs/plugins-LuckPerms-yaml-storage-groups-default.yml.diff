@@ -29,6 +29,12 @@
 > - worldguard.region.flag.flags.exit.*
 > - worldguard.region.flag.flags.greeting.*
 > - worldguard.region.flag.flags.farewell.*
+> - worldguard.region.flag.flags.other-explosion.*
+> - worldguard.region.flag.flags.creeper-explosion.*
+> - worldguard.region.flag.flags.build.*
+> - worldguard.region.flag.flags.interact.*
+> - worldguard.region.flag.flags.ghast-fireball.*
+> - worldguard.region.flag.flags.mob-spawning.*
 > - worldguard.region.setpriority.own.*
 > - worldguard.region.setparent.own.*
 > - worldguard.region.remove.own.*
