@@ -15,13 +15,13 @@
 >     1
 >   - give $$1 diamond_helmet[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:aqua_affinity":1,"minecraft:respiration":3,"minecraft:mending":1,"minecraft:vanishing_curse":1},minecraft:trim={material:"minecraft:emerald",pattern:"minecraft:silence"}]
 >     1
->   - give $$1 diamond_chestplate[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:mending":1,"minecraft:vanishing_curse":1},minecraft:trim={material:"minecraft:emerald",pattern:"minecraft:silence"}]
+>   - give $$1 diamond_chestplate[glider={},rarity=epic,lore=[[{"text":"Lets you fly like an Elytra","italic":false}]],minecraft:trim={material:"minecraft:resin",pattern:"minecraft:silence"},minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
 >   - give $$1 diamond_leggings[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:swift_sneak":5,"minecraft:mending":1,"minecraft:vanishing_curse":1},minecraft:trim={material:"minecraft:emerald",pattern:"minecraft:silence"}]
 >     1
 >   - give $$1 diamond_boots[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:feather_falling":4,"minecraft:depth_strider":3,"minecraft:mending":1,"minecraft:vanishing_curse":1},minecraft:trim={material:"minecraft:emerald",pattern:"minecraft:silence"}]
 >     1
->   - give $$1 bow[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":10,"minecraft:punch":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
+>   - give $$1 bow[rarity=epic,lore=[[{"text":"Combines two impossibilities","italic":false}]],minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":10,"minecraft:punch":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
 >   - give $$1 diamond_pickaxe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":7,"minecraft:fortune":5,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
