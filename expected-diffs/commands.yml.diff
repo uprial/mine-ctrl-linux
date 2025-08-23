@@ -34,28 +34,28 @@
 >   - give $$1 wooden_axe[minecraft:enchantments={"minecraft:vanishing_curse":1}] 1
 >   - give $$1 potion[potion_contents={custom_effects:[{id:resistance,duration:-1,amplifier:3}]}]
 >     1
->   - give $$1 minecraft:crossbow[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:quick_charge":3,"minecraft:vanishing_curse":1,"minecraft:mending":1}]
+>   - give $$1 minecraft:crossbow[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:quick_charge":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
 >   ench_i:
->   - give $$1 iron_sword[minecraft:enchantments={"minecraft:sharpness":5,"minecraft:fire_aspect":2,"minecraft:looting":3,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3,"minecraft:vanishing_curse":1}]
+>   - give $$1 iron_sword[minecraft:enchantments={"minecraft:sharpness":5,"minecraft:fire_aspect":2,"minecraft:looting":3,"minecraft:sweeping_edge":3,"minecraft:unbreaking":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 iron_helmet[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:aqua_affinity":1,"minecraft:respiration":3,"minecraft:vanishing_curse":1}]
+>   - give $$1 iron_helmet[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:aqua_affinity":1,"minecraft:respiration":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 iron_chestplate[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:vanishing_curse":1}]
+>   - give $$1 iron_chestplate[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 iron_leggings[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:swift_sneak":3,"minecraft:vanishing_curse":1}]
+>   - give $$1 iron_leggings[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:swift_sneak":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 iron_boots[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:feather_falling":4,"minecraft:depth_strider":3,"minecraft:vanishing_curse":1}]
+>   - give $$1 iron_boots[minecraft:enchantments={"minecraft:protection":5,"minecraft:unbreaking":3,"minecraft:feather_falling":4,"minecraft:depth_strider":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 bow[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":5,"minecraft:punch":2,"minecraft:vanishing_curse":1}]
+>   - give $$1 bow[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:flame":1,"minecraft:infinity":1,"minecraft:power":5,"minecraft:punch":2,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 iron_pickaxe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:vanishing_curse":1}]
+>   - give $$1 iron_pickaxe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 iron_pickaxe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:silk_touch":1,"minecraft:vanishing_curse":1}]
+>   - give $$1 iron_pickaxe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:silk_touch":1,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 iron_axe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:vanishing_curse":1}]
+>   - give $$1 iron_axe[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
->   - give $$1 iron_shovel[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:vanishing_curse":1}]
+>   - give $$1 iron_shovel[minecraft:enchantments={"minecraft:unbreaking":3,"minecraft:efficiency":5,"minecraft:fortune":3,"minecraft:mending":1,"minecraft:vanishing_curse":1}]
 >     1
 >   - give $$1 wooden_axe[minecraft:enchantments={"minecraft:vanishing_curse":1}] 1
 >   - give $$1 potion[potion_contents={custom_effects:[{id:resistance,duration:-1,amplifier:3}]}]
