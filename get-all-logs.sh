@@ -4,7 +4,8 @@ set -e
 
 cd $(dirname $(dirname $(realpath $0)))
 
-if [ -f "logs/*gz" ]; then
+files=(logs/*gz)
+if [ -e "${files[0]}" ]; then
     gzip -dc logs/*gz
 fi
 
