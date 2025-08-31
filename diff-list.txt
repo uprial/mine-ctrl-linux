@@ -1,5 +1,4 @@
 bukkit.yml
-commands.yml
 ops.json
 spigot.yml
 server.properties
