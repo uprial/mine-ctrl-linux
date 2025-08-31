@@ -17,3 +17,6 @@ SERVER_ID="m"
 # A runnable JAR file.
 JAR_FILE="paper-${MINE_VERSION}.jar"
 #JAR_FILE="spigot-${MINE_VERSION}.jar"
+
+# A password to connect the server console
+RCON_PASS=""
