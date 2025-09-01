@@ -65,7 +65,7 @@ You'll get an error message about EULA. Fix it:
 
 #### Start the server 2nd time
 
-Download a client launcher: https://ru-m.org/, install the same version as the server and check that the client works with the server. Then stop the server via /stop and clean the mess up:
+Download a client launcher: [CLIENT.md](CLIENT.md), install the same version as the server and check that the client works with the server.
 
 ### Install plugins
 
@@ -106,10 +106,6 @@ AuthMeReloaded
 Bluemap
 * Open HTTP://\<server.properties:server-ip>:\<plugins/BlueMap/webserver.conf:port>
 
-Commands
-* `/morning`
-* `/ench_i @p`
-
 CraftBook
 * Create a sign with "[Chunk]" on the second line. A message should appear.
 * Create a regular piston, on it put a sign with "[Crush]" on the second line. The piston should break blocks.
@@ -129,7 +125,7 @@ CustomRecipes
 * Put an Egg in center and 8 x GUNPOWDER, forge a Creeper spawn egg.
 
 CustomVillage
-* Find the closest village via https://www.chunkbase.com/apps/village-finder, `/customvillage info`
+* Find the closest village via https://www.chunkbase.com/apps/village-finder or TerraformGenerator `/terra locate`, `/customvillage info`
 
 GlobalGamerules
 * Check gamerule minecartMaxSpeed
