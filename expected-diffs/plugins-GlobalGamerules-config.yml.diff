@@ -3,3 +3,4 @@
 ---
 > gamerules:
 >   minecartMaxSpeed: 1000
+>   spawnChunkRadius: 0
