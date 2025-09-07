@@ -30,6 +30,8 @@ Please check the following plugins to discover untypical features for fun and au
 * [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
     * Register via `/register <password> <password>`
     * Login via `/login <password>`
+* [AutoMinecart](https://www.spigotmc.org/resources/autominecart.128389/)
+    * Put a rail into a chest minecart, and it will build a railway
 * [CraftBook](https://dev.bukkit.org/projects/craftbook)
     * [Better Pistons](https://craftbook.enginehub.org/en/3.x/mechanics/better_pistons/) - make pistons that crash blocks, act for up to 10 blocks, push air
     * [Chunk Anchors](https://craftbook.enginehub.org/en/latest/mechanics/chunk_anchor/) - keep a selected world chunk loaded

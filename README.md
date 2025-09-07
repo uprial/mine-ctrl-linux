@@ -103,6 +103,9 @@ Check previous configration differences in ./ctrl-linux/expected-diffs and the c
 AuthMeReloaded
 * Register and login on the server
 
+AutoMinecart
+* Put a rail into a chest minecart, push it
+
 Bluemap
 * Open HTTP://\<server.properties:server-ip>:\<plugins/BlueMap/webserver.conf:port>
 
