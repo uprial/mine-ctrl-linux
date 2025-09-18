@@ -96,11 +96,13 @@ Make your backup:
 
 Check previous configration differences in ./ctrl-linux/expected-diffs and the current differences generated in ./diffs via `./ctrl-linux/make-diff.sh`. Configure the game until the difference in differences is negotiated.
 
+Configure MaxMind License Key in plugins/AuthMe/config.yml:Protection.geoIpDatabase
+
 #### Start the server 4rd time
 
 ### Test Plugins
 
-AuthMeReloaded
+AuthMe
 * Register and login on the server
 
 AutoMinecart
