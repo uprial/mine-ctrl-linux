@@ -16,7 +16,7 @@ No war, no griefing — only peaceful survival in a hard environment of people w
 * Server: m.iroslyakov.com
 * Version: 1.21.7
 * View Distance: 32
-* Silulation Distance: 10
+* Silulation Distance: 32
 * [3D interactive zoomable map](http://m.iroslyakov.com/)
 
 # Documentation
