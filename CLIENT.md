@@ -51,6 +51,7 @@ For dull transparency, you may also check plugins for server security, survival 
 * [GlobalGamerules](https://www.spigotmc.org/resources/global-gamerules-1-7-1-16.82310/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [MasochisticSurvival](https://www.spigotmc.org/resources/masochisticsurvival.124943/)
+* [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 * [Secret Rooms](https://www.spigotmc.org/resources/secret-rooms.121505/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
