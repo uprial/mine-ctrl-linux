@@ -6,6 +6,7 @@ unset $MINE_VERSION
 unset $MEMORY_MAX
 unset $SERVER_ID
 unset $JAR_FILE
+unset $RCON_PASS
 
 source `dirname $0`/config.local.sh
 
@@ -21,5 +22,6 @@ check_var "MINE_VERSION"
 check_var "MEMORY_MAX"
 check_var "SERVER_ID"
 check_var "JAR_FILE"
+check_var "RCON_PASS"
 
 source `dirname $0`/realpath-mock.sh

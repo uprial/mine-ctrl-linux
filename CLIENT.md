@@ -16,7 +16,7 @@ No war, no griefing — only peaceful survival in a hard environment of people w
 * Server: m.iroslyakov.com
 * Version: 1.21.7
 * View Distance: 32
-* Silulation Distance: 10
+* Silulation Distance: 32
 * [3D interactive zoomable map](http://m.iroslyakov.com/)
 
 # Documentation
@@ -30,6 +30,7 @@ Please check the following plugins to discover untypical features for fun and au
 * [AuthMeReloaded](https://www.spigotmc.org/resources/authmereloaded.6269/)
     * Register via `/register <password> <password>`
     * Login via `/login <password>`
+* [AutoMinecart](https://www.spigotmc.org/resources/autominecart.128389/) - automatically build railways via chest minecarts with rails
 * [CraftBook](https://dev.bukkit.org/projects/craftbook)
     * [Better Pistons](https://craftbook.enginehub.org/en/3.x/mechanics/better_pistons/) - make pistons that crash blocks, act for up to 10 blocks, push air
     * [Chunk Anchors](https://craftbook.enginehub.org/en/latest/mechanics/chunk_anchor/) - keep a selected world chunk loaded
@@ -50,6 +51,7 @@ For dull transparency, you may also check plugins for server security, survival 
 * [GlobalGamerules](https://www.spigotmc.org/resources/global-gamerules-1-7-1-16.82310/)
 * [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 * [MasochisticSurvival](https://www.spigotmc.org/resources/masochisticsurvival.124943/)
+* [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 * [Secret Rooms](https://www.spigotmc.org/resources/secret-rooms.121505/)
 * [TakeAim](https://www.spigotmc.org/resources/takeaim.68713/)
 * [TerraformGenerator](https://www.spigotmc.org/resources/terraformgenerator-1-16-5-1-20-1.75132/)
