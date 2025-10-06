@@ -46,7 +46,7 @@ yandex-disk start
 
 YDP=$(yandex-path)
 
-COUNT=$(ls ${YDP}${SERVER_ID}-* | wc -l)
+COUNT=$(ls ${YDP}${SERVER_ID}-*-part-* | wc -l)
 
 if [ ${COUNT} -gt ${FILE_COUNT_LIMIT} ]; then
     TO_REMOVE=$(expr ${COUNT} - ${FILE_COUNT_LIMIT})
