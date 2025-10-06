@@ -33,7 +33,6 @@ cd ${FILEPATH}
 tar -zcf "${FILENAME}" \
     --exclude="bluemap/web" \
     --exclude="crash-reports/*" \
-    --exclude="logs/*" \
     --exclude="diffs/*" \
     --exclude="${SERVER_ID}*tar.gz" \
     *
