@@ -48,11 +48,11 @@ YDP=$(yandex-path)
 COUNT=$(ls ${YDP}${SERVER_ID}-*-part-* | wc -l)
 
 if [ ${COUNT} -gt ${FILE_COUNT_LIMIT} ]; then
-    TO_REMOVE=$(expr ${COUNT} - ${FILE_COUNT_LIMIT})
-    echo "File limit of ${FILE_COUNT_LIMIT} exceeded, cleaning up ${TO_REMOVE} files..."
-    for i in $(seq 1 ${TO_REMOVE}); do
-        FILENAME=$(ls ${YDP}${SERVER_ID}-* | head -1)
-        echo "Removing ${FILENAME}..."
-        rm ${FILENAME}
+    REMOVE_COUNT=$(expr ${COUNT} - ${FILE_COUNT_LIMIT})
+    echo "File limit of ${FILE_COUNT_LIMIT} exceeded, cleaning up ${REMOVE_COUNT} files..."
+    for i in $(seq 1 ${REMOVE_COUNT}); do
+        REMOVE_FILENAME=$(ls ${YDP}${SERVER_ID}-* | head -1)
+        echo "Removing ${REMOVE_FILENAME}..."
+        rm ${REMOVE_FILENAME}
     done
 fi
