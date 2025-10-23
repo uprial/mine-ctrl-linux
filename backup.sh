@@ -35,7 +35,7 @@ tar -zcf "${FILENAME}" \
     --exclude="crash-reports/*" \
     --exclude="diffs/*" \
     --exclude="${SERVER_ID}*tar.gz" \
-    *
+    * || echo "tar ERROR"
 cd - > /dev/null
 
 split -b ${FILE_SIZE_LIMIT} -d ${FILEPATH}/${FILENAME} ${FILEPATH}/${FILENAME}-part-
