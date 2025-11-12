@@ -3,7 +3,7 @@
 set -e
 
 # A version from https://papermc.io/downloads
-MINE_VERSION="1.21.7-17"
+MINE_VERSION="1.21.10-105"
 
 # or https://www.spigotmc.org/wiki/buildtools/
 #MINE_VERSION="1.21.7"
